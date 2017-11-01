@@ -170,6 +170,7 @@ gulp.task("build", function (callback) {
 gulp.task("watch", ["scripts1", "scripts2", "scripts3", "pug", "browserSync", "stylus"], function () { //запуск browser-sync та sass відслідковувачів
     gulp.watch("app/stylus/**/*.styl", ["stylus"]); //пошук scss файлів
     gulp.watch("app/pages/**/*.pug", ["pug"]); //пошук html файлів
+    gulp.watch("app/pages/**/*.svg", ["pug"]); //пошук html файлів
     gulp.watch(["app/js/scripts/*.js"], ["scripts3"]); //пошук html файлів
     gulp.watch("app/*.html", browserSync.reload); //пошук html файлів
     gulp.watch("app/js/*.js", browserSync.reload); //пошук js файлів
