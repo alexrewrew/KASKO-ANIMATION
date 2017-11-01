@@ -1,0 +1,116 @@
+@import "../../utilities/vars"
+@import "../../utilities/mixins"
+
+a
+  text-decoration none
+  transitions()
+  &:hover
+    text-decoration none
+  &:focus
+    text-decoration none
+    outline none
+
+.link-next
+  color $orange
+  font-size: 1.125em;
+  line-height: 1.44;
+  letter-spacing: 0.5px;
+  display inline-block
+  position relative
+  padding-left 34px
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transitions()
+  +mobile()
+    display none
+  svg
+    position absolute
+    left 0
+    top 8px
+    overflow visible
+    transitions()
+  &:hover
+    opacity .6
+    color $orange
+    svg
+      transform translateY(11px)
+
+.link-next-text
+  color $orange
+  font-size: 1.125em;
+  line-height: 1.44;
+  letter-spacing: 0.5px;
+  display inline-block
+  position relative
+  max-width 195px
+  width 100%
+  span.visible
+    display block
+  span.hidden
+    display none
+  .fa
+    position absolute
+    font-size 26px
+    transitions()
+  &:hover
+    color $orange
+    opacity .6
+  +mobile()
+    display none
+
+.link-next-text1
+  position absolute
+  bottom 20%
+  left 71px
+  padding-right 30px
+  span.hidden
+    .fa
+      right auto
+      left 0
+  .fa
+    right 0
+  &:hover
+    .fa
+      transform translateX(-11px)
+
+.link-next-text1.reverse
+  padding-right: 0px;
+  padding-left: 30px;
+  span.visible
+    display none
+  span.hidden
+    display block
+
+.link-next-text2
+  padding-left 30px
+  +portrait()
+    display none
+  span.visible
+    .fa
+      left 0
+  span.hidden
+    .fa
+      right 0
+  &:hover
+    .fa
+      transform translateX(-11px)
+
+.link-next-text2.reverse
+  padding-right: 30px;
+  padding-left: 0px;
+  span.visible
+    display none
+  span.hidden
+    display block
+
+.link-phone
+  color $black
+  line-height: 1
+  letter-spacing: 0.7px;
+  font-size 1.625em
+  display inline-block
+  font-weight 700
+  &:hover
+    color $orange
+  +mobile()
+    margin 30px 0 20px

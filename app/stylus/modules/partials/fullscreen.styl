@@ -1,0 +1,28 @@
+#fp-nav ul li, .fp-slidesNav ul li
+  margin 0
+
+.section
+  overflow hidden
+  +mobile()
+    overflow visible
+
+.overflow-first
+  padding-top 151px
+  padding-bottom 91px
+  +mobile()
+    padding-top 85px
+
+.overflow-second
+  //padding-top 263px
+  +mobile()
+    padding-top 0
+
+.section.fp-section.fp-table
+  opacity 0
+  transitions()
+
+.section.fp-section.fp-table.active
+  opacity .8
+
+.section.fp-section.fp-table.active.fp-completely
+  opacity 1

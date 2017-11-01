@@ -1,0 +1,15 @@
+@keyframes link-next-shake
+  from, to
+    transform: translate3d(0,0,0)
+
+  50%
+    transform: translate3d(0,10px,0)
+
+
+.link-next
+  svg
+    animation: link-next-shake .8s infinite;
+  &:hover
+    svg
+      animation-play-state: paused;
+

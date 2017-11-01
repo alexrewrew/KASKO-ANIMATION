@@ -1,0 +1,99 @@
+@import '../../utilities/vars'
+@import '../../utilities/mixins'
+
+select
+  -webkit-appearance none
+  -moz-appearance: none;
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  width 100%
+  border none
+  background transparent
+  padding 3px 10px 13px
+  &:focus
+    outline none
+  +mobile()
+    font-size .875em
+
+.select-container
+  position relative
+  width 90%
+  border-bottom 2px solid #ededed
+  margin-bottom 36px
+  &:after
+    triangle($black, down, 5px)
+    right 15px
+    top 40%
+  &:focus
+    outline none
+  +mobile()
+    margin-bottom 20px
+
+.chosen-container-single
+  .chosen-single
+    background $trans
+    border 0
+    box-shadow none
+    padding-left 0
+    padding-bottom 10px
+    height auto
+    span
+      font-size 1.231em
+  .chosen-search
+    padding-left 0
+    padding-right 0
+    input[type='text']
+      border 0
+      font-size 1.231em
+      font-weight 400
+      margin-bottom 10px
+      padding-left 0
+      border-bottom 2px solid #ededed
+      &:focus
+        border-color $green
+
+
+.chosen-container.chosen-container-single.chosen-with-drop.chosen-container-active
+  background $trans
+  border 0
+  box-shadow none
+  border-radius 0
+  .chosen-single
+    background $white
+    border 0
+    border-radius 0
+    height auto
+  .chosen-drop
+    border 0
+    box-shadow none
+    padding-left 0
+    padding-right 0
+  .chosen-search
+    padding-left 0
+    padding-right 0
+    .chosen-search-input
+      border 0
+      font-size 1.231em
+      font-weight 400
+      margin-bottom 10px
+      padding-left 0
+      border-bottom 2px solid #ededed
+      &:focus
+        border-color $green
+
+.chosen-container .chosen-results li
+  padding-bottom 8px
+  padding-top 8px
+
+
+.chosen-container .chosen-results li
+  font-size 1.231em
+
+.chosen-container .chosen-results li.active-result.highlighted
+  background $trans
+  color $green
+
+.chosen-container-single .chosen-single div b
+  display none

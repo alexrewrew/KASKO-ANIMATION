@@ -1,0 +1,119 @@
+nav
+    .nav-primary.container-fluid
+        .row.justify-content-between
+            .col-6.col-md-5
+                a(href='index.html' title='').logo
+                    img(src='img/logo/logo-small.png' title='' alt='')
+
+            .col-6.col-md-2.text-center
+                a(href='#' title='меню')#menu-trigger
+                    .menu-text меню
+                    .nav-icon
+                        span
+                        span
+                        span
+                        span
+                        span
+            .col-md-5
+                a(href='#' title='Замовити Каско' onclick="ga('send', 'event', 'cat1', 'order');").button.close#form-trigger Замовити
+                    span  КАСКО
+
+    .nav-secondary.container-fluid
+        .row
+            .col-12
+                ul.menu.display
+                    li
+                        a(href='#screen1' title='Головна') Головна
+                    li
+                        a(href='#screen2' title='Умови') Умови
+                    li
+                        a(href='#screen3' title='Гарантії') Гарантії
+                    li
+                        a(href='#screen4' title='Цілодобова допомога') Цілодобова допомога
+                    li
+                        a(href='#screen5' title='Термін відшкодування') Термін відшкодування
+                    li
+                        a(href='#screen6' title='Кількість виплат') Кількість виплат
+                    li
+                        a(href='#screen8' title='Запитання') Запитання
+                    li
+                        a(href='#screen9' title='Консультація') Консультація
+
+                ul.menu.mobile
+                    li
+                        a(href='#section0' title='Головна').smooth Головна
+                    li
+                        a(href='#section1' title='Умови').smooth Умови
+                    li
+                        a(href='#section2' title='Гарантії').smooth Гарантії
+                    li
+                        a(href='#section3' title='Цілодобова допомога').smooth Цілодобова допомога
+                    li
+                        a(href='#section4' title='Термін відшкодування').smooth Термін відшкодування
+                    li
+                        a(href='#section5' title='Кількість виплат').smooth Кількість виплат
+                    li
+                        a(href='#section6' title='Запитання').smooth Запитання
+                    li
+                        a(href='#section8' title='Консультація').smooth Консультація
+
+    .nav-thirdy.container-fluid
+        .row.justify-content-center
+            .col-lg-4.col-md-6.col-sm-10
+                form.form-order(id='order-form' method='POST' action='php/send-order.php')
+                    .form-order--header
+                        h2.header-gray Купити КАСКО
+                        p.hint-orange Вкажіть вашу контактну інормацію
+                    .form-order--success
+                        h2.header-gray Купити КАСКО
+                        p.hint-orange Ваш запит відправлений на опрацювання.
+                            br
+                            | Наш менеджер зв'яжеться з вами найближчим часом
+                        a(href='#' title='Добре').button-secondary.btn-success-order Добре
+                    .form-order--flex
+                        .form-order--flex-field.col-code
+                            input(type='text' name='code' value='380' disabled)
+                            label Код
+                        .form-order--flex-field.col-number
+                            input(type='text' name='tel' oninput="this.value = this.value.replace (/[^0-9]/, '')" maxlength='9' required)
+                            label Номер телефону
+                            p.hint-orange.small Наприклад 674449911
+                        .form-order--flex-field.col-name
+                            input(type='text' name='name' required)
+                            label Ім'я
+                            p.hint-orange.small Наприклад Вакарчук Михайло
+                        .form-order--flex-field
+                            p.hint-green Реєстрація
+                            .select-container
+                                select.chosen-select(name='registration')
+                                    optgroup(label= "Зона 1")
+                                        option Київ
+                                        option Львів
+                                        option Харків
+                                        option Одеса
+                                        option Дніпро
+                                    optgroup(label= "Зона 2")
+                                        option Київ
+                                        option Львів
+                                        option Харків
+                                        option Одеса
+                                        option Дніпро
+                        .checkbox
+                            input(type='checkbox' name='zastava')#checkbox1
+                            label(for='checkbox1') У заставі
+                        .checkbox
+                            input(type='checkbox' name='newauto')#checkbox2
+                            label(for='checkbox2') Новий автомобіль
+                        .checkbox
+                            input(type='checkbox' name='dog')#checkbox3
+                            label(for='checkbox3') Пролонгація договору
+                        .error-message.orders-form
+                            p Заповніть всі поля згідно прикладу,
+                                br
+                                | що вказаний
+                        button(type='submit' onclick="ga('send', 'event', 'cat1', 'form');").button-secondary Відправити запит
+
+
+        img(src='img/illus/screen10.svg' title='Ілюстрація' alt='Ілюстрація' onerror="this.src='img/illus/screen10.png'").illustration.illustration10
+
+

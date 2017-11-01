@@ -1,0 +1,97 @@
+@import "../../utilities/vars"
+@import "../../utilities/mixins"
+
+footer
+  padding-top 60px
+  background $gray-back3
+  padding-bottom 37px
+  +mobile()
+    padding-top 80px
+
+.footer-copyright
+  padding-top 10px
+  padding-bottom 2px
+  background $white
+  +mobile()
+    padding-bottom 50px
+  p
+    font-size: 10px;
+    line-height: 2.2;
+    +mobile()
+      font-size 8px
+
+.footer-row
+  position relative
+  &:after
+    pseudo(block, absolute)
+    top 57px
+    left 15px
+    right 15px
+    border-bottom 3px solid $green
+    +portrait()
+      top 46px
+    +mobile()
+      display none
+  h4
+    color $black-text
+    margin-bottom 41px
+    line-height: 1.92;
+    letter-spacing: 0.8px;
+    +portrait()
+      font-size 1em
+    +mobile()
+      border-bottom 3px solid $green
+      padding-bottom 14px
+      margin-bottom 25px
+  p
+    color $white
+    font-size: .75em
+    line-height: 1.83;
+
+.footer-logo
+  max-width 100px
+
+.social-links
+  display flex
+  flex-direction row
+  flex-wrap nowrap
+  justify-content flex-end
+  li
+    margin-bottom 10px
+    margin-left 13px
+    a
+      color #bebebe
+      font-size 1.125em
+      &:hover
+        color $orange
+.volta
+  float right
+  display block
+  position relative
+  &--text
+    font-size 0.625em
+    color #bebebe
+    position relative
+    top -3px
+    margin-right 5px
+  &--visible
+    svg
+      width 62px
+      g
+        fill #BEBEBE
+  &--hidden
+    position absolute
+    right 0
+    top 0
+    height 0
+    overflow hidden
+    transitions()
+    svg
+      width 62px
+      g
+        fill #7521E1
+  &:hover
+    .volta--hidden
+      height 100%
+
+

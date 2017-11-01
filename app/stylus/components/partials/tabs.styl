@@ -1,0 +1,65 @@
+#accordion
+  padding-bottom 210px
+  border-top 1px solid $gray-back2
+  margin-top 57px
+  +mobile()
+    padding-bottom 105px
+  .ui-accordion-header
+    color $black-text
+    font-size 1.125em
+    line-height: normal
+    letter-spacing: 0.8px;
+    cursor pointer
+    border-bottom 1px solid $gray-back2
+    margin-bottom 0
+    font-family $slave-font, sans-serif
+    position relative
+    padding 17px 60px 18px 30px
+    transitions()
+    &:hover
+      background #F6F6F6
+      .fa
+        transform translateY(5px)
+    +mobile()
+      padding-left 15px
+      padding-right 30px
+    .fa
+      position absolute
+      right 30px
+      top 30%
+      color $orange
+      font-size 28px
+      transitions()
+      +mobile()
+        right 15px
+    &:focus
+      outline none
+  .ui-accordion-header.ui-state-active
+    border-color $trans
+    .fa
+      transform rotate(180deg)
+
+
+.ui-accordion-content
+  padding 20px 30px 21px
+  color $gray-text3
+  border-bottom 1px solid $gray-back2
+  +mobile()
+    padding-left 15px
+    padding-right 15px
+  p
+    line-height: 1.83;
+    letter-spacing: .5px;
+    color: $gray-text3;
+    font-size: .75em;
+    font-weight 300
+  ul
+    li
+      line-height: 1.83;
+      letter-spacing: .5px;
+      color: $gray-text3;
+      font-size: .75em;
+      font-weight 300
+
+.tab-section
+  border-top 1px solid $gray-back2

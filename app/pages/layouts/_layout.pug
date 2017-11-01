@@ -1,0 +1,26 @@
+include ../utilities/_mixins.pug
+
+doctype html
+
+html
+
+    include ../partials/_head.pug
+
+    body
+        include ../partials/_navigation.pug
+        include ../partials/_preloader.pug
+
+        main#fullpage
+
+            block content
+
+        script(type="text/javascript" src="js/jquery.js")
+        script(type="text/javascript" src="js/vendor.js")
+        script(type="text/javascript" src="js/scripts.js")
+        script(type='text/javascript').
+            $(document).ready(function () {
+                $('.menu a').click(function () {
+                    var match = $(this).attr('href').match(/#\S+/);
+                    ga('send', 'pageview', location.pathname + match[0]);
+                });
+            });

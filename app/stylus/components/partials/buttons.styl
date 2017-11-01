@@ -1,0 +1,93 @@
+@import "../../utilities/vars"
+@import "../../utilities/mixins"
+
+/* BUTTON */
+button.button-secondary
+  flex 1 1 298px
+  max-width 298px
+  margin 0 auto
+  width 100%
+  background $orange
+  color $white
+  font-size: 1.5em
+  font-family $slave-font, sans-serif
+  line-height: 1.75;
+  letter-spacing: 1.2px;
+  cursor pointer
+  padding-bottom 6px
+  &:hover
+    background #DE7B12
+    color #FFBC75
+
+.button
+  max-width 240px;
+  max-height 50px
+  width 100%
+  display block
+  background #00752F
+  border-radius: 100px;
+  letter-spacing: 3.4px;
+  text-transform uppercase
+  color $white
+  text-align center
+  padding 15px 0 17px
+  font-size .875em
+  &:hover
+    color #48D681
+    background #085426
+    +mobile()
+      background #00752F
+      color $white
+  &:before
+    pseudo(block, absolute)
+    height: 0
+    width: 0
+    background: $white
+    border-radius: 2px;
+    transform: rotate(45deg);
+    top 24px
+    right calc(50% - 11px)
+    opacity 0
+    transitions()
+  &:after
+    pseudo(block, absolute)
+    height: 0
+    width: 0
+    background: $white
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    top 24px
+    right calc(50% - 11px)
+    opacity 0
+    transitions()
+
+
+
+.button-secondary
+  max-width 284px
+  width 100%
+  display block
+  background $white
+  border-radius: 6px;
+  font-size: 1.125em;
+  font-weight: 700;
+  line-height: 1.44;
+  letter-spacing: 0.5px;
+  color $black-text
+  text-align center
+  padding 6px 0 15px
+  border 0
+  transitions()
+  .fa
+    font-size 32px
+    position relative
+    top 4px
+    padding-left 20px
+    transition .2s transform ease
+  &:focus
+    outline none
+  &:hover
+    background #3EA94D
+    color $white
+    .fa
+      transform translateX(11px)

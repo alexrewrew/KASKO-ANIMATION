@@ -1,0 +1,27 @@
+@import '../../utilities/vars'
+@import '../../utilities/mixins'
+
+section
+  +mobile()
+    position relative
+    min-height 100vh
+    margin-bottom 90px
+
+main
+  background $white
+  transitions()
+  +mobile()
+    position relative
+    z-index 100
+
+.hidden-lg
+  +tablet()
+    display none !important
+
+.hidden-md
+  +portrait()
+    display none !important
+
+.hidden
+  +mobile()
+    display none !important

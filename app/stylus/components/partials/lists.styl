@@ -1,0 +1,127 @@
+@import '../../utilities/vars'
+@import '../../utilities/mixins'
+
+ul
+  padding 0
+  margin 0
+  li
+    list-style none
+
+ol
+  padding 0
+  margin 0
+
+.list-conditions
+  display flex
+  flex-direction row
+  flex-wrap wrap
+  justify-content flex-end
+  list-style none
+  margin-left 55px
+  +mobile()
+    margin-bottom 40px
+  li
+    flex 1 1 50%
+    max-width 50%
+    position relative
+    margin-bottom 37px
+    +portrait()
+      padding-right: 50px;
+    +mobile()
+      flex 1 1 100%
+      max-width 100%
+      margin-bottom 57px
+      &:nth-child(1)
+        order 1
+      &:nth-child(2)
+        order 3
+      &:nth-child(3)
+        order 2
+      &:nth-child(4)
+        order 4
+      &:nth-child(5)
+        order 5
+    p
+      color #828282
+      line-height: 2;
+      letter-spacing: 0.8px;
+      font-size .75em
+    span
+      position absolute
+      left -50px
+      top -22px
+      font-size: 3.125em
+      font-weight: 700;
+      letter-spacing: 1px;
+      color $gray-text
+      font-family $slave-font, sans-serif
+
+.list-regular
+  +mobile()
+    margin-bottom 80px
+  li
+    position relative
+    line-height: 1.83;
+    letter-spacing: 0.5px;
+    font-size .75em
+    padding-left 20px
+    margin-bottom 12px
+    color $gray-text3
+    &:before
+      pseudo(block, absolute)
+      top 10px
+      left 0
+      width: 10px;
+      height: 2px;
+      background $orange
+
+.list-footer
+  +mobile()
+    margin-bottom 40px
+  li
+    margin-bottom 12px
+    a
+      font-size .75em
+      color $black
+      display inline-block
+      position relative
+      &:before
+        pseudo(block, absolute)
+        width 0
+        height 2px
+        background $orange
+        top 7px
+        left 0
+        transitions()
+      &:hover
+        color #828282
+        padding-left 17px
+        &:before
+          width 12px
+
+
+.list-social
+  padding-top 14px
+  li
+    margin 0 0 20px
+    a
+      display inline-block
+      position relative
+      color $orange
+      padding-left 40px
+      margin-bottom 20px
+      &:hover
+        opacity .5
+      .list-social--header
+        font-size .875em
+        color $black
+        display block
+        margin-bottom 7px
+      .list-social--subscribers
+        font-size .75em
+        display block
+      .fa
+        position absolute
+        top 3px
+        left 0
+        font-size 25px

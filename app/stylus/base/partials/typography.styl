@@ -1,0 +1,153 @@
+@import '../../utilities/vars'
+@import '../../utilities/mixins'
+
+//  HEADERS
+
+h1
+  font-family $slave-font, sans-serif
+  color $gray-text
+  margin-bottom 58px
+  font-weight 900
+  font-size 6.875em
+  line-height 1
+  margin-left: -7px;
+  position relative
+  +mobile()
+    font-size 5.125em
+
+h2
+  font(1.75em, $black-text, 700, 1.5)
+  margin-bottom 19px
+  letter-spacing: 0.9px;
+  +mobile()
+    font-size 1.375em
+    br
+      display none
+
+h3
+  font(1.5em, $black-text, 700, 1.58)
+  margin-bottom 40px
+  letter-spacing: 0.9px
+  +mobile()
+    margin-bottom 50px
+
+h4
+  font-family $slave-font, sans-serif
+  color $black-text
+  font-weight 700
+  line-height 1.27
+  margin-bottom 8px
+  font-size: 1.375em
+
+h5
+  font-size 1.125em
+  color $black-text
+  font-weight 700
+  line-height 1.33
+  font-family $slave-font, sans-serif
+  margin-bottom 11px
+  letter-spacing: 0.9px;
+
+//  PARAGRAPH
+p
+  font(1em, $black, 400, normal)
+  margin-bottom 10px
+
+.yellow
+  color $yellow
+
+.text-gray
+  line-height: 1.83;
+  letter-spacing: 0.5px;
+  color $gray-text3
+  font-size .75em
+  +mobile()
+    br
+      display none
+
+.header-gray
+  font-family $slave-font, sans-serif
+  color $gray-text
+  line-height: 1.28;
+  letter-spacing: 1px;
+  font-size 2.250em
+  margin-bottom 15px
+  +mobile()
+    font-size 1.75em
+
+.header-big
+  font-size 2.500em
+  margin-bottom 32px
+
+.header-payment
+  color $white
+  line-height 1.36
+  margin-bottom 41px
+  +mobile()
+    font-size 1.75em
+
+.header-footer
+  color $white
+  text-align center
+  font-family $slave-font, sans-serif
+  font-size: 2.250em
+  line-height: 1.28;
+  letter-spacing: 1px;
+  margin-bottom 44px
+  +mobile()
+    text-align left
+    font-size 1.5em
+    margin-bottom 30px
+    br
+      display none
+
+.text-footer
+  color $white
+  text-align center
+  font-size .75em
+  letter-spacing: 0.5px;
+  line-height: 1.85;
+  margin-bottom 44px
+  +mobile()
+    text-align left
+
+.text-bold
+  font-size: 1em
+  font-weight: bold;
+  line-height: 1.88;
+  letter-spacing: 0.6px;
+  margin-bottom 48px
+  +mobile()
+    br
+      display none
+
+.text-payment
+  color $white
+  font-size: .875em
+  line-height: 1.57;
+  letter-spacing: 0.6px;
+  margin-bottom 56px
+  +mobile()
+    br
+      display none
+  span
+    display block
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.7;
+    letter-spacing: 0.7px;
+
+.text-hr
+  position relative
+  padding-bottom 9px
+  margin-bottom 24px
+  letter-spacing .6px
+  color #B2B2B2 !important
+  font-weight 700
+  &:after
+    pseudo(block, absolute)
+    width: 38px;
+    height: 2px;
+    background-color: $gray-text
+    bottom 0
+    left 0

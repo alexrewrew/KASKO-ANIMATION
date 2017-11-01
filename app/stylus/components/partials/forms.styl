@@ -1,0 +1,283 @@
+@import '../../utilities/vars'
+@import '../../utilities/mixins'
+
+input
+  -webkit-appearance none
+  border none
+  border-bottom 2px solid #ededed
+  background $trans
+  padding 0 10px 15px
+  transitions()
+  width 100%
+  +placeholder()
+    color $gray
+  &:focus
+    outline none
+
+
+textarea
+  -webkit-appearance none
+  resize none
+  +placeholder()
+    color $gray
+
+.form-order
+  .button-secondary
+    max-width 100%
+    margin 28px 0
+    +mobile()
+      margin 5px 0
+  .header-gray
+    margin-bottom 4px
+    text-align center
+    +mobile()
+      margin-bottom 0
+  &--flex
+    display flex
+    flex-direction row
+    flex-wrap wrap
+    padding-top 63px
+    justify-content space-between
+    +mobile()
+      padding-top 40px
+    &-field
+      flex 1 1 100%
+      max-width 100%
+      position relative
+      label
+        position absolute
+        top 0
+        left 0
+        z-index -1
+        transitions()
+        font-size: .875em
+        line-height: 1.57;
+        letter-spacing: 0.6px;
+        color: #bababa;
+      input
+        font-size 1em
+        color #b9b9b9
+        font-weight 700
+        margin-bottom: 4px;
+        +mobile()
+          font-size .875em
+        &:focus
+          border-color $green
+      input:focus + label
+        top -36px
+        color $green
+      input:disabled + label
+        top -36px
+        color $green
+      input:valid + label
+        top -36px
+        color $green
+
+
+.form-order--success
+  display none
+  .button-secondary
+    background: #f78913;
+    max-width 100%
+    margin 28px 0
+    color $white
+    padding-top 13px
+
+.form-order.success
+  .form-order--success
+    display block
+  .form-order--flex
+    display none
+  .form-order--header
+    display none
+
+.col-code
+  flex 1 1 20%
+  max-width 20%
+  margin-bottom 34px
+  +mobile()
+    margin-bottom 30px
+
+.col-number
+  flex 1 1 74%
+  max-width 74%
+  margin-bottom 34px
+  +mobile()
+    margin-bottom 25px
+
+.col-name
+  flex 1 1 74%
+  max-width 74%
+  margin-bottom 2px
+
+.hint-orange
+  color: $orange
+  line-height: 1.83;
+  letter-spacing: .8px;
+  font-size .75em
+  text-align center
+  +mobile()
+    margin-bottom: 0;
+
+.hint-orange.small
+  text-align left
+  font-size 0.625em
+
+.hint-green
+  line-height: 1.57;
+  letter-spacing: 0.6px;
+  color $green
+  font-size: .875em
+
+.form-mail
+  display flex
+  flex-direction row
+  flex-wrap wrap
+  justify-content space-between
+  margin-bottom 171px
+  input
+    border none
+    border-radius: 6px;
+    background $white
+    font-size: 1.125em
+    line-height: normal
+    letter-spacing: 0.9px;
+    padding 9px 30px 10px
+    max-width 47%
+    flex 1 1 47%
+    font-family $slave-font, sans-serif
+    margin-bottom 40px
+    +mobile()
+      max-width 100%
+      flex 1 1 100%
+      margin-bottom 25px
+      padding-right 23px
+      padding-left 23px
+    &:focus
+      color $white
+      background #009548
+      +placeholder()
+        color $white
+    &:hover
+      background #009548
+      +placeholder()
+        color $white
+  button.button-secondary
+    +mobile()
+      max-width unset
+
+// CHECKBOXES
+
+.checkbox
+  margin-bottom 8px
+  max-width 100%
+  flex 1 1 100%
+
+  +mobile()
+    margin-bottom 5px
+
+input[type='checkbox']
+  visibility hidden
+  border: none
+  position absolute
+
+input[type='checkbox'] + label
+  position relative
+  padding-left 50px
+  cursor pointer
+  +mobile()
+    font-size .875em
+  &:before
+    pseudo(block, absolute)
+    border-radius: 100px;
+    width: 30px;
+    height: 11px;
+    background #ececec
+    z-index 5
+    top 3px
+    left 0
+    transitions()
+  &:after
+    pseudo(block, absolute)
+    border-radius 50%
+    width: 17px;
+    height: 17px;
+    background-color: #c9c9c9;
+    z-index 10
+    top 0px
+    left 0
+    transitions()
+
+input[type='checkbox']:checked + label
+  &:before
+    background #18a752
+  &:after
+    transform translateX(13px)
+    background #00712e
+
+
+//STATEMENTS
+.error
+  color $red !important
+  border-color $red !important
+  & + label + p
+    color $red !important
+
+.error-message
+  flex 1 1 100%
+  max-width 100%
+  padding-top 10px
+  padding-bottom 7px
+  display none
+  p
+    line-height: 1.83;
+    letter-spacing: .8px;
+    font-size: .75em;
+    text-align: center;
+    color $red
+    margin-bottom 0
+
+.form-mail
+  .error
+    color $red
+    background $pink
+    +placeholder()
+      color $red
+    &:focus
+      color $white !important
+    &:hover
+      background $pink
+      color $red
+      +placeholder()
+        color $red
+
+.error-footer
+  color $red
+  display none
+
+.footer-mail-success
+  display none
+  padding-top 263px
+  padding-bottom 256px
+  +mobile()
+    padding-top 0
+  .button-secondary
+    max-width 298px
+    margin 0 auto
+    width 100%
+    background $orange
+    color $white
+    font-size: 1.5em
+    font-family $slave-font, sans-serif
+    line-height: 1.75;
+    letter-spacing: 1.2px;
+    cursor pointer
+    padding-bottom 6px
+    &:hover
+      background #DE7B12
+      color #FFBC75
+
+.footer-mail
+  padding-top 263px
+  +mobile()
+    padding-top 0
