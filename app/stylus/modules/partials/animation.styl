@@ -1,10 +1,9 @@
 @keyframes link-next-shake
   from, to
-    transform: translate3d(0,0,0)
+    transform: translate3d(0, 0, 0)
 
   50%
-    transform: translate3d(0,10px,0)
-
+    transform: translate3d(0, 10px, 0)
 
 .link-next
   svg
@@ -13,5 +12,236 @@
     svg
       animation-play-state: paused;
 
-
 //      SCREEN ANIMATION
+//SCREEN 1
+.fp-viewing-screen1.loaded .line1 {
+  animation scaling 1s .9s forwards
+  transform-origin 50% 50%
+  transform: scale3d(0, 0, 0);
+}
+
+.fp-viewing-screen1.loaded .line2 {
+  animation scaling 1s 1.05s forwards
+  transform-origin 50% 50%
+  transform: scale3d(0, 0, 0);
+}
+
+.fp-viewing-screen1.loaded .line3 {
+  animation scaling 1s 1.2s forwards
+  transform-origin 50% 50%
+  transform: scale3d(0, 0, 0);
+}
+
+.fp-viewing-screen1.loaded .house1 {
+  animation scaling 1s 0.3s forwards
+  transform-origin 500px 1200px
+  transform: scale3d(0, 0, 0);
+}
+
+.fp-viewing-screen1.loaded .house2 {
+  animation scaling 1s .45s forwards
+  transform-origin 400px 1100px
+  transform: scale3d(0, 0, 0);
+}
+
+.fp-viewing-screen1.loaded .house3 {
+  animation scaling 1s .6s forwards
+  transform-origin 1000px 1000px
+  transform: scale3d(0, 0, 0);
+}
+
+.fp-viewing-screen1.loaded .house4 {
+  animation scaling 1s .75s forwards
+  transform-origin 1500px 1300px
+  transform: scale3d(0, 0, 0);
+}
+
+.fp-viewing-screen1.loaded .sand {
+  animation scaling 1s .15s forwards
+  transform-origin 1000px 1000px
+  transform: scale3d(0, 0, 0);
+}
+
+.fp-viewing-screen1.loaded .grass {
+  animation scaling 1s
+  transform-origin 1000px 1000px
+}
+
+.fp-viewing-screen1.loaded .gelik {
+  animation gelik 2.5s 2.25s cubic-bezier(.53,.61,.5,1) forwards
+}
+
+.fp-viewing-screen1.loaded .bus {
+  animation bus 3.25s 1.5s ease-out forwards
+}
+
+.fp-viewing-screen1.loaded .crash {
+  visibility hidden
+  animation crash 0.3s 4.75s forwards
+}
+
+.fp-viewing-screen1.loaded .gelik_lights {
+  animation blinks 1s 4.75s infinite
+}
+
+.fp-viewing-screen1.loaded .bus_lights {
+  animation blinks 1s 5s infinite
+}
+
+.fp-viewing-screen1.loaded .bus_crash {
+  animation bus-crash 0.3s 4.75s ease-in-out forwards
+  transform-origin 160px 1600px
+}
+
+.fp-viewing-screen1.loaded .gelik_crash {
+  animation gelik-crash 0.3s 4.75s ease-in-out forwards
+  transform-origin 160px 1600px
+}
+
+.fp-viewing-screen1.loaded .casco_car_right {
+  visibility hidden
+  animation casco-car-right 1s 5.5s ease-out forwards
+  transform-origin 500px 1500px;
+
+}
+
+.fp-viewing-screen1.loaded .casco_car {
+  animation casco-car 1.5s 4s linear forwards
+}
+
+.fp-viewing-screen1.loaded .pin {
+  opacity 0;
+  animation pin 1s 6s ease-in forwards, pin-pulse .8s 7s ease-in-out infinite;
+}
+
+.fp-viewing-screen1.loaded .tormoz {
+  animation tormoz .5s 4s ease-out forwards
+}
+
+.fp-viewing-screen1.loaded .crash-tormoz {
+  visibility: visible
+  opacity 0
+  animation crash-tormoz-opacity 0.6s 4.5s forwards
+}
+
+@keyframes scaling {
+  0%, 70%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(0, 0, 0);
+  }
+  70% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    transform: scale3d(.99, .99, .99);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes gelik {
+  100% {
+    transform translate3d(-2850px, 1650px, 0)
+    visibility hidden
+  }
+}
+
+@keyframes bus {
+  100% {
+    transform translate3d(365px, 210px, 0)
+    visibility hidden
+  }
+}
+
+@keyframes casco-car {
+  100% {
+    transform translate3d(-1270px, -730px, 0)
+    visibility hidden
+  }
+}
+
+@keyframes casco-car-right {
+  0% {
+    visibility visible
+  }
+  38% {
+    transform translate3d(170px, -100px, 0) rotate(0)
+  }
+  90% {
+    transform translate3d(330px, -190px, 0) rotate(2deg)
+  }
+  100% {
+    transform translate3d(330px, -190px, 0) rotate(0)
+    visibility visible
+  }
+}
+
+@keyframes crash {
+  0%, 100% {
+    visibility visible
+  }
+}
+
+@keyframes bus-crash {
+  0%, 100% {
+    transform rotate(0)
+  }
+  50% {
+    transform rotate(2deg)
+  }
+}
+
+@keyframes gelik-crash {
+  0%, 100% {
+    transform rotate(0)
+  }
+  50% {
+    transform rotate(-2deg)
+  }
+}
+
+@keyframes crash-tormoz-opacity {
+  50%, 100% {
+    opacity 1
+  }
+}
+
+@keyframes pin {
+  50% {
+    opacity 1
+  }
+  100% {
+    transform translate3d(0, 780px, 0)
+    opacity 1
+  }
+}
+
+@keyframes blinks {
+  50% {
+    opacity 0
+  }
+  100% {
+    opacity 1
+  }
+}
+
+@keyframes pin-pulse {
+  50% {
+    transform translate3d(0, 750px, 0)
+  }
+  0%, 100% {
+    transform translate3d(0, 780px, 0)
+  }
+}
+
+@keyframes tormoz {
+  100% {
+    transform translate3d(-211px, 122px, 0)
+  }
+}
