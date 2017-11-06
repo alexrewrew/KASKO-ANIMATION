@@ -1494,7 +1494,7 @@ nav .button {
 		position: fixed;
 		left: 0;
 		right: 0;
-		top: auto;
+		top: calc(100vh - 50px);
 		bottom: 0;
 		max-width: 100%;
 		border-radius: 0;
@@ -2592,12 +2592,12 @@ footer {
 	        transform-origin: 1000px 1000px;
 }
 .fp-viewing-screen1.loaded .gelik {
-	-webkit-animation: gelik 2.5s 2.25s cubic-bezier(.53, .61, .5, 1) forwards;
-	        animation: gelik 2.5s 2.25s cubic-bezier(.53, .61, .5, 1) forwards;
+	-webkit-animation: gelik 2.5s 2.25s cubic-bezier(.83, .87, .64, .91) forwards;
+	        animation: gelik 2.5s 2.25s cubic-bezier(.83, .87, .64, .91) forwards;
 }
 .fp-viewing-screen1.loaded .bus {
-	-webkit-animation: bus 3.25s 1.5s ease-out forwards;
-	        animation: bus 3.25s 1.5s ease-out forwards;
+	-webkit-animation: bus 3.25s 1.5s ease-in forwards;
+	        animation: bus 3.25s 1.5s ease-in forwards;
 }
 .fp-viewing-screen1.loaded .crash {
 	visibility: hidden;
@@ -2644,8 +2644,8 @@ footer {
 	        animation: pin 1s 6s ease-in forwards, pin-pulse .8s 7s ease-in-out infinite;
 }
 .fp-viewing-screen1.loaded .tormoz {
-	-webkit-animation: tormoz .5s 4s ease-out forwards;
-	        animation: tormoz .5s 4s ease-out forwards;
+	-webkit-animation: tormoz .5s 4.2s ease-out forwards;
+	        animation: tormoz .5s 4.2s ease-out forwards;
 }
 .fp-viewing-screen1.loaded .crash-tormoz {
 	visibility: visible;

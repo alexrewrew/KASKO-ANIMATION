@@ -341,6 +341,7 @@ $(function(){
         window.onload = function () {
             setTimeout(function () {
                 fadeOutnojquery(hellopreloader);
+                $('body').addClass('loaded');
             }, 1000);
         };
     }
