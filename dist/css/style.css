@@ -82,6 +82,17 @@ body {
 	line-height: normal;
 	background: #fff;
 }
+@media (max-width: 767px) {
+	html, body {
+		overflow: auto;
+		height: 100%;
+		-webkit-overflow-scrolling: touch;
+	}
+	html #form-trigger, body #form-trigger {
+		min-height: 50px;
+		height: auto;
+	}
+}
 @media (min-width: 1200px) {
 	.container {
 		max-width: 1170px;
@@ -1490,28 +1501,6 @@ nav .button {
 	nav {
 		background: #fff;
 	}
-	nav .button {
-		position: fixed;
-		left: 0;
-		right: 0;
-		top: calc(100vh - 50px);
-		bottom: 0;
-		max-width: 100%;
-		border-radius: 0;
-		height: 50px;
-		font-size: 1em;
-		-webkit-transition: none;
-		     -o-transition: none;
-		        transition: none;
-	}
-	nav .button:after, nav .button:before {
-		-webkit-transition: none;
-		     -o-transition: none;
-		        transition: none;
-	}
-	nav .button span {
-		display: none;
-	}
 	nav .button.scroll-button {
 		bottom: 78px;
 	}
@@ -1751,9 +1740,31 @@ nav .button {
 .nav-icon span:nth-child(5) {
 	top: 14px;
 }
-body.open-form {
-	overflow: hidden !important;
-	max-height: 100vh !important;
+@media (max-width: 767px) {
+	#form-trigger {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		max-width: 100%;
+		border-radius: 0;
+		height: 50px;
+		font-size: 1em;
+		-webkit-transition: none;
+		     -o-transition: none;
+		        transition: none;
+		z-index: 3000;
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+	}
+	#form-trigger:after, #form-trigger:before {
+		-webkit-transition: none;
+		     -o-transition: none;
+		        transition: none;
+	}
+	#form-trigger span {
+		display: none;
+	}
 }
 body.open-form nav {
 	overflow-y: scroll;
@@ -1765,7 +1776,7 @@ body.open-form nav .nav-thirdy {
 	    -ms-transform: none;
 	        transform: none;
 }
-body.open-form .button {
+body.open-form #form-trigger {
 	color: rgba(9,98,45,0);
 	width: 50px;
 	height: 50px;
@@ -1774,17 +1785,17 @@ body.open-form .button {
 	position: relative;
 }
 @media (max-width: 767px) {
-	body.open-form .button {
+	body.open-form #form-trigger {
 		top: 6px;
 		left: auto;
 		right: 15px;
 		position: fixed;
 	}
 }
-body.open-form .button:hover {
+body.open-form #form-trigger:hover {
 	background: #09622d;
 }
-body.open-form .button:before, body.open-form .button:after {
+body.open-form #form-trigger:before, body.open-form #form-trigger:after {
 	opacity: 1;
 	height: 3px;
 	width: 22px;
@@ -1794,12 +1805,6 @@ body.open-form .button.scroll-button {
 }
 body.open-form #menu-trigger {
 	display: none;
-}
-@media (max-width: 767px) {
-	body.open-nav {
-		overflow: hidden !important;
-		max-height: 100vh !important;
-	}
 }
 @media (max-width: 767px) {
 	body.open-nav nav {

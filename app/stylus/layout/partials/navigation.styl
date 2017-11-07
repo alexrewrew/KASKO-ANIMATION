@@ -16,23 +16,6 @@ nav
     float right
   +mobile()
     background $white
-    .button
-      position fixed
-      left 0
-      right 0
-      //top auto
-      //bottom 0
-      top calc(100vh - 50px)
-      bottom 0
-      max-width 100%
-      border-radius 0
-      height 50px
-      font-size 1em
-      transition none
-      &:after, &:before
-        transition none
-      span
-        display none
     .button.scroll-button
       bottom 78px
 
@@ -43,7 +26,6 @@ nav
     max-width 157px
   img
     width 100%
-
 
 .nav-primary
   padding 25px 40px
@@ -150,7 +132,6 @@ nav
           transform translateY(7px)
           opacity 0
 
-
 .nav-icon
   width 22px
   height 17px
@@ -180,19 +161,34 @@ nav
     &:nth-child(5)
       top 14px
 
+#form-trigger
+  +mobile()
+    position fixed
+    left 0
+    right 0
+    bottom 0
+    max-width 100%
+    border-radius 0
+    height 50px
+    font-size 1em
+    transition none
+    z-index 3000
+    transform: translate3d(0, 0, 0);
+    &:after, &:before
+      transition none
+    span
+      display none
 
 // STATEMENTS
 //open-form
 body.open-form
-  overflow hidden !important
-  max-height 100vh !important
   nav
     overflow-y scroll
     overflow-x hidden
     height 100vh
     .nav-thirdy
       transform none
-  .button
+  #form-trigger
     color rgba(9, 98, 45, 0)
     width 50px
     height 50px
@@ -218,9 +214,6 @@ body.open-form
 
 //open nav
 body.open-nav
-  +mobile()
-    overflow hidden !important
-    max-height 100vh !important
   nav
     +mobile()
       overflow-y scroll

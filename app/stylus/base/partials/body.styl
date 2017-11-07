@@ -11,6 +11,15 @@ body
   font(16px, $black, 400, normal)
   background #fff
 
+html, body
+  +mobile()
+    overflow auto
+    height 100%
+    -webkit-overflow-scrolling: touch;
+    #form-trigger
+      min-height 50px
+      height auto
+
 .container
   +displays()
     max-width 1170px

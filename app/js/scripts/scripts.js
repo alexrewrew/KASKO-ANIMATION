@@ -1,5 +1,7 @@
 (function () {
     "use strict";
+    // window.scrollBy(0, 1);
+
 
     if (window.matchMedia("(min-width: 768px)").matches) {
         createFullpage();
@@ -36,7 +38,7 @@
             scrollOverflow: true,
             css3: true,
             scrollingSpeed: 1000,
-            afterResize: function(){
+            afterResize: function () {
                 preloader();
                 $.fn.fullpage.destroy('all');
                 createFullpage();
@@ -78,8 +80,14 @@
 
         $('#menu-trigger').click(function (e) {
             e.preventDefault();
+            // var currentHeight = $(window).scrollTop();
+            // console.log(currentHeight);
             $('body').toggleClass('open-nav').removeClass('open-form');
+            // $('body, html').scrollTop(currentHeight);
         });
+
+
+
 
         $('#form-trigger').click(function (e) {
             e.preventDefault();
