@@ -1,8 +1,10 @@
 @keyframes link-next-shake
   from, to
+    -ms-transform: translate3d(0, 0, 0)
     transform: translate3d(0, 0, 0)
 
   50%
+    -ms-transform: translate3d(0, 10px, 0)
     transform: translate3d(0, 10px, 0)
 
 .link-next
@@ -18,41 +20,48 @@
   animation scaling 1s .9s forwards
   transform-origin 50% 50%
   transform: scale3d(0, 0, 0);
+  -ms-transform: scale3d(0, 0, 0);
 }
 
 .fp-viewing-screen1.loaded .line2 {
   animation scaling 1s 1.05s forwards
   transform-origin 50% 50%
   transform: scale3d(0, 0, 0);
+  -ms-transform: scale3d(0, 0, 0);
 }
 
 .fp-viewing-screen1.loaded .line3 {
   animation scaling 1s 1.2s forwards
   transform-origin 50% 50%
   transform: scale3d(0, 0, 0);
+  -ms-transform: scale3d(0, 0, 0);
 }
 
 .fp-viewing-screen1.loaded .house1 {
   animation scaling 1s 0.3s forwards
   transform-origin 500px 1200px
   transform: scale3d(0, 0, 0);
+  -ms-transform: scale3d(0, 0, 0);
 }
 
 .fp-viewing-screen1.loaded .house2 {
   animation scaling 1s .45s forwards
   transform-origin 400px 1100px
   transform: scale3d(0, 0, 0);
+  -ms-transform: scale3d(0, 0, 0);
 }
 
 .fp-viewing-screen1.loaded .house3 {
   animation scaling 1s .6s forwards
   transform-origin 1000px 1000px
+  -ms-transform: scale3d(0, 0, 0);
   transform: scale3d(0, 0, 0);
 }
 
 .fp-viewing-screen1.loaded .house4 {
   animation scaling 1s .75s forwards
   transform-origin 1500px 1300px
+  -ms-transform: scale3d(0, 0, 0);
   transform: scale3d(0, 0, 0);
 }
 
@@ -60,6 +69,7 @@
   animation scaling 1s .15s forwards
   transform-origin 1000px 1000px
   transform: scale3d(0, 0, 0);
+  -ms-transform: scale3d(0, 0, 0);
 }
 
 .fp-viewing-screen1.loaded .grass {
@@ -131,23 +141,28 @@
   0% {
     opacity: 0;
     transform: scale3d(0, 0, 0);
+    -ms-transform: scale3d(0, 0, 0);
   }
   70% {
     opacity: 1;
     transform: scale3d(1.03, 1.03, 1.03);
+    -ms-transform: scale3d(1.03, 1.03, 1.03);
   }
   80% {
     transform: scale3d(.99, .99, .99);
+    -ms-transform: scale3d(.99, .99, .99);
   }
   100% {
     opacity: 1;
     transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
   }
 }
 
 @keyframes gelik {
   100% {
     transform translate3d(-2850px, 1650px, 0)
+    -ms-transform translate3d(-2850px, 1650px, 0)
     visibility hidden
   }
 }
@@ -155,6 +170,7 @@
 @keyframes bus {
   100% {
     transform translate3d(365px, 210px, 0)
+    -ms-transform translate3d(365px, 210px, 0)
     visibility hidden
   }
 }
@@ -162,6 +178,7 @@
 @keyframes casco-car {
   100% {
     transform translate3d(-1270px, -730px, 0)
+    -ms-transform translate3d(-1270px, -730px, 0)
     visibility hidden
   }
 }
@@ -172,12 +189,15 @@
   }
   38% {
     transform translate3d(170px, -100px, 0) rotate(0)
+    -ms-transform translate3d(170px, -100px, 0) rotate(0)
   }
   90% {
     transform translate3d(330px, -190px, 0) rotate(2deg)
+    -ms-transform translate3d(330px, -190px, 0) rotate(2deg)
   }
   100% {
     transform translate3d(330px, -190px, 0) rotate(0)
+    -ms-transform translate3d(330px, -190px, 0) rotate(0)
     visibility visible
   }
 }
@@ -191,18 +211,22 @@
 @keyframes bus-crash {
   0%, 100% {
     transform rotate(0)
+    -ms-transform rotate(0)
   }
   50% {
     transform rotate(2deg)
+    -ms-transform rotate(2deg)
   }
 }
 
 @keyframes gelik-crash {
   0%, 100% {
     transform rotate(0)
+    -ms-transform rotate(0)
   }
   50% {
     transform rotate(-2deg)
+    -ms-transform rotate(-2deg)
   }
 }
 
@@ -218,6 +242,7 @@
   }
   100% {
     transform translate3d(0, 780px, 0)
+    -ms-transform translate3d(0, 780px, 0)
     opacity 1
   }
 }
@@ -234,14 +259,17 @@
 @keyframes pin-pulse {
   50% {
     transform translate3d(0, 750px, 0)
+    -ms-transform translate3d(0, 750px, 0)
   }
   0%, 100% {
     transform translate3d(0, 780px, 0)
+    -ms-transform translate3d(0, 780px, 0)
   }
 }
 
 @keyframes tormoz {
   100% {
     transform translate3d(-211px, 122px, 0)
+    -ms-transform translate3d(-211px, 122px, 0)
   }
 }
