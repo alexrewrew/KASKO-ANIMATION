@@ -35,6 +35,23 @@ a
     svg
       transform translateY(11px)
 
+
+@keyframes link-next-shake
+  from, to
+    -ms-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+
+  50%
+    -ms-transform: translate3d(0, 10px, 0)
+    transform: translate3d(0, 10px, 0)
+
+.link-next
+  svg
+    animation: link-next-shake .8s infinite;
+  &:hover
+    svg
+      animation-play-state: paused;
+
 .link-next-text
   color $orange
   font-size: 1.125em;
