@@ -6725,22 +6725,22 @@ footer {
 	fill: #cf4848;
 }
 .illustration5 .st283 {
-	fill: #00712e;
-}
-.illustration5 .st284 {
 	fill: #f5fdff;
 }
-.illustration5 .st285 {
+.illustration5 .st284 {
 	fill: #ededed;
 }
-.illustration5 .st286 {
+.illustration5 .st285 {
 	fill: #a86926;
 }
-.illustration5 .st287 {
+.illustration5 .st286 {
 	fill: #cc9360;
 }
-.illustration5 .st288 {
+.illustration5 .st287 {
 	fill: #222a2d;
+}
+.illustration5 .st288 {
+	fill: #00712e;
 }
 .illustration6 {
 	top: 19%;
@@ -6757,6 +6757,147 @@ footer {
 		margin-top: 150px;
 		margin-bottom: 56px;
 	}
+}
+.illustration6 .st0 {
+	fill: #00712e;
+}
+.illustration6 .st1 {
+	opacity: .2;
+	fill: #231f20;
+	enable-background: new;
+}
+.illustration6 .st2 {
+	fill: #1a1a1a;
+}
+.illustration6 .st3 {
+	fill: #878787;
+}
+.illustration6 .st4 {
+	fill: #3f3f3f;
+}
+.illustration6 .st5 {
+	fill: #00752f;
+}
+.illustration6 .st6 {
+	fill: none;
+}
+.illustration6 .st7 {
+	fill: #3c3c3c;
+}
+.illustration6 .st8 {
+	fill: #808080;
+}
+.illustration6 .st9 {
+	fill: #fff;
+}
+.illustration6 .st10 {
+	fill: #009548;
+}
+.illustration6 .st11 {
+	fill: #007b3c;
+}
+.illustration6 .st12 {
+	fill: #4eb548;
+}
+.illustration6 .st13 {
+	fill: #45ac3e;
+}
+.illustration6 .st14 {
+	fill: #ff8900;
+}
+.illustration6 .st15 {
+	fill: #d67422;
+}
+.illustration6 .st16 {
+	fill: #c0c0c0;
+}
+.illustration6 .st17 {
+	fill: #60696c;
+}
+.illustration6 .st18 {
+	fill: #8a8a8a;
+}
+.illustration6 .st19 {
+	fill: #4d4d4d;
+}
+.illustration6 .st20 {
+	fill: #333;
+}
+.illustration6 .st21 {
+	fill: #373737;
+}
+.illustration6 .st22 {
+	fill: #232323;
+}
+.illustration6 .st23 {
+	fill: #616161;
+}
+.illustration6 .st24 {
+	opacity: .45;
+	fill: #d8ae00;
+}
+.illustration6 .st25 {
+	fill: #d8ae00;
+}
+.illustration6 .st26 {
+	fill: #087c39;
+}
+.illustration6 .st27 {
+	fill: #006027;
+}
+.illustration6 .st28 {
+	fill: #008235;
+}
+.illustration6 .st29 {
+	fill: #006b2b;
+}
+.illustration6 .st30 {
+	fill: #02893f;
+}
+.illustration6 .st31 {
+	opacity: .14;
+}
+.illustration6 .st32 {
+	opacity: .22;
+}
+.illustration6 .st33 {
+	fill: #2d2d2d;
+}
+.illustration6 .st34 {
+	fill: #1cb762;
+}
+.illustration6 .st35 {
+	fill: #05632b;
+}
+.illustration6 .st36 {
+	fill: #025423;
+}
+.illustration6 .st37 {
+	fill: #087f41;
+}
+.illustration6 .st38 {
+	fill: #037737;
+}
+.illustration6 .st39 {
+	fill: #006632;
+}
+.illustration6 .st40 {
+	fill: #028e41;
+}
+.illustration6 .st41 {
+	fill: #087c37;
+}
+.illustration6 .st42 {
+	fill: #0a7a37;
+}
+.illustration6 .st43 {
+	fill: #06662d;
+}
+.illustration6 .st44 {
+	fill: #08823a;
+}
+.illustration6 .st45 {
+	fill: #0a6d32;
 }
 .illustration7 {
 	bottom: 0;
