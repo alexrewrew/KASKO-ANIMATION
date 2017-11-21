@@ -3035,6 +3035,16 @@ footer {
 	bottom: 0;
 	left: 0;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+	.illustration2 {
+		width: 165%;
+	}
+}
+@media (max-width: 767px) {
+	.illustration2 {
+		display: none;
+	}
+}
 .illustration2 .st0 {
 	fill: #f8f4e5;
 }
@@ -3131,643 +3141,641 @@ footer {
 	fill: #bdbdbd;
 }
 .illustration2 .st31 {
-	opacity: .2;
-	fill: #231f20;
+	fill: #c0beb3;
 }
 .illustration2 .st32 {
-	fill: #7e8a9e;
+	fill: #c6c6c6;
 }
 .illustration2 .st33 {
-	fill: #919cad;
+	fill: #7e8a9e;
 }
 .illustration2 .st34 {
-	fill: #9fa4af;
+	fill: #919cad;
 }
 .illustration2 .st35 {
-	fill: #c7d6d3;
+	fill: #9fa4af;
 }
 .illustration2 .st36 {
-	fill: #e9faf6;
+	fill: #c7d6d3;
 }
 .illustration2 .st37 {
-	fill: #bdc9de;
+	fill: #e9faf6;
 }
 .illustration2 .st38 {
-	fill: #8ba8a8;
+	fill: #bdc9de;
 }
 .illustration2 .st39 {
-	fill: #8a97ad;
+	fill: #8ba8a8;
 }
 .illustration2 .st40 {
-	fill: #779191;
+	fill: #8a97ad;
 }
 .illustration2 .st41 {
-	fill: #899fb8;
+	fill: #779191;
 }
 .illustration2 .st42 {
-	fill: #afd2da;
+	fill: #899fb8;
 }
 .illustration2 .st43 {
-	fill: #d1dee5;
+	fill: #afd2da;
 }
 .illustration2 .st44 {
-	fill: #bac6cb;
+	fill: #d1dee5;
 }
 .illustration2 .st45 {
-	fill: #8baea4;
+	fill: #bac6cb;
 }
 .illustration2 .st46 {
+	fill: #8baea4;
+}
+.illustration2 .st47 {
 	-webkit-clip-path: url('#SVGID_2_');
 	        clip-path: url('#SVGID_2_');
 	fill: #575d63;
 }
-.illustration2 .st47 {
+.illustration2 .st48 {
 	fill: #a8bab9;
 }
-.illustration2 .st48 {
+.illustration2 .st49 {
 	fill: #90a6bf;
 }
-.illustration2 .st49 {
+.illustration2 .st50 {
 	fill: #dfe5e4;
 }
-.illustration2 .st50 {
+.illustration2 .st51 {
 	fill: #eff2f4;
 }
-.illustration2 .st51 {
+.illustration2 .st52 {
 	fill: #9eb9c0;
 }
-.illustration2 .st52 {
+.illustration2 .st53 {
 	fill: #738796;
 }
-.illustration2 .st53 {
+.illustration2 .st54 {
 	fill: #8b9dab;
 }
-.illustration2 .st54 {
+.illustration2 .st55 {
 	fill: #b7c6c3;
 }
-.illustration2 .st55 {
+.illustration2 .st56 {
 	-webkit-clip-path: url('#SVGID_4_');
 	        clip-path: url('#SVGID_4_');
 	fill: #575d63;
 }
-.illustration2 .st56 {
+.illustration2 .st57 {
 	fill: #7c94a4;
 }
-.illustration2 .st57 {
-	fill: #b6c3cc;
-}
 .illustration2 .st58 {
-	fill: #97a8a5;
+	fill: #a1a4a5;
 }
 .illustration2 .st59 {
-	fill: #8b9aa5;
+	fill: #9dac76;
 }
 .illustration2 .st60 {
-	fill: #d7e2df;
+	fill: #b6c3cc;
 }
 .illustration2 .st61 {
-	fill: #ebebeb;
+	fill: #97a8a5;
 }
 .illustration2 .st62 {
-	fill: #cfcfcf;
+	fill: #8b9aa5;
 }
 .illustration2 .st63 {
-	fill: #6c929b;
+	fill: #d7e2df;
 }
 .illustration2 .st64 {
-	fill: #7b96a3;
+	fill: #ebebeb;
 }
 .illustration2 .st65 {
-	fill: #afb7bd;
+	fill: #cfcfcf;
 }
 .illustration2 .st66 {
-	fill: #ccd3db;
+	fill: #6c929b;
 }
 .illustration2 .st67 {
-	fill: #717d7c;
+	fill: #7b96a3;
 }
 .illustration2 .st68 {
-	fill: #bfbfbf;
+	fill: #afb7bd;
 }
 .illustration2 .st69 {
-	fill: #969595;
+	fill: #ccd3db;
 }
 .illustration2 .st70 {
-	fill: #e3e3e3;
+	fill: #717d7c;
 }
 .illustration2 .st71 {
-	fill: #f4f4f4;
+	fill: #bfbfbf;
 }
 .illustration2 .st72 {
-	fill: #adadad;
+	fill: #969595;
 }
 .illustration2 .st73 {
-	fill: #8f9da1;
+	fill: #e3e3e3;
 }
 .illustration2 .st74 {
-	fill: #e5e5e5;
+	fill: #f4f4f4;
 }
 .illustration2 .st75 {
-	fill: #9aa6a4;
+	fill: #adadad;
 }
 .illustration2 .st76 {
-	fill: #d8e0e8;
+	fill: #8f9da1;
 }
 .illustration2 .st77 {
-	fill: #e0e0e0;
+	fill: #e5e5e5;
 }
 .illustration2 .st78 {
-	fill: #826c48;
+	fill: #9aa6a4;
 }
 .illustration2 .st79 {
-	fill: #d4b386;
+	fill: #d8e0e8;
 }
 .illustration2 .st80 {
-	fill: #738a4f;
+	fill: #e0e0e0;
 }
 .illustration2 .st81 {
-	fill: #476d32;
+	fill: #826c48;
 }
 .illustration2 .st82 {
-	fill: #383838;
+	fill: #d4b386;
 }
 .illustration2 .st83 {
-	fill: #858585;
+	fill: #738a4f;
 }
 .illustration2 .st84 {
-	fill: #666;
+	fill: #476d32;
 }
 .illustration2 .st85 {
-	fill: #545454;
+	fill: #383838;
 }
 .illustration2 .st86 {
-	fill: #b3b3b3;
+	fill: #858585;
 }
 .illustration2 .st87 {
-	fill: #8a8a8a;
+	fill: #666;
 }
 .illustration2 .st88 {
-	fill: #deb188;
+	fill: #545454;
 }
 .illustration2 .st89 {
-	fill: #ffe59a;
+	fill: #b3b3b3;
 }
 .illustration2 .st90 {
-	fill: #005c8a;
+	fill: #8a8a8a;
 }
 .illustration2 .st91 {
-	fill: #74a0b8;
+	fill: #deb188;
 }
 .illustration2 .st92 {
-	fill: #437599;
+	fill: #ffe59a;
 }
 .illustration2 .st93 {
-	fill: #dff0ec;
+	fill: #005c8a;
 }
 .illustration2 .st94 {
-	enable-background: new;
+	fill: #74a0b8;
 }
 .illustration2 .st95 {
-	fill: #84293f;
+	fill: #437599;
 }
 .illustration2 .st96 {
-	fill: #a6b2bd;
+	fill: #dff0ec;
 }
 .illustration2 .st97 {
+	enable-background: new;
+}
+.illustration2 .st98 {
+	fill: #84293f;
+}
+.illustration2 .st99 {
+	fill: #a6b2bd;
+}
+.illustration2 .st100 {
 	fill: none;
 	stroke: #cdd0d3;
 	stroke-miterlimit: 10;
 }
-.illustration2 .st98 {
+.illustration2 .st101 {
 	fill: #70c2ed;
 }
-.illustration2 .st99 {
+.illustration2 .st102 {
 	fill: #912200;
 }
-.illustration2 .st100 {
+.illustration2 .st103 {
 	fill: #d33700;
 }
-.illustration2 .st101 {
+.illustration2 .st104 {
 	fill: #72210e;
 }
-.illustration2 .st102 {
+.illustration2 .st105 {
 	-webkit-clip-path: url('#SVGID_6_');
 	        clip-path: url('#SVGID_6_');
 	fill: #c65532;
 }
-.illustration2 .st103 {
+.illustration2 .st106 {
 	fill: #c48c00;
 }
-.illustration2 .st104 {
+.illustration2 .st107 {
 	fill: #edaf00;
 }
-.illustration2 .st105 {
+.illustration2 .st108 {
 	fill: #755816;
 }
-.illustration2 .st106 {
+.illustration2 .st109 {
 	-webkit-clip-path: url('#SVGID_8_');
 	        clip-path: url('#SVGID_8_');
 	fill: #c19d42;
 }
-.illustration2 .st107 {
+.illustration2 .st110 {
 	fill: #207500;
 }
-.illustration2 .st108 {
+.illustration2 .st111 {
 	fill: #3daa1a;
 }
-.illustration2 .st109 {
+.illustration2 .st112 {
 	fill: #113504;
 }
-.illustration2 .st110 {
+.illustration2 .st113 {
 	-webkit-clip-path: url('#SVGID_10_');
 	        clip-path: url('#SVGID_10_');
 	fill: #5c9347;
 }
-.illustration2 .st111 {
+.illustration2 .st114 {
 	-webkit-clip-path: url('#SVGID_12_');
 	        clip-path: url('#SVGID_12_');
 	fill: #c65532;
 }
-.illustration2 .st112 {
+.illustration2 .st115 {
 	-webkit-clip-path: url('#SVGID_14_');
 	        clip-path: url('#SVGID_14_');
 	fill: #c19d42;
 }
-.illustration2 .st113 {
+.illustration2 .st116 {
 	-webkit-clip-path: url('#SVGID_16_');
 	        clip-path: url('#SVGID_16_');
 	fill: #5c9347;
 }
-.illustration2 .st114 {
+.illustration2 .st117 {
 	-webkit-clip-path: url('#SVGID_18_');
 	        clip-path: url('#SVGID_18_');
 	fill: #c65532;
 }
-.illustration2 .st115 {
+.illustration2 .st118 {
 	-webkit-clip-path: url('#SVGID_20_');
 	        clip-path: url('#SVGID_20_');
 	fill: #c19d42;
 }
-.illustration2 .st116 {
+.illustration2 .st119 {
 	-webkit-clip-path: url('#SVGID_22_');
 	        clip-path: url('#SVGID_22_');
 	fill: #5c9347;
 }
-.illustration2 .st117 {
+.illustration2 .st120 {
 	-webkit-clip-path: url('#SVGID_24_');
 	        clip-path: url('#SVGID_24_');
 	fill: #c65532;
 }
-.illustration2 .st118 {
+.illustration2 .st121 {
 	-webkit-clip-path: url('#SVGID_26_');
 	        clip-path: url('#SVGID_26_');
 	fill: #c19d42;
 }
-.illustration2 .st119 {
+.illustration2 .st122 {
 	-webkit-clip-path: url('#SVGID_28_');
 	        clip-path: url('#SVGID_28_');
 	fill: #5c9347;
 }
-.illustration2 .st120 {
+.illustration2 .st123 {
 	fill: #dcbbaa;
 }
-.illustration2 .st121 {
+.illustration2 .st124 {
 	fill: #bd918a;
 }
-.illustration2 .st122 {
+.illustration2 .st125 {
 	fill: #fcebd1;
 }
-.illustration2 .st123 {
+.illustration2 .st126 {
 	fill: #dcb7a5;
 }
-.illustration2 .st124 {
+.illustration2 .st127 {
 	fill: #e5d2d9;
 }
-.illustration2 .st125 {
+.illustration2 .st128 {
 	fill: #e5bdbd;
 }
-.illustration2 .st126 {
+.illustration2 .st129 {
 	fill: #76575a;
 }
-.illustration2 .st127 {
+.illustration2 .st130 {
 	fill: #917d71;
 }
-.illustration2 .st128 {
+.illustration2 .st131 {
 	fill: #b8ad99;
 }
-.illustration2 .st129 {
+.illustration2 .st132 {
 	fill: #fcf4df;
 }
-.illustration2 .st130 {
+.illustration2 .st133 {
 	fill: #fffbef;
 }
-.illustration2 .st131 {
+.illustration2 .st134 {
 	fill: #eee8cd;
 }
-.illustration2 .st132 {
+.illustration2 .st135 {
 	fill: #d1c5b7;
 }
-.illustration2 .st133 {
+.illustration2 .st136 {
 	fill: #43c48e;
 }
-.illustration2 .st134 {
+.illustration2 .st137 {
 	fill: #279164;
 }
-.illustration2 .st135 {
+.illustration2 .st138 {
 	fill: #4cb08f;
 }
-.illustration2 .st136 {
+.illustration2 .st139 {
 	fill: #0f8253;
 }
-.illustration2 .st137 {
+.illustration2 .st140 {
 	fill: #409b74;
 }
-.illustration2 .st138 {
+.illustration2 .st141 {
 	fill: #808080;
 }
-.illustration2 .st139 {
+.illustration2 .st142 {
 	fill: #4d4d4d;
 }
-.illustration2 .st140 {
+.illustration2 .st143 {
 	-webkit-clip-path: url('#SVGID_30_');
 	        clip-path: url('#SVGID_30_');
 	fill: #e6e6e6;
 }
-.illustration2 .st141 {
+.illustration2 .st144 {
 	fill: #929595;
 }
-.illustration2 .st142 {
+.illustration2 .st145 {
 	fill: #007b3c;
 }
-.illustration2 .st143 {
+.illustration2 .st146 {
 	fill: #009548;
 }
-.illustration2 .st144 {
+.illustration2 .st147 {
 	fill: #00752f;
 }
-.illustration2 .st145 {
+.illustration2 .st148 {
 	fill: #004e23;
 }
-.illustration2 .st146 {
+.illustration2 .st149 {
 	fill: #333;
 }
-.illustration2 .st147 {
+.illustration2 .st150 {
 	fill: #1a1a1a;
 }
-.illustration2 .st148 {
+.illustration2 .st151 {
 	fill: #aeb0b2;
 }
-.illustration2 .st149 {
+.illustration2 .st152 {
 	-webkit-clip-path: url('#SVGID_32_');
 	        clip-path: url('#SVGID_32_');
 	fill: #fff;
 }
-.illustration2 .st150 {
+.illustration2 .st153 {
 	-webkit-clip-path: url('#SVGID_34_');
 	        clip-path: url('#SVGID_34_');
 	fill: #fff;
 }
-.illustration2 .st151 {
+.illustration2 .st154 {
 	fill: #0d592f;
 }
-.illustration2 .st152 {
+.illustration2 .st155 {
 	fill: #829298;
 }
-.illustration2 .st153 {
+.illustration2 .st156 {
 	fill: #ff8900;
 }
-.illustration2 .st154 {
+.illustration2 .st157 {
 	fill: #4eb548;
 }
-.illustration2 .st155 {
+.illustration2 .st158 {
 	fill: #aa5f0e;
 }
-.illustration2 .st156 {
+.illustration2 .st159 {
 	fill: #4a4a4a;
 }
-.illustration2 .st157 {
+.illustration2 .st160 {
 	fill: #272a39;
 }
-.illustration2 .st158 {
+.illustration2 .st161 {
 	fill: #5a5a70;
 }
-.illustration2 .st159 {
+.illustration2 .st162 {
 	fill: #4e4e62;
 }
-.illustration2 .st160 {
+.illustration2 .st163 {
 	-webkit-clip-path: url('#SVGID_36_');
 	        clip-path: url('#SVGID_36_');
 }
-.illustration2 .st161 {
+.illustration2 .st164 {
 	fill: #1e1e1e;
 }
-.illustration2 .st162 {
+.illustration2 .st165 {
 	-webkit-clip-path: url('#SVGID_38_');
 	        clip-path: url('#SVGID_38_');
 	fill: #5e5e5e;
 }
-.illustration2 .st163 {
+.illustration2 .st166 {
 	fill: #141414;
 }
-.illustration2 .st164 {
+.illustration2 .st167 {
 	-webkit-clip-path: url('#SVGID_40_');
 	        clip-path: url('#SVGID_40_');
 	fill: #5e5e5e;
 }
-.illustration2 .st165 {
+.illustration2 .st168 {
 	-webkit-clip-path: url('#SVGID_42_');
 	        clip-path: url('#SVGID_42_');
 	fill: #5e5e5e;
 }
-.illustration2 .st166 {
+.illustration2 .st169 {
 	fill: #232323;
 }
-.illustration2 .st167 {
+.illustration2 .st170 {
 	fill: #161616;
 }
-.illustration2 .st168 {
+.illustration2 .st171 {
 	fill: #4f4f4f;
 }
-.illustration2 .st169 {
+.illustration2 .st172 {
 	fill: #444356;
 }
-.illustration2 .st170 {
+.illustration2 .st173 {
 	fill: #383848;
 }
-.illustration2 .st171 {
+.illustration2 .st174 {
 	-webkit-clip-path: url('#SVGID_44_');
 	        clip-path: url('#SVGID_44_');
 }
-.illustration2 .st172 {
+.illustration2 .st175 {
 	fill: #ddd;
 }
-.illustration2 .st173 {
+.illustration2 .st176 {
 	fill: #a5a5a5;
 }
-.illustration2 .st174 {
+.illustration2 .st177 {
 	-webkit-clip-path: url('#SVGID_46_');
 	        clip-path: url('#SVGID_46_');
 	fill: #8c8c8c;
 }
-.illustration2 .st175 {
+.illustration2 .st178 {
 	fill: #374e5a;
 }
-.illustration2 .st176 {
+.illustration2 .st179 {
 	opacity: .49;
 }
-.illustration2 .st177 {
+.illustration2 .st180 {
 	opacity: .5;
 }
-.illustration2 .st178 {
+.illustration2 .st181 {
 	-webkit-clip-path: url('#SVGID_48_');
 	        clip-path: url('#SVGID_48_');
 }
-.illustration2 .st179 {
+.illustration2 .st182 {
 	-webkit-clip-path: url('#SVGID_50_');
 	        clip-path: url('#SVGID_50_');
 	fill: #8c8c8c;
 }
-.illustration2 .st180 {
+.illustration2 .st183 {
 	-webkit-clip-path: url('#SVGID_52_');
 	        clip-path: url('#SVGID_52_');
 }
-.illustration2 .st181 {
+.illustration2 .st184 {
 	-webkit-clip-path: url('#SVGID_54_');
 	        clip-path: url('#SVGID_54_');
 	fill: #5e5e5e;
 }
-.illustration2 .st182 {
+.illustration2 .st185 {
 	-webkit-clip-path: url('#SVGID_56_');
 	        clip-path: url('#SVGID_56_');
 	fill: #5e5e5e;
 }
-.illustration2 .st183 {
+.illustration2 .st186 {
 	-webkit-clip-path: url('#SVGID_58_');
 	        clip-path: url('#SVGID_58_');
 	fill: #5e5e5e;
 }
-.illustration2 .st184 {
+.illustration2 .st187 {
 	-webkit-clip-path: url('#SVGID_60_');
 	        clip-path: url('#SVGID_60_');
 }
-.illustration2 .st185 {
+.illustration2 .st188 {
 	-webkit-clip-path: url('#SVGID_62_');
 	        clip-path: url('#SVGID_62_');
 	fill: #8c8c8c;
 }
-.illustration2 .st186 {
+.illustration2 .st189 {
 	-webkit-clip-path: url('#SVGID_64_');
 	        clip-path: url('#SVGID_64_');
 }
-.illustration2 .st187 {
+.illustration2 .st190 {
 	-webkit-clip-path: url('#SVGID_66_');
 	        clip-path: url('#SVGID_66_');
 	fill: #8c8c8c;
 }
-.illustration2 .st188 {
+.illustration2 .st191 {
 	fill: #5e0000;
 }
-.illustration2 .st189 {
+.illustration2 .st192 {
 	fill: #de5252;
 }
-.illustration2 .st190 {
+.illustration2 .st193 {
 	fill: #cf2e2e;
 }
-.illustration2 .st191 {
+.illustration2 .st194 {
 	fill: #910f0f;
 }
-.illustration2 .st192 {
+.illustration2 .st195 {
 	fill: #191818;
 }
-.illustration2 .st193 {
+.illustration2 .st196 {
 	fill: #3f3f3f;
 }
-.illustration2 .st194 {
+.illustration2 .st197 {
 	fill: #a62929;
 }
-.illustration2 .st195 {
+.illustration2 .st198 {
 	fill: #7c7860;
 }
-.illustration2 .st196 {
+.illustration2 .st199 {
 	fill: #7c7c7c;
 }
-.illustration2 .st197 {
+.illustration2 .st200 {
 	fill: #424242;
 }
-.illustration2 .st198 {
+.illustration2 .st201 {
 	fill: #e6e6e6;
 }
-.illustration2 .st199 {
+.illustration2 .st202 {
 	fill: #660505;
 }
-.illustration2 .st200 {
+.illustration2 .st203 {
 	fill: #282828;
 }
-.illustration2 .st201 {
+.illustration2 .st204 {
 	fill: #06091c;
 }
-.illustration2 .st202 {
+.illustration2 .st205 {
 	-webkit-clip-path: url('#SVGID_68_');
 	        clip-path: url('#SVGID_68_');
 	fill: #5e5e5e;
 }
-.illustration2 .st203 {
+.illustration2 .st206 {
 	-webkit-clip-path: url('#SVGID_70_');
 	        clip-path: url('#SVGID_70_');
 	fill: #5e5e5e;
 }
-.illustration2 .st204 {
+.illustration2 .st207 {
 	-webkit-clip-path: url('#SVGID_72_');
 	        clip-path: url('#SVGID_72_');
 }
-.illustration2 .st205 {
+.illustration2 .st208 {
 	-webkit-clip-path: url('#SVGID_74_');
 	        clip-path: url('#SVGID_74_');
 	fill: #8c8c8c;
 }
-.illustration2 .st206 {
+.illustration2 .st209 {
 	opacity: .35;
 }
-.illustration2 .st207 {
+.illustration2 .st210 {
 	opacity: .2;
 }
-.illustration2 .st208 {
+.illustration2 .st211 {
 	opacity: .1;
 }
-.illustration2 .st209 {
+.illustration2 .st212 {
 	-webkit-clip-path: url('#SVGID_76_');
 	        clip-path: url('#SVGID_76_');
 	fill: #fff;
 }
-.illustration2 .st210 {
+.illustration2 .st213 {
 	-webkit-clip-path: url('#SVGID_78_');
 	        clip-path: url('#SVGID_78_');
 	fill: #fff;
 }
-.illustration2 .st211 {
+.illustration2 .st214 {
 	opacity: .44;
 	fill: #f4cc03;
 }
-.illustration2 .st212 {
+.illustration2 .st215 {
 	opacity: .44;
 	fill: #f20808;
 }
-.illustration2 .st213 {
+.illustration2 .st216 {
 	opacity: .44;
 	fill: #49dd12;
 }
-.illustration2 .st214 {
+.illustration2 .st217 {
 	fill: #00712e;
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	.illustration2 {
-		width: 165%;
-	}
-}
-@media (max-width: 767px) {
-	.illustration2 {
-		display: none;
-	}
 }
 .illustration3 {
 	right: 0;
@@ -3813,753 +3821,769 @@ footer {
 	fill: #f6f6f6;
 }
 .illustration3 .st6 {
-	opacity: .2;
+	fill: #c6c6c6;
 }
 .illustration3 .st7 {
-	fill: #231f20;
+	enable-background: new;
 }
 .illustration3 .st8 {
-	fill: #545454;
+	fill: #a1a4a5;
 }
 .illustration3 .st9 {
-	fill: #a62929;
+	fill: #545454;
 }
 .illustration3 .st10 {
-	fill: #383838;
+	fill: #a62929;
 }
 .illustration3 .st11 {
-	fill: #cf3e3e;
+	fill: #383838;
 }
 .illustration3 .st12 {
-	fill: #de6666;
+	fill: #cf3e3e;
 }
 .illustration3 .st13 {
-	fill: #2d2d2d;
+	fill: #de6666;
 }
 .illustration3 .st14 {
-	opacity: .2;
-	fill: #231f20;
+	fill: #2d2d2d;
 }
 .illustration3 .st15 {
-	fill: #1e1e1e;
+	fill: #a1a4a5;
+	enable-background: new;
 }
 .illustration3 .st16 {
+	fill: #1e1e1e;
+}
+.illustration3 .st17 {
 	-webkit-clip-path: url('#SVGID_2_');
 	        clip-path: url('#SVGID_2_');
 	fill: #5e5e5e;
 }
-.illustration3 .st17 {
+.illustration3 .st18 {
 	fill: #001215;
 }
-.illustration3 .st18 {
+.illustration3 .st19 {
 	-webkit-clip-path: url('#SVGID_4_');
 	        clip-path: url('#SVGID_4_');
 	fill: #5e5e5e;
 }
-.illustration3 .st19 {
+.illustration3 .st20 {
 	-webkit-clip-path: url('#SVGID_6_');
 	        clip-path: url('#SVGID_6_');
 	fill: #5e5e5e;
 }
-.illustration3 .st20 {
+.illustration3 .st21 {
 	fill: #232323;
 }
-.illustration3 .st21 {
+.illustration3 .st22 {
 	fill: #474747;
 }
-.illustration3 .st22 {
+.illustration3 .st23 {
 	fill: #4f4f4f;
 }
-.illustration3 .st23 {
+.illustration3 .st24 {
 	fill: #cf4848;
 }
-.illustration3 .st24 {
+.illustration3 .st25 {
 	fill: #374e5a;
 }
-.illustration3 .st25 {
+.illustration3 .st26 {
 	fill: #ddd;
 }
-.illustration3 .st26 {
+.illustration3 .st27 {
 	fill: #a5a5a5;
 }
-.illustration3 .st27 {
+.illustration3 .st28 {
 	-webkit-clip-path: url('#SVGID_8_');
 	        clip-path: url('#SVGID_8_');
 	fill: #8c8c8c;
 }
-.illustration3 .st28 {
+.illustration3 .st29 {
 	fill: #56757c;
 }
-.illustration3 .st29 {
+.illustration3 .st30 {
 	opacity: .49;
 	enable-background: new;
 }
-.illustration3 .st30 {
+.illustration3 .st31 {
 	opacity: .5;
 	enable-background: new;
 }
-.illustration3 .st31 {
+.illustration3 .st32 {
 	-webkit-clip-path: url('#SVGID_10_');
 	        clip-path: url('#SVGID_10_');
 	fill: #8c8c8c;
 }
-.illustration3 .st32 {
+.illustration3 .st33 {
 	fill: #4c4c60;
 }
-.illustration3 .st33 {
+.illustration3 .st34 {
 	fill: #5a5a70;
 }
-.illustration3 .st34 {
+.illustration3 .st35 {
 	fill: #272a39;
 }
-.illustration3 .st35 {
+.illustration3 .st36 {
 	-webkit-clip-path: url('#SVGID_12_');
 	        clip-path: url('#SVGID_12_');
 	fill: #5e5e5e;
 }
-.illustration3 .st36 {
+.illustration3 .st37 {
 	fill: #4e4e62;
 }
-.illustration3 .st37 {
+.illustration3 .st38 {
 	-webkit-clip-path: url('#SVGID_14_');
 	        clip-path: url('#SVGID_14_');
 	fill: #5e5e5e;
 }
-.illustration3 .st38 {
+.illustration3 .st39 {
 	fill: #141414;
 }
-.illustration3 .st39 {
+.illustration3 .st40 {
 	fill: #373747;
 }
-.illustration3 .st40 {
+.illustration3 .st41 {
 	-webkit-clip-path: url('#SVGID_16_');
 	        clip-path: url('#SVGID_16_');
 	fill: #5e5e5e;
 }
-.illustration3 .st41 {
+.illustration3 .st42 {
 	fill: #161616;
 }
-.illustration3 .st42 {
+.illustration3 .st43 {
 	fill: #444356;
 }
-.illustration3 .st43 {
+.illustration3 .st44 {
 	fill: #383848;
 }
-.illustration3 .st44 {
+.illustration3 .st45 {
 	-webkit-clip-path: url('#SVGID_18_');
 	        clip-path: url('#SVGID_18_');
 	fill: #8c8c8c;
 }
-.illustration3 .st45 {
+.illustration3 .st46 {
 	-webkit-clip-path: url('#SVGID_20_');
 	        clip-path: url('#SVGID_20_');
 	fill: #8c8c8c;
 }
-.illustration3 .st46 {
+.illustration3 .st47 {
 	fill: #2e3141;
 }
-.illustration3 .st47 {
-	fill: #fff;
-}
 .illustration3 .st48 {
-	fill: #575d63;
+	fill: #c0beb3;
 }
 .illustration3 .st49 {
-	fill: #c7d6d3;
+	fill: #fff;
 }
 .illustration3 .st50 {
-	fill: #999;
+	fill: #575d63;
 }
 .illustration3 .st51 {
-	fill: #cfcfcf;
+	fill: #c7d6d3;
 }
 .illustration3 .st52 {
-	fill: #6c929b;
+	fill: #999;
 }
 .illustration3 .st53 {
-	fill: #97a8a5;
+	fill: #cfcfcf;
 }
 .illustration3 .st54 {
-	fill: #858585;
+	fill: #6c929b;
 }
 .illustration3 .st55 {
-	fill: #666;
+	fill: #97a8a5;
 }
 .illustration3 .st56 {
-	fill: #b3b3b3;
+	opacity: .2;
+	fill: #231f20;
 }
 .illustration3 .st57 {
-	fill: #8a8a8a;
+	fill: #858585;
 }
 .illustration3 .st58 {
-	opacity: .5;
-	fill: #8e96b2;
-	enable-background: new;
+	fill: #666;
 }
 .illustration3 .st59 {
-	fill: #959aa5;
+	fill: #b3b3b3;
 }
 .illustration3 .st60 {
-	fill: #e6e6e6;
+	fill: #8a8a8a;
 }
 .illustration3 .st61 {
-	fill: #ced3db;
+	fill: #959aa5;
 }
 .illustration3 .st62 {
-	fill: #e5e5e5;
+	fill: #e6e6e6;
 }
 .illustration3 .st63 {
-	fill: #999da3;
+	fill: #b2b2b2;
 }
 .illustration3 .st64 {
-	fill: none;
+	fill: #ced3db;
 }
 .illustration3 .st65 {
-	opacity: .5;
-	fill: #231f20;
-	enable-background: new;
+	fill: #e5e5e5;
 }
 .illustration3 .st66 {
-	fill: #c2c6cc;
+	fill: #999da3;
 }
 .illustration3 .st67 {
-	fill: #1a1a1a;
+	fill: none;
 }
 .illustration3 .st68 {
-	fill: #aeb0b2;
+	fill: #c2c6cc;
 }
 .illustration3 .st69 {
-	fill: #4d4d4d;
+	fill: #1a1a1a;
 }
 .illustration3 .st70 {
-	fill: #00752f;
+	fill: #aeb0b2;
 }
 .illustration3 .st71 {
-	fill: #808080;
+	fill: #4d4d4d;
 }
 .illustration3 .st72 {
-	fill: #0d592f;
+	fill: #00752f;
 }
 .illustration3 .st73 {
-	fill: #007b3c;
+	fill: #808080;
 }
 .illustration3 .st74 {
-	fill: #009548;
+	fill: #0d592f;
 }
 .illustration3 .st75 {
-	fill: #4eb548;
+	fill: #007b3c;
 }
 .illustration3 .st76 {
-	fill: #fcd3ac;
+	fill: #009548;
 }
 .illustration3 .st77 {
-	fill: #ff8900;
+	fill: #4eb548;
 }
 .illustration3 .st78 {
-	fill: #829298;
+	fill: #fcd3ac;
 }
 .illustration3 .st79 {
-	fill: #333;
+	fill: #ff8900;
 }
 .illustration3 .st80 {
-	fill: #282828;
+	fill: #829298;
 }
 .illustration3 .st81 {
-	fill: #414140;
+	fill: #333;
 }
 .illustration3 .st82 {
-	fill: #006734;
+	fill: #282828;
 }
 .illustration3 .st83 {
-	fill: #4e5565;
+	fill: #414140;
 }
 .illustration3 .st84 {
-	fill: #485560;
+	fill: #006734;
 }
 .illustration3 .st85 {
-	fill: #5d6f7f;
+	fill: #4e5565;
 }
 .illustration3 .st86 {
-	fill: #545c6c;
+	fill: #485560;
 }
 .illustration3 .st87 {
-	fill: #828a9a;
+	fill: #5d6f7f;
 }
 .illustration3 .st88 {
-	fill: #c4c7c8;
+	fill: #545c6c;
 }
 .illustration3 .st89 {
-	fill: #a8b2b7;
+	fill: #828a9a;
 }
 .illustration3 .st90 {
+	fill: #c4c7c8;
+}
+.illustration3 .st91 {
+	fill: #a8b2b7;
+}
+.illustration3 .st92 {
 	opacity: .35;
 	fill: #4e5565;
 	enable-background: new;
 }
-.illustration3 .st91 {
+.illustration3 .st93 {
 	fill: #9fa7aa;
 }
-.illustration3 .st92 {
+.illustration3 .st94 {
 	fill: #7b8393;
 }
-.illustration3 .st93 {
+.illustration3 .st95 {
 	fill: #585f6b;
 }
-.illustration3 .st94 {
+.illustration3 .st96 {
 	opacity: .5;
 	fill: #19243a;
 	enable-background: new;
 }
-.illustration3 .st95 {
+.illustration3 .st97 {
 	fill: #5b6776;
 }
-.illustration3 .st96 {
+.illustration3 .st98 {
 	fill: #717272;
 }
-.illustration3 .st97 {
+.illustration3 .st99 {
 	fill: #e0e0e0;
 }
-.illustration3 .st98 {
+.illustration3 .st100 {
 	fill: #d7d8d8;
 }
-.illustration3 .st99 {
+.illustration3 .st101 {
 	fill: #575e70;
 }
-.illustration3 .st100 {
+.illustration3 .st102 {
 	fill: #43494f;
 }
-.illustration3 .st101 {
+.illustration3 .st103 {
 	fill: #dff0ec;
 }
-.illustration3 .st102 {
+.illustration3 .st104 {
 	fill: #9c8156;
 }
-.illustration3 .st103 {
+.illustration3 .st105 {
 	fill: #826c48;
 }
-.illustration3 .st104 {
+.illustration3 .st106 {
 	fill: #bc9f77;
 }
-.illustration3 .st105 {
+.illustration3 .st107 {
 	fill: #d4b386;
 }
-.illustration3 .st106 {
+.illustration3 .st108 {
 	fill: #a2cf76;
 }
-.illustration3 .st107 {
+.illustration3 .st109 {
 	fill: #93b855;
 }
-.illustration3 .st108 {
+.illustration3 .st110 {
 	fill: #89a45e;
 }
-.illustration3 .st109 {
+.illustration3 .st111 {
 	fill: #738a4f;
 }
-.illustration3 .st110 {
+.illustration3 .st112 {
 	fill: #476d32;
 }
-.illustration3 .st111 {
-	opacity: .2;
-	fill: #231f20;
-	enable-background: new;
-}
-.illustration3 .st112 {
+.illustration3 .st113 {
 	opacity: .14;
 	enable-background: new;
 }
-.illustration3 .st113 {
+.illustration3 .st114 {
 	opacity: .22;
 	enable-background: new;
 }
-.illustration3 .st114 {
+.illustration3 .st115 {
 	fill: #8b9dab;
 }
-.illustration3 .st115 {
+.illustration3 .st116 {
 	fill: #bdc9de;
 }
-.illustration3 .st116 {
+.illustration3 .st117 {
 	fill: #9eb9c0;
 }
-.illustration3 .st117 {
+.illustration3 .st118 {
 	fill: #9fa4af;
 }
-.illustration3 .st118 {
+.illustration3 .st119 {
 	fill: #a8bab9;
 }
-.illustration3 .st119 {
+.illustration3 .st120 {
 	fill: #8a97ad;
 }
-.illustration3 .st120 {
+.illustration3 .st121 {
 	fill: #6b727b;
 }
-.illustration3 .st121 {
+.illustration3 .st122 {
 	fill: #90a6bf;
 }
-.illustration3 .st122 {
+.illustration3 .st123 {
 	fill: #dfe5e4;
 }
-.illustration3 .st123 {
+.illustration3 .st124 {
 	fill: #eff2f4;
 }
-.illustration3 .st124 {
+.illustration3 .st125 {
 	fill: #ccc;
 }
-.illustration3 .st125 {
+.illustration3 .st126 {
 	-webkit-clip-path: url('#SVGID_22_');
 	        clip-path: url('#SVGID_22_');
 	fill: #575d63;
 }
-.illustration3 .st126 {
+.illustration3 .st127 {
 	fill: #e9faf6;
 }
-.illustration3 .st127 {
+.illustration3 .st128 {
 	fill: #5e656b;
 }
-.illustration3 .st128 {
-	fill: #a3576d;
-}
 .illustration3 .st129 {
-	fill: #dd8787;
+	fill: #9dac76;
 }
 .illustration3 .st130 {
-	fill: #a0696d;
+	fill: #a3576d;
 }
 .illustration3 .st131 {
-	fill: #c5a4a0;
+	fill: #dd8787;
 }
 .illustration3 .st132 {
-	fill: #6e405c;
+	fill: #a0696d;
 }
 .illustration3 .st133 {
-	fill: #e7a491;
+	fill: #c5a4a0;
 }
 .illustration3 .st134 {
-	fill: #c07576;
+	fill: #6e405c;
 }
 .illustration3 .st135 {
-	fill: #474657;
+	fill: #e7a491;
 }
 .illustration3 .st136 {
-	fill: #c38b7c;
+	fill: #c07576;
 }
 .illustration3 .st137 {
-	fill: #5d7f87;
+	fill: #474657;
 }
 .illustration3 .st138 {
-	fill: #93555d;
+	fill: #c38b7c;
 }
 .illustration3 .st139 {
-	fill: #8f6067;
+	fill: #5d7f87;
 }
 .illustration3 .st140 {
-	fill: #773551;
+	fill: #93555d;
 }
 .illustration3 .st141 {
-	fill: #c4b0a4;
+	fill: #8f6067;
 }
 .illustration3 .st142 {
-	fill: #8a6977;
+	fill: #773551;
 }
 .illustration3 .st143 {
-	fill: #bf7a79;
+	fill: #c4b0a4;
 }
 .illustration3 .st144 {
-	fill: #5c7d85;
+	fill: #8a6977;
 }
 .illustration3 .st145 {
-	fill: #a56f77;
+	fill: #bf7a79;
 }
 .illustration3 .st146 {
-	fill: #e8b95f;
+	fill: #5c7d85;
 }
 .illustration3 .st147 {
-	fill: #f1cd87;
+	fill: #a56f77;
 }
 .illustration3 .st148 {
-	fill: #bfbfbf;
+	fill: #e8b95f;
 }
 .illustration3 .st149 {
-	fill: #7b667d;
+	fill: #f1cd87;
 }
 .illustration3 .st150 {
-	enable-background: new;
+	fill: #bfbfbf;
 }
 .illustration3 .st151 {
-	fill: #eecabe;
+	fill: #7b667d;
 }
 .illustration3 .st152 {
-	fill: #84293f;
+	fill: #eecabe;
 }
 .illustration3 .st153 {
-	fill: #a086a3;
+	fill: #84293f;
 }
 .illustration3 .st154 {
-	fill: #b7babc;
+	fill: #a086a3;
 }
 .illustration3 .st155 {
-	fill: #838896;
+	opacity: .2;
+	fill: #231f20;
+	enable-background: new;
 }
 .illustration3 .st156 {
-	fill: #718f8b;
+	fill: #b7babc;
 }
 .illustration3 .st157 {
-	fill: #61989e;
+	fill: #838896;
 }
 .illustration3 .st158 {
-	fill: #4b686f;
+	fill: #a3a3a3;
+	enable-background: new;
 }
 .illustration3 .st159 {
-	fill: #babfd3;
+	fill: #656972;
 }
 .illustration3 .st160 {
-	fill: #76837d;
+	fill: #718f8b;
 }
 .illustration3 .st161 {
-	fill: #e7e8df;
+	fill: #61989e;
 }
 .illustration3 .st162 {
-	fill: #6daaa0;
+	fill: #4b686f;
 }
 .illustration3 .st163 {
-	fill: #3c7559;
+	fill: #babfd3;
 }
 .illustration3 .st164 {
-	fill: #456c70;
+	fill: #76837d;
 }
 .illustration3 .st165 {
-	fill: #2f5b43;
+	fill: #e7e8df;
 }
 .illustration3 .st166 {
-	fill: #dae2e5;
+	fill: #6daaa0;
 }
 .illustration3 .st167 {
-	fill: #253f2d;
+	fill: #3c7559;
 }
 .illustration3 .st168 {
-	fill: #6abb70;
+	fill: #456c70;
 }
 .illustration3 .st169 {
-	fill: #d8e0e8;
+	fill: #2f5b43;
 }
 .illustration3 .st170 {
-	fill: #deb188;
+	fill: #dae2e5;
 }
 .illustration3 .st171 {
-	fill: #ffe59a;
+	fill: #253f2d;
 }
 .illustration3 .st172 {
-	fill: #a6b2bd;
+	fill: #6abb70;
 }
 .illustration3 .st173 {
-	fill: #005c8a;
+	fill: #d8e0e8;
 }
 .illustration3 .st174 {
-	fill: #74a0b8;
+	fill: #deb188;
 }
 .illustration3 .st175 {
-	fill: #437599;
+	fill: #ffe59a;
 }
 .illustration3 .st176 {
-	fill: #31acee;
+	fill: #a6b2bd;
 }
 .illustration3 .st177 {
-	fill: #4dc3f7;
+	fill: #005c8a;
 }
 .illustration3 .st178 {
-	fill: #76dcff;
+	fill: #74a0b8;
 }
 .illustration3 .st179 {
-	fill: #004e23;
+	fill: #437599;
 }
 .illustration3 .st180 {
-	fill: #4a4a4a;
+	fill: #31acee;
 }
 .illustration3 .st181 {
+	fill: #4dc3f7;
+}
+.illustration3 .st182 {
+	fill: #76dcff;
+}
+.illustration3 .st183 {
+	display: none;
+}
+.illustration3 .st184 {
+	display: inline;
+}
+.illustration3 .st185 {
+	fill: #004e23;
+}
+.illustration3 .st186 {
+	fill: #4a4a4a;
+}
+.illustration3 .st187 {
 	-webkit-clip-path: url('#SVGID_24_');
 	        clip-path: url('#SVGID_24_');
 	fill: #fff;
 }
-.illustration3 .st182 {
+.illustration3 .st188 {
 	-webkit-clip-path: url('#SVGID_26_');
 	        clip-path: url('#SVGID_26_');
 	fill: #fff;
 }
-.illustration3 .st183 {
+.illustration3 .st189 {
 	fill: #aa5f0e;
 }
-.illustration3 .st184 {
+.illustration3 .st190 {
 	fill: #d67422;
 }
-.illustration3 .st185 {
+.illustration3 .st191 {
 	-webkit-clip-path: url('#SVGID_28_');
 	        clip-path: url('#SVGID_28_');
 	fill: #5e5e5e;
 }
-.illustration3 .st186 {
+.illustration3 .st192 {
 	-webkit-clip-path: url('#SVGID_30_');
 	        clip-path: url('#SVGID_30_');
 	fill: #5e5e5e;
 }
-.illustration3 .st187 {
+.illustration3 .st193 {
 	-webkit-clip-path: url('#SVGID_32_');
 	        clip-path: url('#SVGID_32_');
 	fill: #5e5e5e;
 }
-.illustration3 .st188 {
+.illustration3 .st194 {
 	-webkit-clip-path: url('#SVGID_34_');
 	        clip-path: url('#SVGID_34_');
 	fill: #8c8c8c;
 }
-.illustration3 .st189 {
+.illustration3 .st195 {
 	-webkit-clip-path: url('#SVGID_36_');
 	        clip-path: url('#SVGID_36_');
 	fill: #8c8c8c;
 }
-.illustration3 .st190 {
+.illustration3 .st196 {
 	fill: #de5252;
 }
-.illustration3 .st191 {
+.illustration3 .st197 {
 	fill: #5e0000;
 }
-.illustration3 .st192 {
+.illustration3 .st198 {
 	fill: #660505;
 }
-.illustration3 .st193 {
+.illustration3 .st199 {
 	fill: #3f3f3f;
 }
-.illustration3 .st194 {
+.illustration3 .st200 {
 	fill: #757575;
 }
-.illustration3 .st195 {
+.illustration3 .st201 {
 	fill: #cf2e2e;
 }
-.illustration3 .st196 {
+.illustration3 .st202 {
 	opacity: .47;
 	fill: #191818;
 }
-.illustration3 .st197 {
+.illustration3 .st203 {
 	fill: #191818;
 }
-.illustration3 .st198 {
+.illustration3 .st204 {
 	fill: #646a7d;
 }
-.illustration3 .st199 {
+.illustration3 .st205 {
 	fill: #f2e600;
 }
-.illustration3 .st200 {
+.illustration3 .st206 {
 	fill: #d3aa00;
 }
-.illustration3 .st201 {
+.illustration3 .st207 {
 	fill: #dccb24;
 }
-.illustration3 .st202 {
+.illustration3 .st208 {
 	fill: #7c7860;
 }
-.illustration3 .st203 {
+.illustration3 .st209 {
 	fill: #424242;
 }
-.illustration3 .st204 {
+.illustration3 .st210 {
 	fill: #d3b900;
 }
-.illustration3 .st205 {
+.illustration3 .st211 {
 	opacity: .44;
 	fill: #424242;
 }
-.illustration3 .st206 {
+.illustration3 .st212 {
 	fill: #635f4c;
 }
-.illustration3 .st207 {
+.illustration3 .st213 {
 	fill: #a55600;
 }
-.illustration3 .st208 {
+.illustration3 .st214 {
 	fill: #ed8100;
 }
-.illustration3 .st209 {
+.illustration3 .st215 {
 	-webkit-clip-path: url('#SVGID_38_');
 	        clip-path: url('#SVGID_38_');
 	fill: #e6e6e6;
 }
-.illustration3 .st210 {
+.illustration3 .st216 {
 	fill: #912200;
 }
-.illustration3 .st211 {
+.illustration3 .st217 {
 	fill: #d33700;
 }
-.illustration3 .st212 {
+.illustration3 .st218 {
 	-webkit-clip-path: url('#SVGID_40_');
 	        clip-path: url('#SVGID_40_');
 	fill: #e6e6e6;
 }
-.illustration3 .st213 {
+.illustration3 .st219 {
 	-webkit-clip-path: url('#SVGID_42_');
 	        clip-path: url('#SVGID_42_');
 	fill: #e6e6e6;
 }
-.illustration3 .st214 {
+.illustration3 .st220 {
 	-webkit-clip-path: url('#SVGID_44_');
 	        clip-path: url('#SVGID_44_');
 	fill: #e6e6e6;
 }
-.illustration3 .st215 {
+.illustration3 .st221 {
 	-webkit-clip-path: url('#SVGID_46_');
 	        clip-path: url('#SVGID_46_');
 	fill: #e6e6e6;
 }
-.illustration3 .st216 {
+.illustration3 .st222 {
 	-webkit-clip-path: url('#SVGID_48_');
 	        clip-path: url('#SVGID_48_');
 	fill: #e6e6e6;
 }
-.illustration3 .st217 {
+.illustration3 .st223 {
 	-webkit-clip-path: url('#SVGID_50_');
 	        clip-path: url('#SVGID_50_');
 	fill: #e6e6e6;
 }
-.illustration3 .st218 {
+.illustration3 .st224 {
 	-webkit-clip-path: url('#SVGID_52_');
 	        clip-path: url('#SVGID_52_');
 	fill: #e6e6e6;
 }
-.illustration3 .st219 {
+.illustration3 .st225 {
 	fill: #ba4242;
 }
-.illustration3 .st220 {
+.illustration3 .st226 {
 	fill: #b9e3dd;
 }
-.illustration3 .st221 {
+.illustration3 .st227 {
 	fill: #63918c;
 }
-.illustration3 .st222 {
+.illustration3 .st228 {
 	fill: #d3ebe8;
 }
-.illustration3 .st223 {
+.illustration3 .st229 {
 	fill: #b1c9c4;
 }
-.illustration3 .st224 {
+.illustration3 .st230 {
 	fill: #ebfffb;
 }
-.illustration3 .st225 {
+.illustration3 .st231 {
 	fill: #5e5e5e;
 }
-.illustration3 .st226 {
+.illustration3 .st232 {
 	fill: #95ada9;
 }
-.illustration3 .st227 {
+.illustration3 .st233 {
 	fill: #913b00;
 }
-.illustration3 .st228 {
+.illustration3 .st234 {
 	fill: #bc4c00;
 }
-.illustration3 .st229 {
+.illustration3 .st235 {
 	fill: #d35a00;
 }
-.illustration3 .st230 {
+.illustration3 .st236 {
 	fill: #717d7c;
 }
-.illustration3 .st231 {
+.illustration3 .st237 {
 	fill: #3d3d3d;
 }
-.illustration3 .st232 {
+.illustration3 .st238 {
 	fill: #00712e;
 }
 .illustration4 {
@@ -4798,1051 +4822,1047 @@ footer {
 	fill: #c0beb3;
 }
 .illustration4 .st71 {
-	opacity: .46;
-	fill: #a1a4a5;
-}
-.illustration4 .st72 {
 	fill: #828282;
 }
-.illustration4 .st73 {
+.illustration4 .st72 {
 	fill: #dbdbdb;
 }
-.illustration4 .st74 {
+.illustration4 .st73 {
 	fill: #bdbdbd;
 }
-.illustration4 .st75 {
+.illustration4 .st74 {
 	fill: #9e9e9e;
 }
-.illustration4 .st76 {
+.illustration4 .st75 {
 	fill: #dce0e0;
 }
-.illustration4 .st77 {
+.illustration4 .st76 {
 	fill: #e4f4f3;
 }
-.illustration4 .st78 {
+.illustration4 .st77 {
 	fill: #8daeb7;
 }
-.illustration4 .st79 {
+.illustration4 .st78 {
 	fill: #b5c2c1;
 }
-.illustration4 .st80 {
+.illustration4 .st79 {
 	fill: #edf2f2;
 }
-.illustration4 .st81 {
+.illustration4 .st80 {
 	fill: #4a6f7c;
 }
-.illustration4 .st82 {
+.illustration4 .st81 {
 	fill: #999;
 }
-.illustration4 .st83 {
+.illustration4 .st82 {
 	fill: #5b5b5b;
 }
-.illustration4 .st84 {
+.illustration4 .st83 {
 	fill: #ccc;
 }
-.illustration4 .st85 {
+.illustration4 .st84 {
 	fill: #56757c;
 }
-.illustration4 .st86 {
+.illustration4 .st85 {
 	fill: #696868;
 }
-.illustration4 .st87 {
+.illustration4 .st86 {
 	fill: #bfd8d3;
 }
-.illustration4 .st88 {
+.illustration4 .st87 {
 	fill: #5e7484;
 }
-.illustration4 .st89 {
+.illustration4 .st88 {
 	fill: #6c929b;
 }
-.illustration4 .st90 {
+.illustration4 .st89 {
 	fill: #808080;
 }
-.illustration4 .st91 {
+.illustration4 .st90 {
 	fill: #b2bdbc;
 }
-.illustration4 .st92 {
+.illustration4 .st91 {
 	fill: #4a7287;
 }
-.illustration4 .st93 {
+.illustration4 .st92 {
 	fill: #abafaf;
 }
-.illustration4 .st94 {
+.illustration4 .st93 {
 	fill: #e3b7ab;
 }
-.illustration4 .st95 {
+.illustration4 .st94 {
 	fill: #a086a3;
 }
-.illustration4 .st96 {
+.illustration4 .st95 {
 	fill: #eecabe;
 }
-.illustration4 .st97 {
+.illustration4 .st96 {
 	fill: #e0e0e0;
 }
-.illustration4 .st98 {
+.illustration4 .st97 {
 	fill: #bfbfbf;
 }
-.illustration4 .st99 {
+.illustration4 .st98 {
 	fill: #f0d9ce;
 }
-.illustration4 .st100 {
+.illustration4 .st99 {
 	fill: #dcbbaa;
 }
-.illustration4 .st101 {
+.illustration4 .st100 {
 	fill: #fcfbf9;
 }
-.illustration4 .st102 {
+.illustration4 .st101 {
 	fill: #fcf2e3;
 }
-.illustration4 .st103 {
+.illustration4 .st102 {
 	fill: #baaaa2;
 }
-.illustration4 .st104 {
+.illustration4 .st103 {
 	fill: #c4c4c3;
 }
-.illustration4 .st105 {
+.illustration4 .st104 {
 	opacity: .65;
 	fill: #83a8b5;
 }
-.illustration4 .st106 {
+.illustration4 .st105 {
 	fill: #8ab4c4;
 }
-.illustration4 .st107 {
+.illustration4 .st106 {
 	-webkit-clip-path: url('#SVGID_8_');
 	        clip-path: url('#SVGID_8_');
 }
-.illustration4 .st108 {
+.illustration4 .st107 {
 	-webkit-clip-path: url('#SVGID_12_');
 	        clip-path: url('#SVGID_12_');
 }
-.illustration4 .st109 {
+.illustration4 .st108 {
 	fill: #7497a5;
 }
-.illustration4 .st110 {
+.illustration4 .st109 {
 	fill: #31acee;
 }
-.illustration4 .st111 {
+.illustration4 .st110 {
 	fill: #4dc3f7;
 }
-.illustration4 .st112 {
+.illustration4 .st111 {
 	fill: #76dcff;
 }
-.illustration4 .st113 {
+.illustration4 .st112 {
 	fill: #dcb7a5;
 }
-.illustration4 .st114 {
+.illustration4 .st113 {
 	fill: #bd918a;
 }
-.illustration4 .st115 {
+.illustration4 .st114 {
 	fill: #abc6c9;
 }
-.illustration4 .st116 {
+.illustration4 .st115 {
 	fill: #134668;
 }
-.illustration4 .st117 {
+.illustration4 .st116 {
 	fill: #5e828e;
 }
-.illustration4 .st118 {
+.illustration4 .st117 {
 	fill: #43c48e;
 }
-.illustration4 .st119 {
+.illustration4 .st118 {
 	fill: #858585;
 }
-.illustration4 .st120 {
+.illustration4 .st119 {
 	fill: #98edc4;
 }
-.illustration4 .st121 {
+.illustration4 .st120 {
 	fill: #279164;
 }
-.illustration4 .st122 {
+.illustration4 .st121 {
 	fill: #83a8b5;
 }
-.illustration4 .st123 {
+.illustration4 .st122 {
 	fill: #b0d7e2;
 }
-.illustration4 .st124 {
+.illustration4 .st123 {
 	fill: #ffe59a;
 }
-.illustration4 .st125 {
+.illustration4 .st124 {
 	fill: #cca37c;
 }
-.illustration4 .st126 {
+.illustration4 .st125 {
 	fill: #ddd2c0;
 }
-.illustration4 .st127 {
+.illustration4 .st126 {
 	fill: #deb188;
 }
-.illustration4 .st128 {
+.illustration4 .st127 {
 	fill: #eed791;
 }
-.illustration4 .st129 {
+.illustration4 .st128 {
 	fill: #fcf0d9;
 }
-.illustration4 .st130 {
+.illustration4 .st129 {
 	fill: #474657;
 }
-.illustration4 .st131 {
+.illustration4 .st130 {
 	fill: #b0aa80;
 }
-.illustration4 .st132 {
+.illustration4 .st131 {
 	fill: #e0b3af;
 }
-.illustration4 .st133 {
+.illustration4 .st132 {
 	fill: #cc8f7f;
 }
-.illustration4 .st134 {
+.illustration4 .st133 {
 	fill: #edc1bc;
 }
-.illustration4 .st135 {
+.illustration4 .st134 {
 	fill: #898383;
 }
-.illustration4 .st136 {
+.illustration4 .st135 {
 	fill: #e2b7af;
 }
-.illustration4 .st137 {
+.illustration4 .st136 {
 	fill: #f2dbb6;
 }
-.illustration4 .st138 {
+.illustration4 .st137 {
 	fill: #f4e5ce;
 }
-.illustration4 .st139 {
+.illustration4 .st138 {
 	fill: #f4e8d7;
 }
-.illustration4 .st140 {
+.illustration4 .st139 {
 	fill: #e5ba7c;
 }
-.illustration4 .st141 {
+.illustration4 .st140 {
 	fill: #e0c277;
 }
-.illustration4 .st142 {
+.illustration4 .st141 {
 	fill: #eabe92;
 }
-.illustration4 .st143 {
+.illustration4 .st142 {
 	fill: #f2ccad;
 }
-.illustration4 .st144 {
+.illustration4 .st143 {
 	fill: #f4d3ab;
 }
-.illustration4 .st145 {
+.illustration4 .st144 {
 	fill: #dfc29e;
 }
-.illustration4 .st146 {
+.illustration4 .st145 {
 	fill: #d1b795;
 }
-.illustration4 .st147 {
+.illustration4 .st146 {
 	fill: #ddc09d;
 }
-.illustration4 .st148 {
+.illustration4 .st147 {
 	fill: #af7b96;
 }
-.illustration4 .st149 {
+.illustration4 .st148 {
 	fill: #996a85;
 }
-.illustration4 .st150 {
+.illustration4 .st149 {
 	fill: #b78aa4;
 }
-.illustration4 .st151 {
+.illustration4 .st150 {
 	fill: #e2c9d8;
 }
-.illustration4 .st152 {
+.illustration4 .st151 {
 	fill: #efdfc5;
 }
-.illustration4 .st153 {
+.illustration4 .st152 {
 	fill: #fffaf0;
 }
-.illustration4 .st154 {
+.illustration4 .st153 {
 	fill: #e8decd;
 }
-.illustration4 .st155 {
+.illustration4 .st154 {
 	fill: #c9c3bc;
 }
-.illustration4 .st156 {
+.illustration4 .st155 {
 	fill: #4cb08f;
 }
-.illustration4 .st157 {
+.illustration4 .st156 {
 	fill: #efe1ca;
 }
-.illustration4 .st158 {
+.illustration4 .st157 {
 	fill: #fcf7ed;
 }
-.illustration4 .st159 {
+.illustration4 .st158 {
 	fill: #fff7c3;
 }
-.illustration4 .st160 {
+.illustration4 .st159 {
 	fill: #c3bbab;
 }
-.illustration4 .st161 {
+.illustration4 .st160 {
 	fill: #b9b09f;
 }
-.illustration4 .st162 {
+.illustration4 .st161 {
 	fill: #eae6df;
 }
-.illustration4 .st163 {
+.illustration4 .st162 {
 	fill: #f9f6f2;
 }
-.illustration4 .st164 {
+.illustration4 .st163 {
 	fill: #737c74;
 }
-.illustration4 .st165 {
+.illustration4 .st164 {
 	fill: #485865;
 }
-.illustration4 .st166 {
+.illustration4 .st165 {
 	fill: #c4b27a;
 }
-.illustration4 .st167 {
+.illustration4 .st166 {
 	fill: #baa06a;
 }
-.illustration4 .st168 {
+.illustration4 .st167 {
 	fill: #af8d6c;
 }
-.illustration4 .st169 {
+.illustration4 .st168 {
 	fill: #409b74;
 }
-.illustration4 .st170 {
+.illustration4 .st169 {
 	fill: #0f8253;
 }
-.illustration4 .st171 {
+.illustration4 .st170 {
 	fill: #4d4d4d;
 }
-.illustration4 .st172 {
+.illustration4 .st171 {
 	-webkit-clip-path: url('#SVGID_16_');
 	        clip-path: url('#SVGID_16_');
 	fill: #fff;
 }
-.illustration4 .st173 {
+.illustration4 .st172 {
 	fill: #2d2d2d;
 }
-.illustration4 .st174 {
+.illustration4 .st173 {
 	opacity: .14;
 }
-.illustration4 .st175 {
+.illustration4 .st174 {
 	opacity: .22;
 }
-.illustration4 .st176 {
+.illustration4 .st175 {
 	fill: #21885e;
 }
-.illustration4 .st177 {
+.illustration4 .st176 {
 	fill: #4ab386;
 }
-.illustration4 .st178 {
+.illustration4 .st177 {
 	fill: #207853;
 }
-.illustration4 .st179 {
+.illustration4 .st178 {
 	fill: #a3576d;
 }
-.illustration4 .st180 {
+.illustration4 .st179 {
 	fill: #d1a3b3;
 }
-.illustration4 .st181 {
+.illustration4 .st180 {
 	fill: #7c4152;
 }
-.illustration4 .st182 {
+.illustration4 .st181 {
 	fill: #4e6b71;
 }
-.illustration4 .st183 {
+.illustration4 .st182 {
 	fill: #6e405c;
 }
-.illustration4 .st184 {
+.illustration4 .st183 {
 	fill: #c5a4a0;
 }
-.illustration4 .st185 {
+.illustration4 .st184 {
 	fill: #c07576;
 }
-.illustration4 .st186 {
+.illustration4 .st185 {
 	fill: #a26364;
 }
-.illustration4 .st187 {
+.illustration4 .st186 {
 	fill: #995044;
 }
-.illustration4 .st188 {
+.illustration4 .st187 {
 	fill: #e7a491;
 }
-.illustration4 .st189 {
+.illustration4 .st188 {
 	fill: #383838;
 }
-.illustration4 .st190 {
+.illustration4 .st189 {
 	fill: #912200;
 }
-.illustration4 .st191 {
+.illustration4 .st190 {
 	fill: #d33700;
 }
-.illustration4 .st192 {
+.illustration4 .st191 {
 	fill: #72210e;
 }
-.illustration4 .st193 {
+.illustration4 .st192 {
 	-webkit-clip-path: url('#SVGID_18_');
 	        clip-path: url('#SVGID_18_');
 	fill: #c65532;
 }
-.illustration4 .st194 {
+.illustration4 .st193 {
 	fill: #c48c00;
 }
-.illustration4 .st195 {
+.illustration4 .st194 {
 	fill: #edaf00;
 }
-.illustration4 .st196 {
+.illustration4 .st195 {
 	fill: #755816;
 }
-.illustration4 .st197 {
+.illustration4 .st196 {
 	-webkit-clip-path: url('#SVGID_20_');
 	        clip-path: url('#SVGID_20_');
 	fill: #c19d42;
 }
-.illustration4 .st198 {
+.illustration4 .st197 {
 	fill: #207500;
 }
-.illustration4 .st199 {
+.illustration4 .st198 {
 	fill: #3daa1a;
 }
-.illustration4 .st200 {
+.illustration4 .st199 {
 	fill: #113504;
 }
-.illustration4 .st201 {
+.illustration4 .st200 {
 	-webkit-clip-path: url('#SVGID_22_');
 	        clip-path: url('#SVGID_22_');
 	fill: #5c9347;
 }
-.illustration4 .st202 {
+.illustration4 .st201 {
 	-webkit-clip-path: url('#SVGID_24_');
 	        clip-path: url('#SVGID_24_');
 	fill: #c65532;
 }
-.illustration4 .st203 {
+.illustration4 .st202 {
 	-webkit-clip-path: url('#SVGID_26_');
 	        clip-path: url('#SVGID_26_');
 	fill: #c19d42;
 }
-.illustration4 .st204 {
+.illustration4 .st203 {
 	-webkit-clip-path: url('#SVGID_28_');
 	        clip-path: url('#SVGID_28_');
 	fill: #5c9347;
 }
-.illustration4 .st205 {
+.illustration4 .st204 {
 	-webkit-clip-path: url('#SVGID_30_');
 	        clip-path: url('#SVGID_30_');
 	fill: #a1a4a5;
 }
-.illustration4 .st206 {
+.illustration4 .st205 {
 	-webkit-clip-path: url('#SVGID_32_');
 	        clip-path: url('#SVGID_32_');
 	fill: #a1a4a5;
 }
-.illustration4 .st207 {
+.illustration4 .st206 {
 	-webkit-clip-path: url('#SVGID_34_');
 	        clip-path: url('#SVGID_34_');
 	fill: #a1a4a5;
 }
-.illustration4 .st208 {
+.illustration4 .st207 {
 	-webkit-clip-path: url('#SVGID_36_');
 	        clip-path: url('#SVGID_36_');
 	fill: #c65532;
 }
-.illustration4 .st209 {
+.illustration4 .st208 {
 	-webkit-clip-path: url('#SVGID_38_');
 	        clip-path: url('#SVGID_38_');
 	fill: #c19d42;
 }
-.illustration4 .st210 {
+.illustration4 .st209 {
 	-webkit-clip-path: url('#SVGID_40_');
 	        clip-path: url('#SVGID_40_');
 	fill: #5c9347;
 }
-.illustration4 .st211 {
+.illustration4 .st210 {
 	fill: #b3b3b3;
 }
-.illustration4 .st212 {
+.illustration4 .st211 {
 	fill: #545454;
 }
-.illustration4 .st213 {
+.illustration4 .st212 {
 	fill: #1a1a1a;
 }
-.illustration4 .st214 {
+.illustration4 .st213 {
 	fill: #aeb0b2;
 }
-.illustration4 .st215 {
+.illustration4 .st214 {
 	fill: #00752f;
 }
-.illustration4 .st216 {
+.illustration4 .st215 {
 	fill: none;
 }
-.illustration4 .st217 {
+.illustration4 .st216 {
 	fill: #009548;
 }
-.illustration4 .st218 {
+.illustration4 .st217 {
 	fill: #007b3c;
 }
-.illustration4 .st219 {
+.illustration4 .st218 {
 	fill: #4eb548;
 }
-.illustration4 .st220 {
+.illustration4 .st219 {
 	fill: #fcae68;
 }
-.illustration4 .st221 {
+.illustration4 .st220 {
 	fill: #ce844d;
 }
-.illustration4 .st222 {
+.illustration4 .st221 {
 	fill: #829298;
 }
-.illustration4 .st223 {
+.illustration4 .st222 {
 	fill: #333;
 }
-.illustration4 .st224 {
+.illustration4 .st223 {
 	fill: #ff8900;
 }
-.illustration4 .st225 {
+.illustration4 .st224 {
 	fill: #ec671c;
 }
-.illustration4 .st226 {
+.illustration4 .st225 {
 	fill: #d36221;
 }
-.illustration4 .st227 {
+.illustration4 .st226 {
 	fill: #1e1e1e;
 }
-.illustration4 .st228 {
+.illustration4 .st227 {
 	-webkit-clip-path: url('#SVGID_48_');
 	        clip-path: url('#SVGID_48_');
 	fill: #5e5e5e;
 }
-.illustration4 .st229 {
+.illustration4 .st228 {
 	fill: #2b2b2b;
 }
-.illustration4 .st230 {
+.illustration4 .st229 {
 	fill: #161616;
 }
-.illustration4 .st231 {
+.illustration4 .st230 {
 	fill: #424242;
 }
-.illustration4 .st232 {
+.illustration4 .st231 {
 	fill: #d67422;
 }
-.illustration4 .st233 {
+.illustration4 .st232 {
 	fill: #998e41;
 }
-.illustration4 .st234 {
+.illustration4 .st233 {
 	fill: #603813;
 }
-.illustration4 .st235 {
+.illustration4 .st234 {
 	fill: #ada455;
 }
-.illustration4 .st236 {
+.illustration4 .st235 {
 	fill: #8c6239;
 }
-.illustration4 .st237 {
+.illustration4 .st236 {
 	fill: #cfc800;
 }
-.illustration4 .st238 {
+.illustration4 .st237 {
 	fill: #fbff88;
 }
-.illustration4 .st239 {
+.illustration4 .st238 {
 	fill: #fbb444;
 }
-.illustration4 .st240 {
+.illustration4 .st239 {
 	fill: #d48c1a;
 }
-.illustration4 .st241 {
+.illustration4 .st240 {
 	fill: #fbc978;
 }
-.illustration4 .st242 {
+.illustration4 .st241 {
 	fill: #ef8943;
 }
-.illustration4 .st243 {
+.illustration4 .st242 {
 	fill: #ed9a40;
 }
-.illustration4 .st244 {
+.illustration4 .st243 {
 	fill: #141414;
 }
-.illustration4 .st245 {
+.illustration4 .st244 {
 	-webkit-clip-path: url('#SVGID_50_');
 	        clip-path: url('#SVGID_50_');
 	fill: #5e5e5e;
 }
-.illustration4 .st246 {
+.illustration4 .st245 {
 	fill: #4f4f4f;
 }
-.illustration4 .st247 {
+.illustration4 .st246 {
 	fill: #7c7860;
 }
-.illustration4 .st248 {
+.illustration4 .st247 {
 	fill: #c7c96b;
 }
-.illustration4 .st249 {
+.illustration4 .st248 {
 	fill: #ef8035;
 }
-.illustration4 .st250 {
+.illustration4 .st249 {
 	fill: none;
 	stroke: #424242;
 	stroke-miterlimit: 10;
 }
-.illustration4 .st251 {
+.illustration4 .st250 {
 	fill: #2e4f5b;
 }
-.illustration4 .st252 {
+.illustration4 .st251 {
 	fill: #6d6d14;
 }
-.illustration4 .st253 {
+.illustration4 .st252 {
 	fill: #969696;
 }
-.illustration4 .st254 {
+.illustration4 .st253 {
 	fill: #fffd5c;
 }
-.illustration4 .st255 {
+.illustration4 .st254 {
 	fill: #5c8993;
 }
-.illustration4 .st256 {
+.illustration4 .st255 {
 	fill: #3f3f3f;
 }
-.illustration4 .st257 {
+.illustration4 .st256 {
 	fill: #e9e731;
 }
-.illustration4 .st258 {
+.illustration4 .st257 {
 	opacity: .29;
 }
-.illustration4 .st259 {
+.illustration4 .st258 {
 	fill: #bc3f19;
 }
-.illustration4 .st260 {
+.illustration4 .st259 {
 	fill: #f75e2f;
 }
-.illustration4 .st261 {
+.illustration4 .st260 {
 	-webkit-clip-path: url('#SVGID_52_');
 	        clip-path: url('#SVGID_52_');
 	fill: #5e5e5e;
 }
-.illustration4 .st262 {
+.illustration4 .st261 {
 	-webkit-clip-path: url('#SVGID_54_');
 	        clip-path: url('#SVGID_54_');
 	fill: #5e5e5e;
 }
-.illustration4 .st263 {
+.illustration4 .st262 {
 	fill: #191818;
 }
-.illustration4 .st264 {
+.illustration4 .st263 {
 	fill: #f4f4f4;
 }
-.illustration4 .st265 {
+.illustration4 .st264 {
 	fill: #536c71;
 }
-.illustration4 .st266 {
+.illustration4 .st265 {
 	fill: #cacccc;
 }
-.illustration4 .st267 {
+.illustration4 .st266 {
 	fill: #f4e84e;
 }
-.illustration4 .st268 {
+.illustration4 .st267 {
 	fill: #346693;
 }
-.illustration4 .st269 {
+.illustration4 .st268 {
 	fill: #ddd;
 }
-.illustration4 .st270 {
+.illustration4 .st269 {
 	fill: #d6d6d4;
 }
-.illustration4 .st271 {
+.illustration4 .st270 {
 	fill: #677d82;
 }
-.illustration4 .st272 {
+.illustration4 .st271 {
 	fill: #4179b5;
 }
-.illustration4 .st273 {
+.illustration4 .st272 {
 	fill: #95b7c5;
 }
-.illustration4 .st274 {
+.illustration4 .st273 {
 	fill: #fff16c;
 }
-.illustration4 .st275 {
+.illustration4 .st274 {
 	fill: #c3d5d8;
 }
-.illustration4 .st276 {
+.illustration4 .st275 {
 	fill: #7e9599;
 }
-.illustration4 .st277 {
+.illustration4 .st276 {
 	fill: #d6d6d6;
 }
-.illustration4 .st278 {
+.illustration4 .st277 {
 	fill: #3f4647;
 }
-.illustration4 .st279 {
+.illustration4 .st278 {
 	fill: #2e3535;
 }
-.illustration4 .st280 {
+.illustration4 .st279 {
 	fill: #707070;
 }
-.illustration4 .st281 {
+.illustration4 .st280 {
 	fill: #3479ad;
 }
-.illustration4 .st282 {
+.illustration4 .st281 {
 	fill: #1b71bf;
 }
-.illustration4 .st283 {
+.illustration4 .st282 {
 	fill: #d8451d;
 }
-.illustration4 .st284 {
+.illustration4 .st283 {
 	fill: #f26940;
 }
-.illustration4 .st285 {
+.illustration4 .st284 {
 	fill: #2d95e2;
 }
-.illustration4 .st286 {
+.illustration4 .st285 {
 	opacity: .5;
 	fill: #008ff9;
 }
-.illustration4 .st287 {
+.illustration4 .st286 {
 	opacity: .5;
 	fill: #f9380b;
 }
-.illustration4 .st288 {
+.illustration4 .st287 {
 	fill: #66b4d4;
 }
-.illustration4 .st289 {
+.illustration4 .st288 {
 	fill: #306ea1;
 }
-.illustration4 .st290 {
+.illustration4 .st289 {
 	fill: #a2ddff;
 }
-.illustration4 .st291 {
+.illustration4 .st290 {
 	fill: #a6d4f0;
 }
-.illustration4 .st292 {
+.illustration4 .st291 {
 	fill: #8ac8ed;
 }
-.illustration4 .st293 {
+.illustration4 .st292 {
 	opacity: .5;
 	fill: #646a7d;
 	enable-background: new;
 }
-.illustration4 .st294 {
+.illustration4 .st293 {
 	fill: #8e8e8e;
 }
-.illustration4 .st295 {
+.illustration4 .st294 {
 	fill: #d0e2e1;
 }
-.illustration4 .st296 {
+.illustration4 .st295 {
 	fill: #a8a8a8;
 }
-.illustration4 .st297 {
+.illustration4 .st296 {
 	fill: #757575;
 }
-.illustration4 .st298 {
+.illustration4 .st297 {
 	fill: #afafaf;
 }
-.illustration4 .st299 {
+.illustration4 .st298 {
 	fill: #adadad;
 }
-.illustration4 .st300 {
+.illustration4 .st299 {
 	fill: #bacacc;
 }
-.illustration4 .st301 {
+.illustration4 .st300 {
 	fill: #d0bed3;
 }
-.illustration4 .st302 {
+.illustration4 .st301 {
 	fill: #9c8ea0;
 }
-.illustration4 .st303 {
+.illustration4 .st302 {
 	fill: #b7cecc;
 }
-.illustration4 .st304 {
+.illustration4 .st303 {
 	fill: #8ca3a1;
 }
-.illustration4 .st305 {
+.illustration4 .st304 {
 	fill: #617f7c;
 }
-.illustration4 .st306 {
+.illustration4 .st305 {
 	fill: #cedddb;
 }
-.illustration4 .st307 {
+.illustration4 .st306 {
 	fill: #869391;
 }
-.illustration4 .st308 {
+.illustration4 .st307 {
 	fill: #f8ffff;
 }
-.illustration4 .st309 {
+.illustration4 .st308 {
 	fill: #a2bdba;
 }
-.illustration4 .st310 {
+.illustration4 .st309 {
 	opacity: .4;
 	fill: #8b9196;
 }
-.illustration4 .st311 {
+.illustration4 .st310 {
 	fill: #8e9f9e;
 }
-.illustration4 .st312 {
+.illustration4 .st311 {
 	fill: #cecece;
 }
-.illustration4 .st313 {
+.illustration4 .st312 {
 	fill: #c4d1d1;
 }
-.illustration4 .st314 {
+.illustration4 .st313 {
 	fill: #a1b3b2;
 }
-.illustration4 .st315 {
+.illustration4 .st314 {
 	-webkit-clip-path: url('#SVGID_56_');
 	        clip-path: url('#SVGID_56_');
 }
-.illustration4 .st316 {
+.illustration4 .st315 {
 	fill: #4c4c4c;
 }
-.illustration4 .st317 {
+.illustration4 .st316 {
 	fill: #212121;
 }
-.illustration4 .st318 {
+.illustration4 .st317 {
 	-webkit-clip-path: url('#SVGID_58_');
 	        clip-path: url('#SVGID_58_');
 }
-.illustration4 .st319 {
+.illustration4 .st318 {
 	-webkit-clip-path: url('#SVGID_60_');
 	        clip-path: url('#SVGID_60_');
 }
-.illustration4 .st320 {
+.illustration4 .st319 {
 	-webkit-clip-path: url('#SVGID_62_');
 	        clip-path: url('#SVGID_62_');
 }
-.illustration4 .st321 {
+.illustration4 .st320 {
 	-webkit-clip-path: url('#SVGID_64_');
 	        clip-path: url('#SVGID_64_');
 }
-.illustration4 .st322 {
+.illustration4 .st321 {
 	-webkit-clip-path: url('#SVGID_66_');
 	        clip-path: url('#SVGID_66_');
 }
-.illustration4 .st323 {
+.illustration4 .st322 {
 	-webkit-clip-path: url('#SVGID_68_');
 	        clip-path: url('#SVGID_68_');
 }
-.illustration4 .st324 {
+.illustration4 .st323 {
 	-webkit-clip-path: url('#SVGID_70_');
 	        clip-path: url('#SVGID_70_');
 }
-.illustration4 .st325 {
+.illustration4 .st324 {
 	fill: #595959;
 }
-.illustration4 .st326 {
+.illustration4 .st325 {
 	fill: #7a7a7a;
 }
-.illustration4 .st327 {
+.illustration4 .st326 {
 	-webkit-clip-path: url('#SVGID_72_');
 	        clip-path: url('#SVGID_72_');
 }
-.illustration4 .st328 {
+.illustration4 .st327 {
 	-webkit-clip-path: url('#SVGID_74_');
 	        clip-path: url('#SVGID_74_');
 }
-.illustration4 .st329 {
+.illustration4 .st328 {
 	-webkit-clip-path: url('#SVGID_76_');
 	        clip-path: url('#SVGID_76_');
 }
-.illustration4 .st330 {
+.illustration4 .st329 {
 	-webkit-clip-path: url('#SVGID_78_');
 	        clip-path: url('#SVGID_78_');
 }
-.illustration4 .st331 {
+.illustration4 .st330 {
 	-webkit-clip-path: url('#SVGID_80_');
 	        clip-path: url('#SVGID_80_');
 }
-.illustration4 .st332 {
+.illustration4 .st331 {
 	-webkit-clip-path: url('#SVGID_82_');
 	        clip-path: url('#SVGID_82_');
 }
-.illustration4 .st333 {
+.illustration4 .st332 {
 	-webkit-clip-path: url('#SVGID_84_');
 	        clip-path: url('#SVGID_84_');
 }
-.illustration4 .st334 {
+.illustration4 .st333 {
 	-webkit-clip-path: url('#SVGID_86_');
 	        clip-path: url('#SVGID_86_');
 }
-.illustration4 .st335 {
+.illustration4 .st334 {
 	fill: #b8bcbd;
 }
-.illustration4 .st336 {
+.illustration4 .st335 {
 	opacity: .2;
 	enable-background: new;
 }
-.illustration4 .st337 {
+.illustration4 .st336 {
 	fill: #231f20;
 }
-.illustration4 .st338 {
+.illustration4 .st337 {
 	fill: #eacd53;
 }
-.illustration4 .st339 {
+.illustration4 .st338 {
 	fill: #6a5c03;
 }
-.illustration4 .st340 {
+.illustration4 .st339 {
 	fill: #d3aa00;
 }
-.illustration4 .st341 {
+.illustration4 .st340 {
 	fill: #646a7d;
 }
-.illustration4 .st342 {
+.illustration4 .st341 {
 	-webkit-clip-path: url('#SVGID_88_');
 	        clip-path: url('#SVGID_88_');
 	fill: #e6e6e6;
 }
-.illustration4 .st343 {
+.illustration4 .st342 {
 	-webkit-clip-path: url('#SVGID_90_');
 	        clip-path: url('#SVGID_90_');
 	fill: #e6e6e6;
 }
-.illustration4 .st344 {
+.illustration4 .st343 {
 	fill: #f7931e;
 }
-.illustration4 .st345 {
+.illustration4 .st344 {
 	fill: #dbb100;
 }
-.illustration4 .st346 {
+.illustration4 .st345 {
 	fill: #dccb24;
 }
-.illustration4 .st347 {
+.illustration4 .st346 {
 	fill: #f2e600;
 }
-.illustration4 .st348 {
+.illustration4 .st347 {
 	fill: #e5be1a;
 }
-.illustration4 .st349 {
+.illustration4 .st348 {
 	fill: #635f4c;
 }
-.illustration4 .st350 {
+.illustration4 .st349 {
 	-webkit-clip-path: url('#SVGID_92_');
 	        clip-path: url('#SVGID_92_');
 	fill: #e6e6e6;
 }
-.illustration4 .st351 {
+.illustration4 .st350 {
 	-webkit-clip-path: url('#SVGID_94_');
 	        clip-path: url('#SVGID_94_');
 	fill: #e6e6e6;
 }
-.illustration4 .st352 {
+.illustration4 .st351 {
 	fill: #d3b900;
 }
-.illustration4 .st353 {
+.illustration4 .st352 {
 	fill: #4c4c60;
 }
-.illustration4 .st354 {
+.illustration4 .st353 {
 	fill: #5a5a70;
 }
-.illustration4 .st355 {
+.illustration4 .st354 {
 	fill: #272a39;
 }
-.illustration4 .st356 {
+.illustration4 .st355 {
 	fill: #5e5e5e;
 }
-.illustration4 .st357 {
+.illustration4 .st356 {
 	fill: #4e4e62;
 }
-.illustration4 .st358 {
+.illustration4 .st357 {
 	fill: #373747;
 }
-.illustration4 .st359 {
+.illustration4 .st358 {
 	fill: #232323;
 }
-.illustration4 .st360 {
+.illustration4 .st359 {
 	fill: #444356;
 }
-.illustration4 .st361 {
+.illustration4 .st360 {
 	fill: #383848;
 }
-.illustration4 .st362 {
+.illustration4 .st361 {
 	fill: #374e5a;
 }
-.illustration4 .st363 {
+.illustration4 .st362 {
 	fill: #a5a5a5;
 }
-.illustration4 .st364 {
+.illustration4 .st363 {
 	fill: #8c8c8c;
 }
-.illustration4 .st365 {
+.illustration4 .st364 {
 	opacity: .49;
 }
-.illustration4 .st366 {
+.illustration4 .st365 {
 	opacity: .5;
 }
-.illustration4 .st367 {
+.illustration4 .st366 {
 	fill: #2e3141;
 }
-.illustration4 .st368 {
+.illustration4 .st367 {
 	-webkit-clip-path: url('#SVGID_96_');
 	        clip-path: url('#SVGID_96_');
 }
-.illustration4 .st369 {
+.illustration4 .st368 {
 	fill: url('#SVGID_97_');
 }
-.illustration4 .st370 {
+.illustration4 .st369 {
 	-webkit-clip-path: url('#SVGID_99_');
 	        clip-path: url('#SVGID_99_');
 	fill: #e6e6e6;
 }
-.illustration4 .st371 {
+.illustration4 .st370 {
 	fill: #c92d2d;
 }
-.illustration4 .st372 {
+.illustration4 .st371 {
 	fill: #a02b2b;
 }
-.illustration4 .st373 {
+.illustration4 .st372 {
 	fill: #7f2020;
 }
-.illustration4 .st374 {
+.illustration4 .st373 {
 	fill: #d33;
 }
-.illustration4 .st375 {
+.illustration4 .st374 {
 	fill: #7c7c7c;
 }
-.illustration4 .st376 {
+.illustration4 .st375 {
 	fill: #e6e6e6;
 }
-.illustration4 .st377 {
+.illustration4 .st376 {
 	fill: #5e0000;
 }
-.illustration4 .st378 {
+.illustration4 .st377 {
 	fill: #660505;
 }
-.illustration4 .st379 {
+.illustration4 .st378 {
 	fill: none;
 	stroke: #494949;
 	stroke-width: .75;
 	stroke-miterlimit: 10;
 }
-.illustration4 .st380 {
+.illustration4 .st379 {
 	fill: #5e4a38;
 }
-.illustration4 .st381 {
+.illustration4 .st380 {
 	fill: #f1f7f7;
 }
-.illustration4 .st382 {
+.illustration4 .st381 {
 	fill: #97a8a5;
 }
-.illustration4 .st383 {
+.illustration4 .st382 {
 	fill: #c7d6d3;
 }
-.illustration4 .st384 {
+.illustration4 .st383 {
 	fill: #8f99a3;
 }
-.illustration4 .st385 {
+.illustration4 .st384 {
 	fill: #a9bfbb;
 }
-.illustration4 .st386 {
+.illustration4 .st385 {
 	fill: #dedede;
 }
-.illustration4 .st387 {
+.illustration4 .st386 {
 	fill: #707880;
 }
-.illustration4 .st388 {
+.illustration4 .st387 {
 	fill: #c4c4c4;
 }
-.illustration4 .st389 {
+.illustration4 .st388 {
 	fill: #f9f9f9;
 }
-.illustration4 .st390 {
+.illustration4 .st389 {
 	fill: #1b5677;
 }
-.illustration4 .st391 {
+.illustration4 .st390 {
 	fill: #c6dde0;
 }
-.illustration4 .st392 {
+.illustration4 .st391 {
 	fill: #b7b7b7;
 }
-.illustration4 .st393 {
+.illustration4 .st392 {
 	fill: #e2e2e2;
 }
-.illustration4 .st394 {
+.illustration4 .st393 {
 	fill: #00712e;
 }
 .illustration5 {
@@ -6743,9 +6763,8 @@ footer {
 	fill: #00712e;
 }
 .illustration6 {
-	top: 19%;
-	left: calc(15px + 8.333333%);
-	max-width: 524px;
+	top: -50px;
+	left: -50px;
 	width: 100%;
 	z-index: 1;
 }
@@ -6759,145 +6778,163 @@ footer {
 	}
 }
 .illustration6 .st0 {
-	fill: #00712e;
+	fill: #165d2c;
 }
 .illustration6 .st1 {
-	opacity: .2;
-	fill: #231f20;
-	enable-background: new;
-}
-.illustration6 .st2 {
-	fill: #1a1a1a;
-}
-.illustration6 .st3 {
-	fill: #878787;
-}
-.illustration6 .st4 {
-	fill: #3f3f3f;
-}
-.illustration6 .st5 {
-	fill: #00752f;
-}
-.illustration6 .st6 {
-	fill: none;
-}
-.illustration6 .st7 {
-	fill: #3c3c3c;
-}
-.illustration6 .st8 {
-	fill: #808080;
-}
-.illustration6 .st9 {
-	fill: #fff;
-}
-.illustration6 .st10 {
-	fill: #009548;
-}
-.illustration6 .st11 {
-	fill: #007b3c;
-}
-.illustration6 .st12 {
-	fill: #4eb548;
-}
-.illustration6 .st13 {
-	fill: #45ac3e;
-}
-.illustration6 .st14 {
-	fill: #ff8900;
-}
-.illustration6 .st15 {
-	fill: #d67422;
-}
-.illustration6 .st16 {
-	fill: #c0c0c0;
-}
-.illustration6 .st17 {
-	fill: #60696c;
-}
-.illustration6 .st18 {
-	fill: #8a8a8a;
-}
-.illustration6 .st19 {
-	fill: #4d4d4d;
-}
-.illustration6 .st20 {
-	fill: #333;
-}
-.illustration6 .st21 {
-	fill: #373737;
-}
-.illustration6 .st22 {
-	fill: #232323;
-}
-.illustration6 .st23 {
-	fill: #616161;
-}
-.illustration6 .st24 {
-	opacity: .45;
-	fill: #d8ae00;
-}
-.illustration6 .st25 {
-	fill: #d8ae00;
-}
-.illustration6 .st26 {
 	fill: #087c39;
 }
-.illustration6 .st27 {
+.illustration6 .st2 {
 	fill: #006027;
 }
-.illustration6 .st28 {
+.illustration6 .st3 {
 	fill: #008235;
 }
-.illustration6 .st29 {
+.illustration6 .st4 {
+	fill: #009548;
+}
+.illustration6 .st5 {
 	fill: #006b2b;
 }
-.illustration6 .st30 {
+.illustration6 .st6 {
 	fill: #02893f;
 }
-.illustration6 .st31 {
-	opacity: .14;
+.illustration6 .st7 {
+	fill: #01481d;
 }
-.illustration6 .st32 {
-	opacity: .22;
+.illustration6 .st8 {
+	fill: #045d27;
 }
-.illustration6 .st33 {
+.illustration6 .st9 {
+	fill: #007036;
+}
+.illustration6 .st10 {
 	fill: #2d2d2d;
 }
-.illustration6 .st34 {
+.illustration6 .st11 {
 	fill: #1cb762;
 }
-.illustration6 .st35 {
+.illustration6 .st12 {
 	fill: #05632b;
 }
-.illustration6 .st36 {
+.illustration6 .st13 {
 	fill: #025423;
 }
-.illustration6 .st37 {
+.illustration6 .st14 {
 	fill: #087f41;
 }
-.illustration6 .st38 {
+.illustration6 .st15 {
 	fill: #037737;
 }
-.illustration6 .st39 {
+.illustration6 .st16 {
 	fill: #006632;
 }
-.illustration6 .st40 {
+.illustration6 .st17 {
 	fill: #028e41;
 }
-.illustration6 .st41 {
+.illustration6 .st18 {
 	fill: #087c37;
 }
-.illustration6 .st42 {
+.illustration6 .st19 {
 	fill: #0a7a37;
 }
-.illustration6 .st43 {
-	fill: #06662d;
-}
-.illustration6 .st44 {
+.illustration6 .st20 {
 	fill: #08823a;
 }
-.illustration6 .st45 {
+.illustration6 .st21 {
 	fill: #0a6d32;
+}
+.illustration6 .st22 {
+	fill: #00712e;
+}
+.illustration6 .st23 {
+	fill: #117f3e;
+}
+.illustration6 .st24 {
+	fill: #1a1a1a;
+}
+.illustration6 .st25 {
+	fill: #878787;
+}
+.illustration6 .st26 {
+	fill: #3f3f3f;
+}
+.illustration6 .st27 {
+	fill: #00752f;
+}
+.illustration6 .st28 {
+	fill: none;
+}
+.illustration6 .st29 {
+	fill: #3c3c3c;
+}
+.illustration6 .st30 {
+	fill: #808080;
+}
+.illustration6 .st31 {
+	fill: #fff;
+}
+.illustration6 .st32 {
+	fill: #007b3c;
+}
+.illustration6 .st33 {
+	fill: #4eb548;
+}
+.illustration6 .st34 {
+	fill: #45ac3e;
+}
+.illustration6 .st35 {
+	fill: #ff8900;
+}
+.illustration6 .st36 {
+	fill: #d67422;
+}
+.illustration6 .st37 {
+	fill: #c0c0c0;
+}
+.illustration6 .st38 {
+	fill: #60696c;
+}
+.illustration6 .st39 {
+	fill: #8a8a8a;
+}
+.illustration6 .st40 {
+	fill: #4d4d4d;
+}
+.illustration6 .st41 {
+	fill: #333;
+}
+.illustration6 .st42 {
+	fill: #373737;
+}
+.illustration6 .st43 {
+	fill: #232323;
+}
+.illustration6 .st44 {
+	fill: #616161;
+}
+.illustration6 .st45 {
+	fill: #6b8a26;
+}
+.illustration6 .st46 {
+	fill: #98981d;
+}
+.illustration6 .st47 {
+	fill: #67551d;
+}
+.illustration6 .st48 {
+	fill: #719f37;
+}
+.illustration6 .st49 {
+	fill: #cab884;
+}
+.illustration6 .st50 {
+	fill: #908450;
+}
+.illustration6 .st51 {
+	fill: #f09802;
+}
+.illustration6 .st52 {
+	fill: #d9ad00;
 }
 .illustration7 {
 	bottom: 0;
@@ -6933,643 +6970,682 @@ footer {
 	fill: #cccab9;
 }
 .illustration7 .st6 {
-	opacity: .2;
-	fill: #231f20;
+	fill: #c0beb3;
 }
 .illustration7 .st7 {
-	fill: #b4949a;
+	fill: #9dac76;
 }
 .illustration7 .st8 {
-	fill: #ccb1a6;
+	fill: #b4949a;
 }
 .illustration7 .st9 {
-	fill: #d3cdc7;
+	fill: #ccb1a6;
 }
 .illustration7 .st10 {
-	fill: #c7d6d3;
+	fill: #d3cdc7;
 }
 .illustration7 .st11 {
-	fill: #7b848c;
+	fill: #c7d6d3;
 }
 .illustration7 .st12 {
-	fill: #f0f7f5;
+	fill: #7b848c;
 }
 .illustration7 .st13 {
-	fill: #a3576d;
+	fill: #f0f7f5;
 }
 .illustration7 .st14 {
-	fill: #773551;
+	fill: #a3576d;
 }
 .illustration7 .st15 {
-	fill: #dd8787;
+	fill: #773551;
 }
 .illustration7 .st16 {
-	fill: #f5cbc7;
+	fill: #dd8787;
 }
 .illustration7 .st17 {
-	fill: #bdc9de;
+	fill: #f5cbc7;
 }
 .illustration7 .st18 {
-	fill: #afd2da;
+	fill: #bdc9de;
 }
 .illustration7 .st19 {
-	fill: #fff;
+	fill: #afd2da;
 }
 .illustration7 .st20 {
-	fill: #a6b2bd;
+	fill: #fff;
 }
 .illustration7 .st21 {
-	fill: #c5a4a0;
+	fill: #a6b2bd;
 }
 .illustration7 .st22 {
-	fill: #bac6cb;
+	fill: #c5a4a0;
 }
 .illustration7 .st23 {
-	fill: #8baea4;
+	fill: #bac6cb;
 }
 .illustration7 .st24 {
-	fill: #6c929b;
+	fill: #8baea4;
 }
 .illustration7 .st25 {
-	fill: #d1dee5;
+	fill: #6c929b;
 }
 .illustration7 .st26 {
-	fill: #a0696d;
+	fill: #d1dee5;
 }
 .illustration7 .st27 {
-	fill: #6b727b;
+	fill: #a0696d;
 }
 .illustration7 .st28 {
-	fill: #575d63;
+	fill: #6b727b;
 }
 .illustration7 .st29 {
-	fill: #e9faf6;
+	fill: #575d63;
 }
 .illustration7 .st30 {
-	fill: #9fa4af;
+	fill: #e9faf6;
 }
 .illustration7 .st31 {
-	fill: #8a97ad;
+	fill: #9fa4af;
 }
 .illustration7 .st32 {
-	fill: #36393d;
+	fill: #8a97ad;
 }
 .illustration7 .st33 {
-	fill: #2d2d2d;
+	fill: #36393d;
 }
 .illustration7 .st34 {
-	fill: #bc9f77;
+	fill: #2d2d2d;
 }
 .illustration7 .st35 {
-	fill: #9c8156;
+	fill: #bc9f77;
 }
 .illustration7 .st36 {
-	fill: #93b855;
+	fill: #9c8156;
 }
 .illustration7 .st37 {
-	fill: #89a45e;
+	fill: #93b855;
 }
 .illustration7 .st38 {
-	fill: #a2cf76;
+	fill: #89a45e;
 }
 .illustration7 .st39 {
-	opacity: .14;
+	fill: #a2cf76;
 }
 .illustration7 .st40 {
-	opacity: .22;
+	opacity: .14;
 }
 .illustration7 .st41 {
-	fill: #826c48;
+	opacity: .22;
 }
 .illustration7 .st42 {
-	fill: #d4b386;
+	fill: #826c48;
 }
 .illustration7 .st43 {
-	fill: #738a4f;
+	fill: #d4b386;
 }
 .illustration7 .st44 {
-	fill: #476d32;
+	fill: #738a4f;
 }
 .illustration7 .st45 {
-	fill: #e5e5e5;
+	fill: #476d32;
 }
 .illustration7 .st46 {
-	fill: #a1b3b2;
+	fill: #c6c6c6;
 }
 .illustration7 .st47 {
-	fill: #b4c7c6;
+	fill: #a1a4a5;
 }
 .illustration7 .st48 {
-	fill: #56757c;
+	fill: #e5e5e5;
 }
 .illustration7 .st49 {
-	fill: #999;
+	fill: #bcbcbc;
 }
 .illustration7 .st50 {
-	fill: #ccc;
+	fill: #b4c7c6;
 }
 .illustration7 .st51 {
-	fill: #ebf2f2;
+	fill: #a1b3b2;
 }
 .illustration7 .st52 {
-	fill: #c4d1d1;
+	fill: #56757c;
 }
 .illustration7 .st53 {
-	fill: #f5f5f5;
+	fill: #999;
 }
 .illustration7 .st54 {
-	fill: #edf2f2;
+	fill: #ccc;
 }
 .illustration7 .st55 {
-	fill: #f8ffff;
+	fill: #808080;
 }
 .illustration7 .st56 {
-	opacity: .4;
-	fill: #8b9196;
+	fill: #ebf2f2;
 }
 .illustration7 .st57 {
-	fill: #757575;
+	fill: #c4d1d1;
 }
 .illustration7 .st58 {
-	fill: #b0d4d1;
+	fill: #f5f5f5;
 }
 .illustration7 .st59 {
-	fill: #9ba5b0;
+	fill: #edf2f2;
 }
 .illustration7 .st60 {
-	opacity: .4;
-	fill: #2f3233;
+	fill: #f8ffff;
 }
 .illustration7 .st61 {
+	fill: #dbdcdd;
+}
+.illustration7 .st62 {
+	fill: #757575;
+}
+.illustration7 .st63 {
+	fill: #b0d4d1;
+}
+.illustration7 .st64 {
+	fill: #9ba5b0;
+}
+.illustration7 .st65 {
+	fill: #666;
+}
+.illustration7 .st66 {
+	fill: #39565b;
+}
+.illustration7 .st67 {
+	fill: #b3b3b3;
+}
+.illustration7 .st68 {
+	fill: #7a8988;
+}
+.illustration7 .st69 {
 	opacity: .73;
 	fill: #2f3233;
 }
-.illustration7 .st62 {
+.illustration7 .st70 {
 	fill: #97a8a5;
 }
-.illustration7 .st63 {
+.illustration7 .st71 {
 	fill: #87a3a1;
 }
-.illustration7 .st64 {
+.illustration7 .st72 {
 	fill: #dff2f1;
 }
-.illustration7 .st65 {
+.illustration7 .st73 {
 	fill: #7b667d;
 }
-.illustration7 .st66 {
+.illustration7 .st74 {
 	fill: #a086a3;
 }
-.illustration7 .st67 {
+.illustration7 .st75 {
 	fill: #eecabe;
 }
-.illustration7 .st68 {
+.illustration7 .st76 {
 	fill: #007d29;
 }
-.illustration7 .st69 {
-	fill: #383838;
-}
-.illustration7 .st70 {
-	fill: #858585;
-}
-.illustration7 .st71 {
-	fill: #666;
-}
-.illustration7 .st72 {
-	fill: #545454;
-}
-.illustration7 .st73 {
-	fill: #b3b3b3;
-}
-.illustration7 .st74 {
-	fill: #8a8a8a;
-}
-.illustration7 .st75 {
-	fill: #e8b95f;
-}
-.illustration7 .st76 {
-	fill: #f1cd87;
-}
 .illustration7 .st77 {
-	fill: #d8e0e8;
+	fill: #708785;
 }
 .illustration7 .st78 {
-	fill: #dff0ec;
+	fill: #91a8a7;
 }
 .illustration7 .st79 {
-	fill: #005c8a;
+	fill: #7d9391;
 }
 .illustration7 .st80 {
-	fill: #74a0b8;
+	fill: #383838;
 }
 .illustration7 .st81 {
-	fill: #437599;
+	fill: #858585;
 }
 .illustration7 .st82 {
-	fill: #4a7287;
+	fill: #545454;
 }
 .illustration7 .st83 {
-	fill: #bdbdbd;
+	fill: #8a8a8a;
 }
 .illustration7 .st84 {
-	fill: #6e405c;
+	fill: #e8b95f;
 }
 .illustration7 .st85 {
-	fill: #9e9e9e;
+	fill: #f1cd87;
 }
 .illustration7 .st86 {
-	fill: #c07576;
+	fill: #d8e0e8;
 }
 .illustration7 .st87 {
-	fill: #e7a491;
+	fill: #dff0ec;
 }
 .illustration7 .st88 {
-	enable-background: new;
+	opacity: .2;
+	fill: #231f20;
 }
 .illustration7 .st89 {
-	fill: #84293f;
+	fill: #005c8a;
 }
 .illustration7 .st90 {
-	fill: #deb188;
+	fill: #74a0b8;
 }
 .illustration7 .st91 {
-	fill: #ffe59a;
+	fill: #437599;
 }
 .illustration7 .st92 {
-	fill: #b2b2b2;
+	fill: #4a7287;
 }
 .illustration7 .st93 {
+	fill: #bdbdbd;
+}
+.illustration7 .st94 {
+	fill: #6e405c;
+}
+.illustration7 .st95 {
+	fill: #9e9e9e;
+}
+.illustration7 .st96 {
+	fill: #c07576;
+}
+.illustration7 .st97 {
+	fill: #e7a491;
+}
+.illustration7 .st98 {
+	enable-background: new;
+}
+.illustration7 .st99 {
+	fill: #84293f;
+}
+.illustration7 .st100 {
+	fill: #deb188;
+}
+.illustration7 .st101 {
+	fill: #ffe59a;
+}
+.illustration7 .st102 {
+	fill: #b2b2b2;
+}
+.illustration7 .st103 {
 	fill: none;
 	stroke: #cdd0d3;
 	stroke-miterlimit: 10;
 }
-.illustration7 .st94 {
+.illustration7 .st104 {
 	fill: #cfcfcf;
 }
-.illustration7 .st95 {
+.illustration7 .st105 {
 	fill: #bfbfbf;
 }
-.illustration7 .st96 {
-	fill: #997b76;
-}
-.illustration7 .st97 {
+.illustration7 .st106 {
 	fill: #a18d85;
 }
-.illustration7 .st98 {
+.illustration7 .st107 {
 	fill: #847680;
 }
-.illustration7 .st99 {
+.illustration7 .st108 {
 	fill: #bd9790;
 }
-.illustration7 .st100 {
-	fill: #cca37c;
-}
-.illustration7 .st101 {
-	fill: #fcf0d9;
-}
-.illustration7 .st102 {
-	opacity: .4;
-	fill: #cca37c;
-}
-.illustration7 .st103 {
-	fill: #007b3c;
-}
-.illustration7 .st104 {
-	fill: #009548;
-}
-.illustration7 .st105 {
-	fill: #00752f;
-}
-.illustration7 .st106 {
-	fill: #004e23;
-}
-.illustration7 .st107 {
-	fill: #4a4a4a;
-}
-.illustration7 .st108 {
-	fill: #1a1a1a;
-}
 .illustration7 .st109 {
-	fill: #4d4d4d;
+	fill: #997b76;
 }
 .illustration7 .st110 {
-	fill: #aeb0b2;
+	fill: #cca37c;
 }
 .illustration7 .st111 {
+	fill: #fcf0d9;
+}
+.illustration7 .st112 {
+	fill: #f9ceb2;
+}
+.illustration7 .st113 {
+	fill: #5d7e84;
+}
+.illustration7 .st114 {
+	fill: #eace96;
+}
+.illustration7 .st115 {
+	fill: #dbc07d;
+}
+.illustration7 .st116 {
+	display: none;
+}
+.illustration7 .st117 {
+	display: inline;
+}
+.illustration7 .st118 {
+	fill: #007b3c;
+}
+.illustration7 .st119 {
+	fill: #009548;
+}
+.illustration7 .st120 {
+	fill: #00752f;
+}
+.illustration7 .st121 {
+	fill: #004e23;
+}
+.illustration7 .st122 {
+	fill: #4a4a4a;
+}
+.illustration7 .st123 {
+	fill: #1a1a1a;
+}
+.illustration7 .st124 {
+	fill: #4d4d4d;
+}
+.illustration7 .st125 {
+	fill: #aeb0b2;
+}
+.illustration7 .st126 {
 	-webkit-clip-path: url('#SVGID_3_');
 	        clip-path: url('#SVGID_3_');
 	fill: #fff;
 }
-.illustration7 .st112 {
+.illustration7 .st127 {
 	-webkit-clip-path: url('#SVGID_5_');
 	        clip-path: url('#SVGID_5_');
 	fill: #fff;
 }
-.illustration7 .st113 {
+.illustration7 .st128 {
 	fill: #0d592f;
 }
-.illustration7 .st114 {
+.illustration7 .st129 {
 	fill: #829298;
 }
-.illustration7 .st115 {
+.illustration7 .st130 {
 	fill: #333;
 }
-.illustration7 .st116 {
+.illustration7 .st131 {
 	fill: #ff8900;
 }
-.illustration7 .st117 {
+.illustration7 .st132 {
 	fill: #4eb548;
 }
-.illustration7 .st118 {
+.illustration7 .st133 {
 	fill: #aa5f0e;
 }
-.illustration7 .st119 {
+.illustration7 .st134 {
 	-webkit-clip-path: url('#SVGID_7_');
 	        clip-path: url('#SVGID_7_');
 	fill: #fff;
 }
-.illustration7 .st120 {
+.illustration7 .st135 {
 	-webkit-clip-path: url('#SVGID_9_');
 	        clip-path: url('#SVGID_9_');
 	fill: #fff;
 }
-.illustration7 .st121 {
+.illustration7 .st136 {
 	fill: #eacd53;
 }
-.illustration7 .st122 {
+.illustration7 .st137 {
 	fill: #6a5c03;
 }
-.illustration7 .st123 {
+.illustration7 .st138 {
 	fill: #d3aa00;
 }
-.illustration7 .st124 {
+.illustration7 .st139 {
 	fill: #646a7d;
 }
-.illustration7 .st125 {
+.illustration7 .st140 {
 	-webkit-clip-path: url('#SVGID_11_');
 	        clip-path: url('#SVGID_11_');
 	fill: #e6e6e6;
 }
-.illustration7 .st126 {
+.illustration7 .st141 {
 	-webkit-clip-path: url('#SVGID_13_');
 	        clip-path: url('#SVGID_13_');
 	fill: #e6e6e6;
 }
-.illustration7 .st127 {
+.illustration7 .st142 {
 	fill: #f7931e;
 }
-.illustration7 .st128 {
+.illustration7 .st143 {
 	fill: #dbb100;
 }
-.illustration7 .st129 {
+.illustration7 .st144 {
 	fill: #dccb24;
 }
-.illustration7 .st130 {
+.illustration7 .st145 {
 	fill: #f2e600;
 }
-.illustration7 .st131 {
+.illustration7 .st146 {
 	fill: #e5be1a;
 }
-.illustration7 .st132 {
+.illustration7 .st147 {
 	fill: #7c7860;
 }
-.illustration7 .st133 {
+.illustration7 .st148 {
 	fill: #635f4c;
 }
-.illustration7 .st134 {
+.illustration7 .st149 {
 	fill: #912200;
 }
-.illustration7 .st135 {
+.illustration7 .st150 {
 	fill: #d33700;
 }
-.illustration7 .st136 {
+.illustration7 .st151 {
 	-webkit-clip-path: url('#SVGID_15_');
 	        clip-path: url('#SVGID_15_');
 	fill: #e6e6e6;
 }
-.illustration7 .st137 {
+.illustration7 .st152 {
 	-webkit-clip-path: url('#SVGID_17_');
 	        clip-path: url('#SVGID_17_');
 	fill: #e6e6e6;
 }
-.illustration7 .st138 {
+.illustration7 .st153 {
 	fill: #424242;
 }
-.illustration7 .st139 {
+.illustration7 .st154 {
 	fill: #d3b900;
 }
-.illustration7 .st140 {
+.illustration7 .st155 {
 	fill: #191818;
 }
-.illustration7 .st141 {
+.illustration7 .st156 {
 	fill: #f4f4f4;
 }
-.illustration7 .st142 {
+.illustration7 .st157 {
 	fill: none;
 }
-.illustration7 .st143 {
+.illustration7 .st158 {
 	fill: #e0e0e0;
 }
-.illustration7 .st144 {
+.illustration7 .st159 {
 	fill: #536c71;
 }
-.illustration7 .st145 {
+.illustration7 .st160 {
 	fill: #cacccc;
 }
-.illustration7 .st146 {
+.illustration7 .st161 {
 	fill: #f4e84e;
 }
-.illustration7 .st147 {
+.illustration7 .st162 {
 	fill: #346693;
 }
-.illustration7 .st148 {
+.illustration7 .st163 {
 	fill: #fcfcfc;
 }
-.illustration7 .st149 {
+.illustration7 .st164 {
 	fill: #ddd;
 }
-.illustration7 .st150 {
+.illustration7 .st165 {
 	fill: #d6d6d4;
 }
-.illustration7 .st151 {
+.illustration7 .st166 {
 	fill: #677d82;
 }
-.illustration7 .st152 {
+.illustration7 .st167 {
 	fill: #4179b5;
 }
-.illustration7 .st153 {
+.illustration7 .st168 {
 	fill: #95b7c5;
 }
-.illustration7 .st154 {
+.illustration7 .st169 {
 	fill: #fff16c;
 }
-.illustration7 .st155 {
+.illustration7 .st170 {
 	fill: #c3d5d8;
 }
-.illustration7 .st156 {
+.illustration7 .st171 {
 	fill: #7e9599;
 }
-.illustration7 .st157 {
+.illustration7 .st172 {
 	fill: #d6d6d6;
 }
-.illustration7 .st158 {
+.illustration7 .st173 {
 	fill: #606060;
 }
-.illustration7 .st159 {
+.illustration7 .st174 {
 	fill: #3f4647;
 }
-.illustration7 .st160 {
+.illustration7 .st175 {
 	fill: #2e3535;
 }
-.illustration7 .st161 {
-	fill: #808080;
-}
-.illustration7 .st162 {
+.illustration7 .st176 {
 	fill: #707070;
 }
-.illustration7 .st163 {
+.illustration7 .st177 {
 	fill: #3479ad;
 }
-.illustration7 .st164 {
+.illustration7 .st178 {
 	fill: #1b71bf;
 }
-.illustration7 .st165 {
+.illustration7 .st179 {
 	fill: #d8451d;
 }
-.illustration7 .st166 {
+.illustration7 .st180 {
 	fill: #f26940;
 }
-.illustration7 .st167 {
+.illustration7 .st181 {
 	fill: #2d95e2;
 }
-.illustration7 .st168 {
+.illustration7 .st182 {
 	opacity: .5;
 	fill: #008ff9;
 }
-.illustration7 .st169 {
+.illustration7 .st183 {
 	opacity: .5;
 	fill: #f9380b;
 }
-.illustration7 .st170 {
+.illustration7 .st184 {
 	fill: #ed6d6d;
 }
-.illustration7 .st171 {
+.illustration7 .st185 {
 	fill: #de5252;
 }
-.illustration7 .st172 {
+.illustration7 .st186 {
 	fill: #a62929;
 }
-.illustration7 .st173 {
+.illustration7 .st187 {
 	fill: #5e0000;
 }
-.illustration7 .st174 {
+.illustration7 .st188 {
 	fill: #660505;
 }
-.illustration7 .st175 {
+.illustration7 .st189 {
 	fill: #1e1e1e;
 }
-.illustration7 .st176 {
+.illustration7 .st190 {
 	fill: #101114;
 }
-.illustration7 .st177 {
+.illustration7 .st191 {
 	-webkit-clip-path: url('#SVGID_19_');
 	        clip-path: url('#SVGID_19_');
 	fill: #a8a8a8;
 }
-.illustration7 .st178 {
+.illustration7 .st192 {
 	-webkit-clip-path: url('#SVGID_21_');
 	        clip-path: url('#SVGID_21_');
 	fill: #a8a8a8;
 }
-.illustration7 .st179 {
+.illustration7 .st193 {
 	fill: #232323;
 }
-.illustration7 .st180 {
+.illustration7 .st194 {
 	fill: #cf2e2e;
 }
-.illustration7 .st181 {
+.illustration7 .st195 {
 	fill: #3f3f3f;
 }
-.illustration7 .st182 {
+.illustration7 .st196 {
 	fill: #ed6464;
 }
-.illustration7 .st183 {
+.illustration7 .st197 {
 	opacity: .47;
 	fill: #191818;
 }
-.illustration7 .st184 {
+.illustration7 .st198 {
 	fill: #878787;
 }
-.illustration7 .st185 {
+.illustration7 .st199 {
 	fill: #5a5a70;
 }
-.illustration7 .st186 {
+.illustration7 .st200 {
 	fill: #444356;
 }
-.illustration7 .st187 {
+.illustration7 .st201 {
 	fill: #272a39;
 }
-.illustration7 .st188 {
+.illustration7 .st202 {
 	fill: #141414;
 }
-.illustration7 .st189 {
+.illustration7 .st203 {
 	-webkit-clip-path: url('#SVGID_23_');
 	        clip-path: url('#SVGID_23_');
 	fill: #5e5e5e;
 }
-.illustration7 .st190 {
+.illustration7 .st204 {
 	fill: #4e4e62;
 }
-.illustration7 .st191 {
+.illustration7 .st205 {
 	fill: #2b2b2b;
 }
-.illustration7 .st192 {
+.illustration7 .st206 {
 	-webkit-clip-path: url('#SVGID_25_');
 	        clip-path: url('#SVGID_25_');
 	fill: #5e5e5e;
 }
-.illustration7 .st193 {
+.illustration7 .st207 {
 	fill: #161616;
 }
-.illustration7 .st194 {
+.illustration7 .st208 {
 	fill: #374e5a;
 }
-.illustration7 .st195 {
+.illustration7 .st209 {
 	opacity: .5;
 }
-.illustration7 .st196 {
+.illustration7 .st210 {
 	fill: #913b00;
 }
-.illustration7 .st197 {
+.illustration7 .st211 {
 	fill: #bc4c00;
 }
-.illustration7 .st198 {
+.illustration7 .st212 {
 	fill: #d35a00;
 }
-.illustration7 .st199 {
+.illustration7 .st213 {
 	fill: #383848;
 }
-.illustration7 .st200 {
+.illustration7 .st214 {
 	-webkit-clip-path: url('#SVGID_27_');
 	        clip-path: url('#SVGID_27_');
 }
-.illustration7 .st201 {
+.illustration7 .st215 {
+	display: inline;
 	opacity: .49;
 	fill: #ff0;
 }
-.illustration7 .st202 {
+.illustration7 .st216 {
 	fill: #454545;
 }
-.illustration7 .st203 {
+.illustration7 .st217 {
 	fill: #8f8f00;
 }
-.illustration7 .st204 {
+.illustration7 .st218 {
 	fill: #ff0;
 }
-.illustration7 .st205 {
-	opacity: .65;
-	fill: #ff0;
+.illustration7 .st219 {
+	fill: #fafa50;
 }
-.illustration7 .st206 {
+.illustration7 .st220 {
 	fill: #00712e;
 }
 .illustration9 {
@@ -7591,7 +7667,8 @@ footer {
 .illustration10 {
 	top: 22%;
 	right: 0;
-	width: 100%;
+	left: 0;
+	width: calc(100% + 30px);
 	z-index: -1;
 	opacity: 0;
 }
@@ -7609,6 +7686,78 @@ footer {
 	.illustration10 {
 		top: 30%;
 	}
+}
+.illustration10 .st0 {
+	fill: #ededed;
+}
+.illustration10 .st1 {
+	fill: #f5e18e;
+}
+.illustration10 .st2 {
+	fill-rule: evenodd;
+	clip-rule: evenodd;
+	fill: #ffcd01;
+}
+.illustration10 .st3 {
+	fill: #007b3c;
+}
+.illustration10 .st4 {
+	fill: #009548;
+}
+.illustration10 .st5 {
+	fill: #00752f;
+}
+.illustration10 .st6 {
+	fill: #004e23;
+}
+.illustration10 .st7 {
+	fill: #4a4a4a;
+}
+.illustration10 .st8 {
+	fill: #1a1a1a;
+}
+.illustration10 .st9 {
+	fill: #4d4d4d;
+}
+.illustration10 .st10 {
+	fill: #aeb0b2;
+}
+.illustration10 .st11 {
+	-webkit-clip-path: url('#SVGID_2_');
+	        clip-path: url('#SVGID_2_');
+	fill: #fff;
+}
+.illustration10 .st12 {
+	-webkit-clip-path: url('#SVGID_4_');
+	        clip-path: url('#SVGID_4_');
+	fill: #fff;
+}
+.illustration10 .st13 {
+	fill: #0d592f;
+}
+.illustration10 .st14 {
+	fill: #829298;
+}
+.illustration10 .st15 {
+	fill: #fff;
+}
+.illustration10 .st16 {
+	fill: #333;
+}
+.illustration10 .st17 {
+	fill: #ff8900;
+}
+.illustration10 .st18 {
+	fill: #4eb548;
+}
+.illustration10 .st19 {
+	fill: #b3b3b3;
+}
+.illustration10 .st20 {
+	fill: #aa5f0e;
+}
+.illustration10 .st21 {
+	fill: #00712e;
 }
 .fp-viewing-screen1.loaded .line1 {
 	-webkit-animation: scaling 1s .9s forwards;

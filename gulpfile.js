@@ -75,6 +75,7 @@ gulp.task("scripts2", function () {
         // "app/libs/magnific-popup/dist/jquery.magnific-popup.js",
         // "app/libs/wow/dist/wow.js",
         // "app/libs/animsition/dist/js/animsition.js",
+        "app/libs/animejs/anime.js",
         'app/libs/jquery-slimscroll/jquery.slimscroll.js',
         'app/libs/fullpage.js/vendors/jquery.easings.min.js',
         'app/libs/fullpage.js/vendors/scrolloverflow.js',
