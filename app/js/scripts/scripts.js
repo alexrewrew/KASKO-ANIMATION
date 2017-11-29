@@ -389,7 +389,7 @@
             easing: 'easeOutQuad',
             offset: 5300,
             complete: function () {
-                var pin = anime({
+                var pin2 = anime({
                     targets: '.pin2',
                     translateY: [
                         {value: 220, duration: 1000},
@@ -476,8 +476,7 @@
     };
 
     function thirdScreenAnimation() {
-        //ANIMATION
-        secondScreen.add({
+        thirdScreen.add({
             targets: '.sand3',
             scale: [
                 {value: 0, duration: 0},
@@ -539,7 +538,182 @@
                 {value: 0, duration: 0},
                 {value: 1, duration: 1000}
             ],
-            offset: 1600
+            offset: 1600,
+            complete: function () {
+                var car37 = anime({
+                    targets: '.car37',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 1000, duration: 4000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 575, duration: 4000},
+                    ],
+                    easing: 'linear',
+                    loop: true,
+                    delay: 5000
+                });
+            }
+        }).add({
+            targets: '.car_before_most_crash',
+            translateX: [
+                {value: -100, duration: 0},
+                {value: -20, duration: 1000},
+                {value: -56, duration: 1000},
+            ],
+            translateY: [
+                {value: -60, duration: 0},
+                {value: -13, duration: 1000},
+                {value: -32, duration: 1000},
+            ],
+            easing: 'easeInOutSine',
+            offset: 2600,
+        }).add({
+            targets: '.most-crash',
+            opacity: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 400},
+            ],
+            easing: 'easeInOutSine',
+            offset: 5200,
+        }).add({
+            targets: '.pin3',
+            translateY: [
+                {value: 0, duration: 0},
+                {value: 285, duration: 1300}
+            ],
+            opacity: [{value: 0}, {value: 1}],
+            easing: 'easeOutQuad',
+            offset: 5700,
+            complete: function () {
+                var pin3 = anime({
+                    targets: '.pin3',
+                    translateY: [
+                        {value: 270, duration: 1000},
+                        {value: 285, duration: 1000}
+                    ],
+                    easing: 'easeInOutQuad',
+                    loop: true
+                });
+            }
+        }).add({
+            targets: '.car31',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 200, duration: 1000},
+                {value: 350, duration: 1000},
+                {value: 850, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -116, duration: 1000},
+                {value: -230, duration: 1000},
+                {value: -530, duration: 3000},
+            ],
+            rotate: [
+                {value: 0, duration: 1000},
+                {value: '-7deg', duration: 300},
+                {value: '-2deg', duration: 600, delay: 700},
+            ],
+            easing: 'linear',
+            offset: 3000,
+            complete: function () {
+                var car38 = anime({
+                    targets: '.car38',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 1100, duration: 4000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 635, duration: 4000},
+                    ],
+                    easing: 'linear',
+                    loop: true,
+                    delay: 5000
+                });
+            }
+        }).add({
+            targets: '.car32',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 231, duration: 1000, easing: 'linear'},
+                {value: 300, duration: 600, easing: 'easeOutSine'},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -134, duration: 1000, easing: 'linear'},
+                {value: -190, duration: 600, easing: 'easeOutSine'},
+            ],
+            rotate: [
+                {value: 0, duration: 1000, easing: 'linear'},
+                {value: '-7deg', duration: 300, easing: 'easeOutSine'},
+            ],
+            offset: 6000,
+        }).add({
+            targets: '.car33',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 267, duration: 1200, easing: 'linear'},
+                {value: 280, duration: 300, easing: 'easeOutSine'},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -153, duration: 1200, easing: 'linear'},
+                {value: -172, duration: 300, easing: 'easeOutSine'},
+            ],
+            rotate: [
+                {value: 0, duration: 1200, easing: 'linear'},
+                {value: '-5deg', duration: 300, easing: 'easeOutSine'},
+            ],
+            offset: 7000,
+            complete: function () {
+                var car36 = anime({
+                    targets: '.car36',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: -400, duration: 2000},
+                        {value: -635, duration: 1500},
+                        {value: -900, duration: 1200},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 225, duration: 2000},
+                        {value: 400, duration: 1500},
+                        {value: 560, duration: 1200},
+                    ],
+                    rotate: [
+                        {value: 0, duration: 2000},
+                        {value: '-5deg', duration: 500},
+                        {value: 0, duration: 400, delay: 900},
+                    ],
+                    easing: 'linear',
+                    delay: 3000
+                });
+            }
+        }).add({
+            targets: '.car34',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 276, duration: 1800, easing: 'easeOutSine'},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -159, duration: 1800, easing: 'easeOutSine'},
+            ],
+            offset: 8500,
+        }).add({
+            targets: '.car35',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 259, duration: 1800, easing: 'easeOutSine'},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -150, duration: 1800, easing: 'easeOutSine'},
+            ],
+            offset: 10000,
         })
     };
 
@@ -562,14 +736,12 @@
                 fadeOutnojquery(hellopreloader);
 
                 if (window.location.hash === '#screen1' || window.location.hash === '') {
-                    firstScrrenAnimation();
-                    showFirstScreen = false;
-                } else if (window.location.hash === '#screen2') {
-                    secondScreenAnimation();
-                    showSecondScreen = false;
-                } else if (window.location.hash === '#screen3') {
-                    thirdScreenAnimation();
-                    showThirdScreen = false;
+                    if (showFirstScreen) {
+                        firstScrrenAnimation();
+                        showFirstScreen = false;
+                    } else {
+                        firstScreen.restart();
+                    }
                 }
             }, 1000);
         };
@@ -614,7 +786,7 @@
                         anime.remove('.blinks2');
                         break;
                     case 3:
-                        thirdScreen.pause();
+                        //thirdScreen.pause();
                 }
 
                 switch (nextIndex) {
@@ -650,7 +822,7 @@
                             }, 200);
                         } else {
                             setTimeout(function () {
-                                thirdScreen.restart()
+                                thirdScreen.restart();
                             }, 200);
                         }
                         break;

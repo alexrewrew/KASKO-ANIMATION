@@ -7876,11 +7876,30 @@ footer {
 	    -ms-transform-origin: 500px 300px;
 	        transform-origin: 500px 300px;
 }
+.tormoz-crash2 {
+	opacity: 0;
+}
+.gelik-after-crash2 {
+	-webkit-transform-origin: 300px 400px;
+	    -ms-transform-origin: 300px 400px;
+	        transform-origin: 300px 400px;
+}
+.cascocar-after-crash-2 {
+	-webkit-transform-origin: 300px 400px;
+	    -ms-transform-origin: 300px 400px;
+	        transform-origin: 300px 400px;
+}
+.blinks2 {
+	opacity: 0;
+}
 .secondstagelight {
 	opacity: 0;
 }
 .crash2 {
 	visibility: hidden;
+}
+.pin2 {
+	opacity: 0;
 }
 .line13 {
 	-webkit-transform-origin: 50% 50%;
@@ -7898,50 +7917,59 @@ footer {
 	        transform-origin: 50% 50%;
 }
 .house13 {
-	transorm-origin: 150px 350px;
+	-webkit-transform-origin: 3250px 1750px;
+	    -ms-transform-origin: 3250px 1750px;
+	        transform-origin: 3250px 1750px;
 }
 .house23 {
-	-webkit-transform-origin: 400px 220px;
-	    -ms-transform-origin: 400px 220px;
-	        transform-origin: 400px 220px;
+	-webkit-transform-origin: 3000px 1900px;
+	    -ms-transform-origin: 3000px 1900px;
+	        transform-origin: 3000px 1900px;
 }
 .house33 {
-	-webkit-transform-origin: 250px 200px;
-	    -ms-transform-origin: 250px 200px;
-	        transform-origin: 250px 200px;
+	-webkit-transform-origin: 2850px 1950px;
+	    -ms-transform-origin: 2850px 1950px;
+	        transform-origin: 2850px 1950px;
 }
 .house43 {
-	-webkit-transform-origin: 150px 200px;
-	    -ms-transform-origin: 150px 200px;
-	        transform-origin: 150px 200px;
+	-webkit-transform-origin: 2780px 2050px;
+	    -ms-transform-origin: 2780px 2050px;
+	        transform-origin: 2780px 2050px;
 }
 .sand3 {
-	-webkit-transform-origin: 500px 300px;
-	    -ms-transform-origin: 500px 300px;
-	        transform-origin: 500px 300px;
+	-webkit-transform-origin: 3000px 2000px;
+	    -ms-transform-origin: 3000px 2000px;
+	        transform-origin: 3000px 2000px;
 }
 .grass3 {
-	-webkit-transform-origin: 500px 300px;
-	    -ms-transform-origin: 500px 300px;
-	        transform-origin: 500px 300px;
+	-webkit-transform-origin: 3000px 2000px;
+	    -ms-transform-origin: 3000px 2000px;
+	        transform-origin: 3000px 2000px;
 }
-.tormoz-crash2 {
+.most-crash {
 	opacity: 0;
 }
-.gelik-after-crash2 {
-	-webkit-transform-origin: 300px 400px;
-	    -ms-transform-origin: 300px 400px;
-	        transform-origin: 300px 400px;
+.car31 {
+	-webkit-transform-origin: 2600px 2200px;
+	    -ms-transform-origin: 2600px 2200px;
+	        transform-origin: 2600px 2200px;
 }
-.cascocar-after-crash-2 {
-	-webkit-transform-origin: 300px 400px;
-	    -ms-transform-origin: 300px 400px;
-	        transform-origin: 300px 400px;
+.car32 {
+	-webkit-transform-origin: 2600px 2200px;
+	    -ms-transform-origin: 2600px 2200px;
+	        transform-origin: 2600px 2200px;
 }
-.blinks2 {
-	opacity: 0;
+.car33 {
+	-webkit-transform-origin: 2600px 2200px;
+	    -ms-transform-origin: 2600px 2200px;
+	        transform-origin: 2600px 2200px;
 }
-.pin2 {
+.car36 {
+	-webkit-transform-origin: 3675px 2050px;
+	    -ms-transform-origin: 3675px 2050px;
+	        transform-origin: 3675px 2050px;
+}
+.pin3 {
 	opacity: 0;
 }
 .comments {
