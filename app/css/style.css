@@ -7972,6 +7972,77 @@ footer {
 .pin3 {
 	opacity: 0;
 }
+.line14 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line24 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line34 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line44 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line54 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.sand4 {
+	-webkit-transform-origin: 200px;
+	    -ms-transform-origin: 200px;
+	        transform-origin: 200px;
+}
+.grass4 {
+	-webkit-transform-origin: 200px;
+	    -ms-transform-origin: 200px;
+	        transform-origin: 200px;
+}
+.house14 {
+	-webkit-transform-origin: 200px;
+	    -ms-transform-origin: 200px;
+	        transform-origin: 200px;
+}
+.house24 {
+	-webkit-transform-origin: 300px 150px;
+	    -ms-transform-origin: 300px 150px;
+	        transform-origin: 300px 150px;
+}
+.house34 {
+	-webkit-transform-origin: 280px 260px;
+	    -ms-transform-origin: 280px 260px;
+	        transform-origin: 280px 260px;
+}
+.house44 {
+	-webkit-transform-origin: 500px;
+	    -ms-transform-origin: 500px;
+	        transform-origin: 500px;
+}
+.house54 {
+	-webkit-transform-origin: 200px 500px;
+	    -ms-transform-origin: 200px 500px;
+	        transform-origin: 200px 500px;
+}
+.car-cross4, .prius-start4, .prius-end4 {
+	visibility: hidden;
+}
+.casco-car4 {
+	-webkit-transform-origin: -49px;
+	    -ms-transform-origin: -49px;
+	        transform-origin: -49px;
+}
+.pin4, .blick-blue-start, .blick-red-start, .blick-blue-end, .blick-red-end {
+	opacity: 0;
+}
 .comments {
 	padding-top: 27px;
 	padding-bottom: 40px;

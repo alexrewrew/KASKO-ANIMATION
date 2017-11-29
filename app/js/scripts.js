@@ -327,7 +327,9 @@ $(function(){
         secondScreen = anime.timeline(),
         showSecondScreen = true,
         thirdScreen = anime.timeline(),
-        showThirdScreen = true;
+        showThirdScreen = true,
+        fourthScreen = anime.timeline(),
+        showFourthScreen = true;
 
     function firstScrrenAnimation() {
         //ANIMATION
@@ -1036,6 +1038,291 @@ $(function(){
         })
     };
 
+    function fourthScrrenAnimation() {
+        fourthScreen.add({
+            targets: '.sand4',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 200
+        }).add({
+            targets: '.grass4',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 0
+        }).add({
+            targets: '.line14',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 400
+        }).add({
+            targets: '.line24',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 600
+        }).add({
+            targets: '.line34',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 800
+        }).add({
+            targets: '.line44',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1000
+        }).add({
+            targets: '.line54',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1200
+        }).add({
+            targets: '.house14',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1400
+        }).add({
+            targets: '.house24',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1600
+        }).add({
+            targets: '.house34',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1800
+        }).add({
+            targets: '.house44',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 2000
+        }).add({
+            targets: '.house54',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 2200,
+            complete: function () {
+                $(".prius-start4").css("visibility", "visible");
+            }
+        }).add({
+            targets: '.casco-car4',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 360, duration: 2500},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: 207, duration: 2500},
+            ],
+            rotate: [
+                {value: 0, duration: 2000},
+                {value: '5deg', duration: 100},
+            ],
+            easing: 'easeOutSine',
+            offset: 2400,
+        }).add({
+            targets: '.pin4',
+            translateY: [
+                {value: 0, duration: 0},
+                {value: 255, duration: 1300}
+            ],
+            opacity: [{value: 0}, {value: 1}],
+            easing: 'easeOutQuad',
+            offset: 5000,
+            complete: function () {
+                var pin4 = anime({
+                    targets: '.pin4',
+                    translateY: [
+                        {value: 235, duration: 1000},
+                        {value: 255, duration: 1000}
+                    ],
+                    easing: 'easeInOutQuad',
+                    loop: true
+                });
+            }
+        }).add({
+            targets: '.evacuator4',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 515, duration: 2700},
+                {value: 485, duration: 1000, easing: 'easeInSine'},
+                {value: 438, duration: 1000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: 295, duration: 2700},
+                {value: 250, duration: 1000, easing: 'easeInSine'},
+                {value: 225, duration: 1000},
+            ],
+            easing: 'easeOutSine',
+            offset: 4900,
+            begin: function () {
+                var car4 = anime({
+                    targets: '.car4',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 620, duration: 2700},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 355, duration: 2700},
+                    ],
+                    easing: 'linear',
+                    loop: true,
+                    delay: 4000,
+                    begin: function () {
+                        var car_cross4 = anime({
+                            targets: '.car-cross4',
+                            translateX: [
+                                {value: 0, duration: 0},
+                                {value: -382, duration: 2000},
+                            ],
+                            translateY: [
+                                {value: 0, duration: 0},
+                                {value: 221, duration: 2000},
+                            ],
+                            easing: 'linear',
+                            loop: true,
+                            delay: 4700,
+                            begin: function () {
+                                $('.car-cross4').css("visibility", 'visible');
+                            }
+                        });
+                    }
+                });
+            }
+        }).add({
+            targets: '.prius-start4',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: -261, duration: 2000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: 150, duration: 2000},
+            ],
+            easing: 'linear',
+            offset: 4900,
+            begin: function () {
+                var blue = anime({
+                    targets: '.blick-blue-start',
+                    opacity: [
+                        {value: 0, duration: 0},
+                        {value: 0.5, duration: 200},
+                        {value: 0, duration: 200}
+                    ],
+                    easing: 'easeInOutSine',
+                    loop: true
+                });
+
+                var red = anime({
+                    targets: '.blick-red-start',
+                    opacity: [
+                        {value: 0.5, duration: 0},
+                        {value: 0, duration: 200},
+                        {value: 0.5, duration: 200}
+                    ],
+                    easing: 'easeInOutSine',
+                    loop: true
+                });
+            },
+            complete: function () {
+                anime.remove('.blick-blue-start');
+                anime.remove('.blick-red-start');
+                $('.prius-start4').css('visibility', 'hidden');
+            }
+        }).add({
+            targets: '.prius-end4',
+            translateX: [
+                {value: -126, duration: 0},
+                {value: 0, duration: 2000},
+            ],
+            translateY: [
+                {value: -80, duration: 0},
+                {value: 0, duration: 2000},
+            ],
+            easing: 'easeOutSine',
+            offset: 6900,
+            begin: function () {
+                var blue = anime({
+                    targets: '.blick-blue-end',
+                    opacity: [
+                        {value: 0, duration: 0},
+                        {value: 0.5, duration: 200},
+                        {value: 0, duration: 200}
+                    ],
+                    easing: 'easeInOutSine',
+                    loop: true
+                });
+
+                var red = anime({
+                    targets: '.blick-red-end',
+                    opacity: [
+                        {value: 0.5, duration: 0},
+                        {value: 0, duration: 200},
+                        {value: 0.5, duration: 200}
+                    ],
+                    easing: 'easeInOutSine',
+                    loop: true
+                });
+                $('.prius-end4').css('visibility', 'visible');
+
+                var smart4 = anime({
+                    targets: '.smart4',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 620, duration: 2700},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 355, duration: 2700},
+                    ],
+                    easing: 'linear',
+                    loop: true,
+                    delay: 4000,
+                    begin: function () {
+                        var gelik4 = anime({
+                            targets: '.gelik4',
+                            translateX: [
+                                {value: 0, duration: 0},
+                                {value: 620, duration: 2700},
+                            ],
+                            translateY: [
+                                {value: 0, duration: 0},
+                                {value: 355, duration: 2700},
+                            ],
+                            easing: 'linear',
+                            loop: true,
+                            delay: 4000
+                        });
+                    }
+                });
+            }
+        })
+    };
+
     function preloader() {
         var hellopreloader = document.getElementById("hellopreloader_preload");
 
@@ -1105,7 +1392,27 @@ $(function(){
                         anime.remove('.blinks2');
                         break;
                     case 3:
-                        //thirdScreen.pause();
+                        thirdScreen.pause();
+                        anime.remove('.car37');
+                        anime.remove('.car38');
+                        anime.remove('.car36');
+                        anime.remove('.pin3');
+                        break;
+                    case 4:
+                        fourthScreen.pause();
+                        $('.prius-start4').css('visibility', 'hidden');
+                        $('.prius-end4').css('visibility', 'hidden');
+                        $('.car-cross4').css('visibility', 'hidden');
+                        anime.remove('.blick-blue-start');
+                        anime.remove('.pin4');
+                        anime.remove('.car4');
+                        anime.remove('.gelik4');
+                        anime.remove('.smart4');
+                        anime.remove('.car-cross4');
+                        anime.remove('.blick-red-start');
+                        anime.remove('.blick-blue-end');
+                        anime.remove('.blick-red-end');
+                        break;
                 }
 
                 switch (nextIndex) {
@@ -1138,10 +1445,22 @@ $(function(){
                             setTimeout(function () {
                                 thirdScreenAnimation();
                                 showThirdScreen = false;
-                            }, 200);
+                            }, 300);
                         } else {
                             setTimeout(function () {
                                 thirdScreen.restart();
+                            }, 200);
+                        }
+                        break;
+                    case 4:
+                        if (showFourthScreen) {
+                            setTimeout(function () {
+                                fourthScrrenAnimation();
+                                showFourthScreen = false;
+                            }, 400);
+                        } else {
+                            setTimeout(function () {
+                                fourthScreen.restart();
                             }, 200);
                         }
                         break;
