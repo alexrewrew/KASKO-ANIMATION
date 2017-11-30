@@ -329,7 +329,9 @@ $(function(){
         thirdScreen = anime.timeline(),
         showThirdScreen = true,
         fourthScreen = anime.timeline(),
-        showFourthScreen = true;
+        showFourthScreen = true,
+        fifthScreen = anime.timeline(),
+        showFifthScreen = true;
 
     function firstScrrenAnimation() {
         //ANIMATION
@@ -1323,6 +1325,427 @@ $(function(){
         })
     };
 
+    function fifthScrrenAnimation() {
+        fifthScreen.add({
+            targets: '.sand5',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 200,
+            begin: function () {
+                var waves = anime({
+                    targets: '.wave',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 30, duration: 4000},
+                        {value: 0, duration: 4000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 5, duration: 4000},
+                        {value: 0, duration: 4000},
+                    ],
+                    easing: 'easeInOutSine',
+                    loop: true
+                });
+            },
+            complete: function () {
+                var car_left1 = anime({
+                    targets: '.car_left1',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: -1140, duration: 5000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 655, duration: 5000},
+                    ],
+                    easing: 'linear',
+                    delay: 5000,
+                    loop: true,
+                });
+            }
+        }).add({
+            targets: '.line15',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 400
+        }).add({
+            targets: '.line25',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 600
+        }).add({
+            targets: '.line35',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 800
+        }).add({
+            targets: '.line45',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1000,
+            complete: function () {
+                var boat = anime({
+                    targets: '.boat',
+                    rotate: [
+                        {value: 0, duration: 0},
+                        {value: '-5deg', duration: 2000},
+                        {value: 0, duration: 2000},
+                        {value: '5deg', duration: 2000},
+                        {value: 0, duration: 2000},
+                    ],
+                    easing: 'linear',
+                    loop: true
+                });
+            }
+        }).add({
+            targets: '.bus5-before',
+            translateX: [
+                {value: -180, duration: 0},
+                {value: 535, duration: 2700},
+            ],
+            translateY: [
+                {value: 105, duration: 0},
+                {value: -309, duration: 2700},
+            ],
+            rotate: [
+                {value: 0, duration: 0},
+                {value: '3deg', duration: 300, delay: 2400},
+                {value: 0, duration: 150},
+            ],
+            easing: 'easeOutSine',
+            offset: 1200,
+            complete: function () {
+                $('.bus5-before').css('visibility', 'hidden');
+                $('.bus5-crash').css('visibility', 'visible');
+                var car_left2 = anime({
+                    targets: '.car_left2',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: -1140, duration: 5000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 655, duration: 5000},
+                    ],
+                    easing: 'linear',
+                    delay: 5000,
+                    loop: true,
+                });
+            }
+        }).add({
+            targets: '.smart5-before',
+            translateX: [
+                {value: -180, duration: 0},
+                {value: 593, duration: 2700},
+            ],
+            translateY: [
+                {value: 105, duration: 0},
+                {value: -355, duration: 2700},
+            ],
+            rotate: [
+                {value: 0, duration: 0},
+                {value: '-3deg', duration: 300, delay: 2400},
+                {value: 0, duration: 150},
+            ],
+            easing: 'easeOutSine',
+            offset: 1200,
+            complete: function () {
+                $('.smart5-before').css('visibility', 'hidden');
+                $('.smart5-crash').css('visibility', 'visible');
+            }
+        }).add({
+            targets: '.cascocar5-before',
+            translateX: [
+                {value: -180, duration: 0},
+                {value: 575, duration: 2700},
+            ],
+            translateY: [
+                {value: 105, duration: 0},
+                {value: -332, duration: 2700},
+            ],
+            easing: 'linear',
+            offset: 1200,
+            complete: function () {
+                $('.cascocar5-before').css('visibility', 'hidden');
+                $('.cascocar5-crash').css('visibility', 'visible');
+                var cascocar5_crash = anime({
+                    targets: '.cascocar5-crash',
+                    translateX: [
+                        {value: -30, duration: 0},
+                        {value: 0, duration: 500},
+                    ],
+                    translateY: [
+                        {value: 5, duration: 0},
+                        {value: 0, duration: 500},
+                    ],
+                    easing: 'easeOutSine',
+                    complete: function () {
+                        $('.crash5').css('visibility', 'visible');
+                        var blinks5 = anime({
+                            targets: '.blinks5',
+                            opacity: [
+                                {value: 0, duration: 0},
+                                {value: 1, duration: 300},
+                                {value: 0, duration: 300},
+                            ],
+                            easing: 'easeInOutSine',
+                            loop: true,
+                        });
+                    }
+                });
+
+            }
+        }).add({
+            targets: '.tormoz5',
+            translateX: [
+                {value: -61, duration: 0},
+                {value: 0, duration: 600},
+            ],
+            translateY: [
+                {value: 21, duration: 0},
+                {value: 0, duration: 600},
+            ],
+            opacity: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000},
+            ],
+            easing: 'easeOutSine',
+            offset: 3700,
+        }).add({
+            targets: '.tormoz_plazhka5',
+            translateX: [
+                {value: -46, duration: 0},
+            ],
+            translateY: [
+                {value: 10, duration: 0},
+            ],
+            easing: 'easeOutSine'
+        }).add({
+            targets: '.car_right1',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 2000,
+        }).add({
+            targets: '.car_right2',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 2200,
+        }).add({
+            targets: '.car_right3',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 2400,
+        }).add({
+            targets: '.car_right4',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 2600,
+        }).add({
+            targets: '.car_right5',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 2800,
+        }).add({
+            targets: '.car_right6',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 3000,
+        }).add({
+            targets: '.car_right7',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 3200,
+        }).add({
+            targets: '.car_right8',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 3400,
+            complete: function () {
+                var car_left3 = anime({
+                    targets: '.car_left3',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: -1140, duration: 5000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 655, duration: 5000},
+                    ],
+                    easing: 'linear',
+                    delay: 5000,
+                    loop: true,
+                });
+            }
+        }).add({
+            targets: '.car_right9',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 3600,
+        }).add({
+            targets: '.car_right10',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 3800,
+        }).add({
+            targets: '.car_right11',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 4000,
+        }).add({
+            targets: '.car_right12',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 4200,
+        }).add({
+            targets: '.car_right13',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 4400,
+        }).add({
+            targets: '.car_right14',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 4600,
+        }).add({
+            targets: '.car_right15',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 636, duration: 3000},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -368, duration: 3000},
+            ],
+            easing: 'easeOutSine',
+            offset: 4800,
+            complete: function () {
+                var car_left4 = anime({
+                    targets: '.car_left4',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: -1140, duration: 5000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 655, duration: 5000},
+                    ],
+                    easing: 'linear',
+                    delay: 5000,
+                    loop: true,
+                });
+            }
+        })
+    };
+
     function preloader() {
         var hellopreloader = document.getElementById("hellopreloader_preload");
 
@@ -1413,6 +1836,23 @@ $(function(){
                         anime.remove('.blick-blue-end');
                         anime.remove('.blick-red-end');
                         break;
+                    case 5:
+                        fifthScreen.pause();
+                        anime.remove('.wave');
+                        anime.remove('.car_left1');
+                        anime.remove('.car_left2');
+                        anime.remove('.car_left3');
+                        anime.remove('.car_left4');
+                        anime.remove('.boat');
+                        anime.remove('.blinks5');
+                        $('.crash5').css('visibility', 'hidden');
+                        $('.cascocar5-before').css('visibility', 'visible');
+                        $('.cascocar5-crash').css('visibility', 'hidden');
+                        $('.smart5-before').css('visibility', 'visible');
+                        $('.smart5-crash').css('visibility', 'hidden');
+                        $('.bus5-before').css('visibility', 'visible');
+                        $('.bus5-crash').css('visibility', 'hidden');
+                        break;
                 }
 
                 switch (nextIndex) {
@@ -1461,6 +1901,18 @@ $(function(){
                         } else {
                             setTimeout(function () {
                                 fourthScreen.restart();
+                            }, 200);
+                        }
+                        break;
+                    case 5:
+                        if (showFifthScreen) {
+                            setTimeout(function () {
+                                fifthScrrenAnimation();
+                                showFifthScreen = false;
+                            }, 400);
+                        } else {
+                            setTimeout(function () {
+                                fifthScreen.restart();
                             }, 200);
                         }
                         break;

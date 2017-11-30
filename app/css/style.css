@@ -8043,6 +8043,50 @@ footer {
 .pin4, .blick-blue-start, .blick-red-start, .blick-blue-end, .blick-red-end {
 	opacity: 0;
 }
+.line15 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line25 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line35 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line45 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line45.boat {
+	-webkit-transform-origin: 475px;
+	    -ms-transform-origin: 475px;
+	        transform-origin: 475px;
+}
+.sand5 {
+	-webkit-transform-origin: 1200px;
+	    -ms-transform-origin: 1200px;
+	        transform-origin: 1200px;
+}
+.bus5-before, .smart5-before {
+	-webkit-transform-origin: 500px 550px;
+	    -ms-transform-origin: 500px 550px;
+	        transform-origin: 500px 550px;
+}
+.crash5 {
+	visibility: hidden;
+}
+.blinks5 {
+	opacity: 0;
+}
+.pin5 {
+	opacity: 0;
+}
 .comments {
 	padding-top: 27px;
 	padding-bottom: 40px;
