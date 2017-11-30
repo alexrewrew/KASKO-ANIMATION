@@ -1746,6 +1746,107 @@ $(function(){
         })
     };
 
+    function sixthScrrenAnimation() {
+        var strips6 = anime({
+            targets: '.strips6',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: 140, duration: 1500},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -80, duration: 1500},
+            ],
+            easing: 'linear',
+            loop: true,
+        });
+
+        var cascocar6 = anime({
+            targets: '.cascocar6',
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -3, duration: 400},
+                {value: 0, duration: 400},
+            ],
+            easing: 'easeInOutSine',
+            loop: true,
+        });
+
+        var trees6 = anime({
+            targets: '.trees6',
+            translateX: [
+                {value: -420, duration: 0},
+                {value: 1680, duration: 15000},
+            ],
+            translateY: [
+                {value: 240, duration: 0},
+                {value: -960, duration: 15000},
+            ],
+            easing: 'linear',
+            loop: true
+        });
+
+        var tree61 = anime({
+            targets: '.tree61',
+            opacity: [
+                {value: 0, duration: 0},
+                {value: 0, duration: 1500},
+                {value: 1, duration: 1000},
+                {value: 1, duration: 2000},
+                {value: 0, duration: 1000},
+                {value: 0, duration: 9500}
+            ],
+            easing: 'easeInOutSine',
+            delay: 0,
+            loop: true
+        });
+
+        var tree64 = anime({
+            targets: '.tree64',
+            opacity: [
+                {value: 0, duration: 0},
+                {value: 0, duration: 4000},
+                {value: 1, duration: 1000},
+                {value: 1, duration: 1500},
+                {value: 0, duration: 1000},
+                {value: 0, duration: 7500}
+            ],
+            easing: 'easeInOutSine',
+            delay: 0,
+            loop: true
+        });
+
+        var tree63 = anime({
+            targets: '.tree63',
+            opacity: [
+                {value: 0, duration: 0},
+                {value: 0, duration: 6000},
+                {value: 1, duration: 1000},
+                {value: 1, duration: 2500},
+                {value: 0, duration: 1000},
+                {value: 0, duration: 4500}
+            ],
+            easing: 'easeInOutSine',
+            delay: 0,
+            loop: true
+        });
+
+        var tree62 = anime({
+            targets: '.tree62',
+            opacity: [
+                {value: 0, duration: 0},
+                {value: 0, duration: 9000},
+                {value: 1, duration: 1000},
+                {value: 1, duration: 1500},
+                {value: 0, duration: 1000},
+                {value: 0, duration: 2500}
+            ],
+            easing: 'easeInOutSine',
+            delay: 0,
+            loop: true
+        });
+    };
+
     function preloader() {
         var hellopreloader = document.getElementById("hellopreloader_preload");
 
@@ -1853,6 +1954,15 @@ $(function(){
                         $('.bus5-before').css('visibility', 'visible');
                         $('.bus5-crash').css('visibility', 'hidden');
                         break;
+                    case 6:
+                        anime.remove('.strips6');
+                        anime.remove('.cascocar6');
+                        anime.remove('.trees6');
+                        anime.remove('.tree61');
+                        anime.remove('.tree62');
+                        anime.remove('.tree63');
+                        anime.remove('.tree64');
+                        break;
                 }
 
                 switch (nextIndex) {
@@ -1915,6 +2025,11 @@ $(function(){
                                 fifthScreen.restart();
                             }, 200);
                         }
+                        break;
+                    case 6:
+                        setTimeout(function () {
+                            sixthScrrenAnimation();
+                        }, 400);
                         break;
                 }
             }
