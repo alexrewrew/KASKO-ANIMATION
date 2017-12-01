@@ -282,11 +282,100 @@ $(function(){
                         $(".form-order--success").slideDown();
                         $(".illustration.illustration10").css("opacity", "1");
 
+                        var path = anime.path('.path10');
+
+                        anime({
+                            targets: '.circle10',
+                            translateX: path('x'),
+                            translateY: path('y'),
+                            scale: [
+                                {value: 1, duration: 2200},
+                                {value: 0, duration: 100}
+                            ],
+                            cy: [
+                                {value: -25, duration: 2000},
+                                {value: -50, duration: 500}
+                            ],
+                            duration: 6000,
+                            easing: 'linear',
+                            begin: function () {
+                                anime({
+                                    targets: '.circle10',
+                                    cx: [
+                                        {value: 0, duration: 0},
+                                        {value: 20, duration: 500},
+                                        {value: 30, duration: 300},
+                                        {value: 0, duration: 200},
+                                        {value: 0, duration: 500},
+                                        {value: 0, duration: 4500},
+                                    ],
+                                    duration: 6000,
+                                    loop: true,
+                                    easing: 'linear',
+                                });
+                            }
+                        });
+
+                        anime({
+                            targets: '.cascocar10',
+                            scale: [
+                                {value: 0, duration: 0},
+                                {value: 0, duration: 2000},
+                                {value: 1, duration: 500},
+                                {value: 1, duration: 3500}
+                            ],
+                            translateX: [
+                                {value: -100, duration: 0},
+                                {value: -100, duration: 2000},
+                                {value: 0, duration: 500},
+                                {value: 0, duration: 3500}
+                            ],
+                            translateY: [
+                                {value: 62, duration: 0},
+                                {value: 62, duration: 2000},
+                                {value: 0, duration: 500},
+                                {value: 0, duration: 3500}
+                            ],
+                            duration: 6000,
+                            easing: 'easeInOutSine',
+                            begin: function () {
+                                anime({
+                                    targets: '.pin10',
+                                    opacity: [
+                                        {value: 0, duration: 0},
+                                        {value: 1, duration: 1000},
+                                    ],
+                                    translateY: [
+                                        {value: -200, duration: 0},
+                                        {value: 0, duration: 1000}
+                                    ],
+                                    duration: 1000,
+                                    delay: 2000,
+                                    easing: 'easeInOutSine',
+                                    complete: function () {
+                                        anime({
+                                            targets: '.pin10',
+                                            translateY: [
+                                                {value: -10, duration: 1000},
+                                                {value: 0, duration: 1000}
+                                            ],
+                                            easing: 'easeInOutQuad',
+                                            loop: true
+                                        });
+                                    }
+                                });
+                            }
+                        });
+
                         setTimeout(function () {
                             $(".form-order--header").slideDown();
                             $(".form-order--flex").slideDown();
                             $(".form-order--success").slideUp();
                             $(".illustration.illustration10").css("opacity", "0");
+
+                            anime.remove('.pin10');
+                            anime.remove('.cascocar10');
+                            anime.remove('.circle10');
                         }, 10000);
                     } else {
                         form.find('button').removeAttr('disabled');
@@ -315,5 +404,9 @@ $(function(){
         $(".form-order--flex").slideDown();
         $(".form-order--success").slideUp();
         $(".illustration.illustration10").css("opacity", "0");
+
+        anime.remove('.pin10');
+        anime.remove('.cascocar10');
+        anime.remove('.circle10');
     });
 });
