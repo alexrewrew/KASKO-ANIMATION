@@ -289,6 +289,7 @@ $(function(){
                             translateX: path('x'),
                             translateY: path('y'),
                             scale: [
+                                {value: 1, duration: 0},
                                 {value: 1, duration: 2200},
                                 {value: 0, duration: 100}
                             ],

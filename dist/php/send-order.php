@@ -23,7 +23,7 @@ if(!empty($_POST)){
     $arUsers = array(
         array(
             "NAME"=>"Арсенал Страхування",
-            "EMAIL"=>""
+            "EMAIL"=>"maxim@volta.one"//change email here
         )
     );
 
