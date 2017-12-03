@@ -7949,12 +7949,12 @@ footer {
 .most-crash {
 	opacity: 0;
 }
-.car31 {
+.car13 {
 	-webkit-transform-origin: 2600px 2200px;
 	    -ms-transform-origin: 2600px 2200px;
 	        transform-origin: 2600px 2200px;
 }
-.car32 {
+.car23 {
 	-webkit-transform-origin: 2600px 2200px;
 	    -ms-transform-origin: 2600px 2200px;
 	        transform-origin: 2600px 2200px;
@@ -7964,7 +7964,7 @@ footer {
 	    -ms-transform-origin: 2600px 2200px;
 	        transform-origin: 2600px 2200px;
 }
-.car36 {
+.car63 {
 	-webkit-transform-origin: 3675px 2050px;
 	    -ms-transform-origin: 3675px 2050px;
 	        transform-origin: 3675px 2050px;
@@ -8086,6 +8086,60 @@ footer {
 }
 .pin5 {
 	opacity: 0;
+}
+.line17 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line27 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.line37 {
+	-webkit-transform-origin: 50% 50%;
+	    -ms-transform-origin: 50% 50%;
+	        transform-origin: 50% 50%;
+}
+.sand7 {
+	-webkit-transform-origin: 200px;
+	    -ms-transform-origin: 200px;
+	        transform-origin: 200px;
+}
+.grass7 {
+	-webkit-transform-origin: 200px;
+	    -ms-transform-origin: 200px;
+	        transform-origin: 200px;
+}
+.pin7 {
+	opacity: 0;
+}
+.ufo-light {
+	opacity: 0;
+}
+.cascocarufo7 {
+	visibility: hidden;
+}
+.house17 {
+	-webkit-transform-origin: 550px 300px;
+	    -ms-transform-origin: 550px 300px;
+	        transform-origin: 550px 300px;
+}
+.house37 {
+	-webkit-transform-origin: 350px 400px;
+	    -ms-transform-origin: 350px 400px;
+	        transform-origin: 350px 400px;
+}
+.house27 {
+	-webkit-transform-origin: 550px 400px;
+	    -ms-transform-origin: 550px 400px;
+	        transform-origin: 550px 400px;
+}
+.cascocarufo7 {
+	-webkit-transform-origin: 235px 380px;
+	    -ms-transform-origin: 235px 380px;
+	        transform-origin: 235px 380px;
 }
 .cascocar10 {
 	-webkit-transform-origin: 900px 115px;

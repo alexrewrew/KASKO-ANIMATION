@@ -12,7 +12,9 @@
         fourthScreen = anime.timeline(),
         showFourthScreen = true,
         fifthScreen = anime.timeline(),
-        showFifthScreen = true;
+        showFifthScreen = true,
+        sevenScreen = anime.timeline(),
+        showSevenScreen = true;
 
     function firstScrrenAnimation() {
         //ANIMATION
@@ -137,7 +139,7 @@
                 $('.crash').css('visibility', 'visible');
             },
             complete: function () {
-                var gelik_lights = anime({
+                anime({
                     targets: '.gelik_lights',
                     opacity: [
                         {value: 0, duration: 500},
@@ -147,7 +149,7 @@
                     loop: true,
                     delay: 200
                 });
-                var bus_lights = anime({
+                anime({
                     targets: '.bus_lights',
                     opacity: [
                         {value: 0, duration: 500},
@@ -212,7 +214,7 @@
             easing: 'easeOutQuad',
             offset: 6200,
             complete: function () {
-                var pin = anime({
+               anime({
                     targets: '.pin',
                     translateY: [
                         {value: 750, duration: 1000},
@@ -324,7 +326,7 @@
             complete: function () {
                 $('.casco_car2').css('visibility', 'hidden');
 
-                var blinks2 = anime({
+                anime({
                     targets: '.blinks2',
                     opacity: [
                         {value: 0, duration: 250},
@@ -393,7 +395,7 @@
             easing: 'easeOutQuad',
             offset: 5300,
             complete: function () {
-                var pin2 = anime({
+                anime({
                     targets: '.pin2',
                     translateY: [
                         {value: 220, duration: 1000},
@@ -438,7 +440,7 @@
             easing: 'easeInOutSine',
             offset: 5300,
             complete: function () {
-                var smart2 = anime({
+                anime({
                     targets: '.smart2',
                     translateX: [
                         {value: 0, duration: 0},
@@ -454,7 +456,7 @@
                     loop: true
                 });
 
-                var firststagelight = anime({
+                anime({
                     targets: '.firststagelight',
                     opacity: [
                         {value: 0, duration: 0},
@@ -465,7 +467,7 @@
                     loop: true
                 });
 
-                var secondstagelight = anime({
+                anime({
                     targets: '.secondstagelight',
                     opacity: [
                         {value: 1, duration: 0},
@@ -544,8 +546,8 @@
             ],
             offset: 1600,
             complete: function () {
-                var car37 = anime({
-                    targets: '.car37',
+                anime({
+                    targets: '.car73',
                     translateX: [
                         {value: 0, duration: 0},
                         {value: 1000, duration: 4000},
@@ -591,7 +593,7 @@
             easing: 'easeOutQuad',
             offset: 5700,
             complete: function () {
-                var pin3 = anime({
+                anime({
                     targets: '.pin3',
                     translateY: [
                         {value: 270, duration: 1000},
@@ -602,7 +604,7 @@
                 });
             }
         }).add({
-            targets: '.car31',
+            targets: '.car13',
             translateX: [
                 {value: 0, duration: 0},
                 {value: 200, duration: 1000},
@@ -623,15 +625,15 @@
             easing: 'linear',
             offset: 3000,
             complete: function () {
-                var car38 = anime({
-                    targets: '.car38',
+                anime({
+                    targets: '.car83',
                     translateX: [
                         {value: 0, duration: 0},
                         {value: 1100, duration: 4000},
                     ],
                     translateY: [
-                        {value: 0, duration: 0},
-                        {value: 635, duration: 4000},
+                        {value: -30, duration: 0},
+                        {value: 610, duration: 4000},
                     ],
                     easing: 'linear',
                     loop: true,
@@ -639,7 +641,7 @@
                 });
             }
         }).add({
-            targets: '.car32',
+            targets: '.car23',
             translateX: [
                 {value: 0, duration: 0},
                 {value: 231, duration: 1000, easing: 'linear'},
@@ -673,8 +675,8 @@
             ],
             offset: 7000,
             complete: function () {
-                var car36 = anime({
-                    targets: '.car36',
+               anime({
+                    targets: '.car63',
                     translateX: [
                         {value: 0, duration: 0},
                         {value: -400, duration: 2000},
@@ -697,7 +699,7 @@
                 });
             }
         }).add({
-            targets: '.car34',
+            targets: '.car43',
             translateX: [
                 {value: 0, duration: 0},
                 {value: 276, duration: 1800, easing: 'easeOutSine'},
@@ -708,7 +710,7 @@
             ],
             offset: 8500,
         }).add({
-            targets: '.car35',
+            targets: '.car53',
             translateX: [
                 {value: 0, duration: 0},
                 {value: 259, duration: 1800, easing: 'easeOutSine'},
@@ -835,7 +837,7 @@
             easing: 'easeOutQuad',
             offset: 5000,
             complete: function () {
-                var pin4 = anime({
+                anime({
                     targets: '.pin4',
                     translateY: [
                         {value: 235, duration: 1000},
@@ -849,20 +851,20 @@
             targets: '.evacuator4',
             translateX: [
                 {value: 0, duration: 0},
-                {value: 515, duration: 2700},
-                {value: 485, duration: 1000, easing: 'easeInSine'},
-                {value: 438, duration: 1000},
+                {value: 396, duration: 2000},
+                {value: 485, duration: 1000, easing: 'easeOutQuad'},
+                {value: 438, duration: 1700, easing: 'easeInOutQuad'},
             ],
             translateY: [
                 {value: 0, duration: 0},
-                {value: 295, duration: 2700},
-                {value: 250, duration: 1000, easing: 'easeInSine'},
-                {value: 225, duration: 1000},
+                {value: 226, duration: 2000},
+                {value: 250, duration: 1000, easing: 'easeOutQuad'},
+                {value: 225, duration: 1700, easing: 'easeInOutQuad'},
             ],
-            easing: 'easeOutSine',
+            easing: 'linear',
             offset: 4900,
             begin: function () {
-                var car4 = anime({
+                anime({
                     targets: '.car4',
                     translateX: [
                         {value: 0, duration: 0},
@@ -876,7 +878,7 @@
                     loop: true,
                     delay: 4000,
                     begin: function () {
-                        var car_cross4 = anime({
+                        anime({
                             targets: '.car-cross4',
                             translateX: [
                                 {value: 0, duration: 0},
@@ -909,7 +911,7 @@
             easing: 'linear',
             offset: 4900,
             begin: function () {
-                var blue = anime({
+                anime({
                     targets: '.blick-blue-start',
                     opacity: [
                         {value: 0, duration: 0},
@@ -920,7 +922,7 @@
                     loop: true
                 });
 
-                var red = anime({
+                anime({
                     targets: '.blick-red-start',
                     opacity: [
                         {value: 0.5, duration: 0},
@@ -949,7 +951,7 @@
             easing: 'easeOutSine',
             offset: 6900,
             begin: function () {
-                var blue = anime({
+                anime({
                     targets: '.blick-blue-end',
                     opacity: [
                         {value: 0, duration: 0},
@@ -960,7 +962,7 @@
                     loop: true
                 });
 
-                var red = anime({
+                anime({
                     targets: '.blick-red-end',
                     opacity: [
                         {value: 0.5, duration: 0},
@@ -972,7 +974,7 @@
                 });
                 $('.prius-end4').css('visibility', 'visible');
 
-                var smart4 = anime({
+                anime({
                     targets: '.smart4',
                     translateX: [
                         {value: 0, duration: 0},
@@ -986,7 +988,7 @@
                     loop: true,
                     delay: 4000,
                     begin: function () {
-                        var gelik4 = anime({
+                        anime({
                             targets: '.gelik4',
                             translateX: [
                                 {value: 0, duration: 0},
@@ -1015,7 +1017,7 @@
             ],
             offset: 200,
             begin: function () {
-                var waves = anime({
+                anime({
                     targets: '.wave',
                     translateX: [
                         {value: 0, duration: 0},
@@ -1032,7 +1034,7 @@
                 });
             },
             complete: function () {
-                var car_left1 = anime({
+                anime({
                     targets: '.car_left1',
                     translateX: [
                         {value: 0, duration: 0},
@@ -1076,7 +1078,7 @@
             ],
             offset: 1000,
             complete: function () {
-                var boat = anime({
+                anime({
                     targets: '.boat',
                     rotate: [
                         {value: 0, duration: 0},
@@ -1109,7 +1111,7 @@
             complete: function () {
                 $('.bus5-before').css('visibility', 'hidden');
                 $('.bus5-crash').css('visibility', 'visible');
-                var car_left2 = anime({
+                anime({
                     targets: '.car_left2',
                     translateX: [
                         {value: 0, duration: 0},
@@ -1160,7 +1162,7 @@
             complete: function () {
                 $('.cascocar5-before').css('visibility', 'hidden');
                 $('.cascocar5-crash').css('visibility', 'visible');
-                var cascocar5_crash = anime({
+                anime({
                     targets: '.cascocar5-crash',
                     translateX: [
                         {value: -30, duration: 0},
@@ -1173,7 +1175,7 @@
                     easing: 'easeOutSine',
                     complete: function () {
                         $('.crash5').css('visibility', 'visible');
-                        var blinks5 = anime({
+                        anime({
                             targets: '.blinks5',
                             opacity: [
                                 {value: 0, duration: 0},
@@ -1212,6 +1214,26 @@
                 {value: 10, duration: 0},
             ],
             easing: 'easeOutSine'
+        }).add({
+            targets: '.pin5',
+            translateY: [
+                {value: 0, duration: 0},
+                {value: 130, duration: 1300}
+            ],
+            opacity: [{value: 0}, {value: 1}],
+            easing: 'easeOutQuad',
+            offset: 4200,
+            complete: function () {
+                anime({
+                    targets: '.pin5',
+                    translateY: [
+                        {value: 120, duration: 1000},
+                        {value: 130, duration: 1000}
+                    ],
+                    easing: 'easeInOutQuad',
+                    loop: true
+                });
+            }
         }).add({
             targets: '.car_right1',
             translateX: [
@@ -1309,7 +1331,7 @@
             easing: 'easeOutSine',
             offset: 3400,
             complete: function () {
-                var car_left3 = anime({
+                anime({
                     targets: '.car_left3',
                     translateX: [
                         {value: 0, duration: 0},
@@ -1409,7 +1431,7 @@
             easing: 'easeOutSine',
             offset: 4800,
             complete: function () {
-                var car_left4 = anime({
+                anime({
                     targets: '.car_left4',
                     translateX: [
                         {value: 0, duration: 0},
@@ -1428,7 +1450,7 @@
     };
 
     function sixthScrrenAnimation() {
-        var strips6 = anime({
+        anime({
             targets: '.strips6',
             translateX: [
                 {value: 0, duration: 0},
@@ -1442,7 +1464,7 @@
             loop: true,
         });
 
-        var cascocar6 = anime({
+        anime({
             targets: '.cascocar6',
             translateY: [
                 {value: 0, duration: 0},
@@ -1453,7 +1475,7 @@
             loop: true,
         });
 
-        var trees6 = anime({
+        anime({
             targets: '.trees6',
             translateX: [
                 {value: -420, duration: 0},
@@ -1467,7 +1489,7 @@
             loop: true
         });
 
-        var tree61 = anime({
+        anime({
             targets: '.tree61',
             opacity: [
                 {value: 0, duration: 0},
@@ -1482,7 +1504,7 @@
             loop: true
         });
 
-        var tree64 = anime({
+        anime({
             targets: '.tree64',
             opacity: [
                 {value: 0, duration: 0},
@@ -1497,7 +1519,7 @@
             loop: true
         });
 
-        var tree63 = anime({
+        anime({
             targets: '.tree63',
             opacity: [
                 {value: 0, duration: 0},
@@ -1512,7 +1534,7 @@
             loop: true
         });
 
-        var tree62 = anime({
+        anime({
             targets: '.tree62',
             opacity: [
                 {value: 0, duration: 0},
@@ -1526,6 +1548,202 @@
             delay: 0,
             loop: true
         });
+    };
+
+    function sevenScrrenAnimation() {
+        //ANIMATION
+        sevenScreen.add({
+            targets: '.sand7',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 200,
+            complete: function () {
+                anime({
+                    targets: '.car17',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 470, duration: 2000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 270, duration: 2000},
+                    ],
+                    loop: true,
+                    delay: 3000,
+                    easing: 'linear'
+                });
+
+                anime({
+                    targets: '.car27',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 470, duration: 2000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: 270, duration: 2000},
+                    ],
+                    loop: true,
+                    delay: 5000,
+                    easing: 'linear'
+                });
+
+                anime({
+                    targets: '.car37',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: -702, duration: 4000},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: -406, duration: 4000},
+                    ],
+                    loop: true,
+                    delay: 5000,
+                    easing: 'linear'
+                });
+
+                anime({
+                    targets: '.car47',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: -702, duration: 3500},
+                    ],
+                    translateY: [
+                        {value: 0, duration: 0},
+                        {value: -406, duration: 3500},
+                    ],
+                    loop: true,
+                    delay: 7000,
+                    easing: 'linear'
+                });
+            }
+        }).add({
+            targets: '.grass7',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 0
+        }).add({
+            targets: '.line17',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 400
+        }).add({
+            targets: '.line27',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 600
+        }).add({
+            targets: '.line37',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 800
+        }).add({
+            targets: '.house17',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1000
+        }).add({
+            targets: '.house27',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1400
+        }).add({
+            targets: '.house37',
+            scale: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1000}
+            ],
+            offset: 1200
+        }).add({
+            targets: '.cascocar7',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: -482, duration: 3500},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -278.5, duration: 3500},
+            ],
+            easing: 'easeOutSine',
+            offset: 1600,
+            complete: function () {
+                $('.cascocar7').css('visibility', 'hidden');
+                $('.cascocarufo7').css('visibility', 'visible');
+            }
+        }).add({
+            targets: '.ufo-fly',
+            translateX: [
+                {value: 0, duration: 0},
+                {value: -492, duration: 3500},
+            ],
+            translateY: [
+                {value: 0, duration: 0},
+                {value: 284, duration: 3500},
+            ],
+            easing: 'easeOutSine',
+            offset: 4500,
+        }).add({
+            targets: '.ufo-light',
+            opacity: [
+                {value: 0, duration: 0},
+                {value: 1, duration: 1500},
+            ],
+            offset: 8300,
+        }).add({
+            targets: '.cascocarufo7',
+            translateY: [
+                {value: 0, duration: 0},
+                {value: -115, duration: 2000},
+            ],
+            scale: [
+                {value: 1, duration: 0},
+                {value: 0, duration: 2000},
+            ],
+            easing: 'easeOutSine',
+            offset: 10000,
+        }).add({
+            targets: '.ufo-light',
+            opacity: [
+                {value: 1, duration: 0},
+                {value: 0, duration: 1500},
+            ],
+            offset: 12000,
+        }).add({
+            targets: '.pin7',
+            translateY: [
+                {value: 0, duration: 0},
+                {value: 130, duration: 1300}
+            ],
+            opacity: [{value: 0}, {value: 1}],
+            easing: 'easeOutQuad',
+            offset: 12400,
+            complete: function () {
+                anime({
+                    targets: '.pin7',
+                    translateY: [
+                        {value: 120, duration: 1000},
+                        {value: 130, duration: 1000}
+                    ],
+                    easing: 'easeInOutQuad',
+                    loop: true
+                });
+            }
+        })
     };
 
     function preloader() {
@@ -1590,6 +1808,7 @@
                         $('.casco_car2').css('visibility', 'visible');
                         $('.gelik2_crash').css('visibility', 'visible');
                         $('.crash2').css('visibility', 'hidden');
+                        $('.smart2').css('transform', 'translateX(0) translateY(0)');
                         anime.remove('.smart2');
                         anime.remove('.firststagelight');
                         anime.remove('.secondstagelight');
@@ -1598,9 +1817,12 @@
                         break;
                     case 3:
                         thirdScreen.pause();
-                        anime.remove('.car37');
-                        anime.remove('.car38');
-                        anime.remove('.car36');
+                        $('.car83').css('transform', 'translateX(0) translateY(0)');
+                        $('.car73').css('transform', 'translateX(0) translateY(0)');
+                        $('.car63').css('transform', 'translateX(0) translateY(0)');
+                        anime.remove('.car73');
+                        anime.remove('.car83');
+                        anime.remove('.car63');
                         anime.remove('.pin3');
                         break;
                     case 4:
@@ -1608,6 +1830,9 @@
                         $('.prius-start4').css('visibility', 'hidden');
                         $('.prius-end4').css('visibility', 'hidden');
                         $('.car-cross4').css('visibility', 'hidden');
+                        $('.smart4').css('transform', 'translateX(0) translateY(0)');
+                        $('.gelik4').css('transform', 'translateX(0) translateY(0)');
+                        $('.car-cross4').css('transform', 'translateX(0) translateY(0)');
                         anime.remove('.blick-blue-start');
                         anime.remove('.pin4');
                         anime.remove('.car4');
@@ -1627,6 +1852,7 @@
                         anime.remove('.car_left4');
                         anime.remove('.boat');
                         anime.remove('.blinks5');
+                        anime.remove('.pin5');
                         $('.crash5').css('visibility', 'hidden');
                         $('.cascocar5-before').css('visibility', 'visible');
                         $('.cascocar5-crash').css('visibility', 'hidden');
@@ -1634,15 +1860,38 @@
                         $('.smart5-crash').css('visibility', 'hidden');
                         $('.bus5-before').css('visibility', 'visible');
                         $('.bus5-crash').css('visibility', 'hidden');
+                        $('.wave').css('transform', 'translateX(0) translateY(0)');
+                        $('.car_left1').css('transform', 'translateX(0) translateY(0)');
+                        $('.boat').css('transform', 'rotate(0)');
+                        $('.car_left2').css('transform', 'translateX(0) translateY(0)');
+                        $('.car_left3').css('transform', 'translateX(0) translateY(0)');
+                        $('.car_left4').css('transform', 'translateX(0) translateY(0)');
                         break;
                     case 6:
                         anime.remove('.strips6');
+                        $('.strips6').css('transform', 'translateX(0) translateY(0)');
                         anime.remove('.cascocar6');
+                        $('.cascocar6').css('transform', 'translateY(0)');
                         anime.remove('.trees6');
+                        $('.trees6').css('transform', 'translateX(-420px) translateY(240px)');
                         anime.remove('.tree61');
                         anime.remove('.tree62');
                         anime.remove('.tree63');
                         anime.remove('.tree64');
+                        break;
+                    case 7:
+                        sevenScreen.pause();
+                        $('.cascocar7').css('visibility', 'visible');
+                        $('.cascocarufo7').css('visibility', 'hidden');
+                        anime.remove('.car17');
+                        anime.remove('.car27');
+                        anime.remove('.car37');
+                        anime.remove('.car47');
+                        anime.remove('.pin7');
+                        $('.car17').css('transform', 'translateX(0) translateY(0)');
+                        $('.car27').css('transform', 'translateX(0) translateY(0)');
+                        $('.car37').css('transform', 'translateX(0) translateY(0)');
+                        $('.car47').css('transform', 'translateX(0) translateY(0)');
                         break;
                 }
 
@@ -1712,10 +1961,419 @@
                             sixthScrrenAnimation();
                         }, 400);
                         break;
+                    case 7:
+                        if (showSevenScreen) {
+                            setTimeout(function () {
+                                sevenScrrenAnimation();
+                                showSevenScreen = false;
+                            }, 400);
+                        } else {
+                            setTimeout(function () {
+                                sevenScreen.restart();
+                            }, 200);
+                        }
+                        break;
                 }
             }
         });
     }
+
+    $('#menu-trigger').click(function (e) {
+        e.preventDefault();
+        // var currentHeight = $(window).scrollTop();
+        // console.log(currentHeight);
+        $('body').toggleClass('open-nav').removeClass('open-form');
+        // $('body, html').scrollTop(currentHeight);
+    });
+
+    var open = true;
+    $('#form-trigger').click(function (e) {
+        var current = $('.fp-section.fp-table.active').attr('data-anchor');
+
+        if (open) {
+            switch (current) {
+                case 'screen1':
+                    firstScreen.pause();
+                    anime.remove('.pin');
+                    anime.remove('.gelik_lights');
+                    anime.remove('.bus_lights');
+                    $('.gelik').css('visibility', 'visible');
+                    $('.bus').css('visibility', 'visible');
+                    $('.crash').css('visibility', 'hidden');
+                    $('.casco_car').css('visibility', 'visible');
+                    $('.casco_car_right').css('visibility', 'hidden');
+                    break;
+                case 'screen2':
+                    secondScreen.pause();
+                    $('.casco_car2').css('visibility', 'visible');
+                    $('.gelik2_crash').css('visibility', 'visible');
+                    $('.crash2').css('visibility', 'hidden');
+                    $('.smart2').css('transform', 'translateX(0) translateY(0)');
+                    anime.remove('.smart2');
+                    anime.remove('.firststagelight');
+                    anime.remove('.secondstagelight');
+                    anime.remove('.pin2');
+                    anime.remove('.blinks2');
+                    break;
+                case 'screen3':
+                    thirdScreen.pause();
+                    $('.car83').css('transform', 'translateX(0) translateY(-30)');
+                    $('.car73').css('transform', 'translateX(0) translateY(0)');
+                    $('.car63').css('transform', 'translateX(0) translateY(0)');
+                    anime.remove('.car73');
+                    anime.remove('.car83');
+                    anime.remove('.car63');
+                    anime.remove('.pin3');
+                    break;
+                case 'screen4':
+                    fourthScreen.pause();
+                    $('.prius-start4').css('visibility', 'hidden');
+                    $('.prius-end4').css('visibility', 'hidden');
+                    $('.car-cross4').css('visibility', 'hidden');
+                    $('.smart4').css('transform', 'translateX(0) translateY(0)');
+                    $('.gelik4').css('transform', 'translateX(0) translateY(0)');
+                    $('.car-cross4').css('transform', 'translateX(0) translateY(0)');
+                    anime.remove('.blick-blue-start');
+                    anime.remove('.pin4');
+                    anime.remove('.car4');
+                    anime.remove('.gelik4');
+                    anime.remove('.smart4');
+                    anime.remove('.car-cross4');
+                    anime.remove('.blick-red-start');
+                    anime.remove('.blick-blue-end');
+                    anime.remove('.blick-red-end');
+                    break;
+                case 'screen5':
+                    fifthScreen.pause();
+                    anime.remove('.wave');
+                    anime.remove('.car_left1');
+                    anime.remove('.car_left2');
+                    anime.remove('.car_left3');
+                    anime.remove('.car_left4');
+                    anime.remove('.boat');
+                    anime.remove('.blinks5');
+                    anime.remove('.pin5');
+                    $('.crash5').css('visibility', 'hidden');
+                    $('.cascocar5-before').css('visibility', 'visible');
+                    $('.cascocar5-crash').css('visibility', 'hidden');
+                    $('.smart5-before').css('visibility', 'visible');
+                    $('.smart5-crash').css('visibility', 'hidden');
+                    $('.bus5-before').css('visibility', 'visible');
+                    $('.bus5-crash').css('visibility', 'hidden');
+                    $('.wave').css('transform', 'translateX(0) translateY(0)');
+                    $('.car_left1').css('transform', 'translateX(0) translateY(0)');
+                    $('.boat').css('transform', 'rotate(0)');
+                    $('.car_left2').css('transform', 'translateX(0) translateY(0)');
+                    $('.car_left3').css('transform', 'translateX(0) translateY(0)');
+                    $('.car_left4').css('transform', 'translateX(0) translateY(0)');
+                    break;
+                case 'screen6':
+                    anime.remove('.strips6');
+                    $('.strips6').css('transform', 'translateX(0) translateY(0)');
+                    anime.remove('.cascocar6');
+                    $('.cascocar6').css('transform', 'translateY(0)');
+                    anime.remove('.trees6');
+                    $('.trees6').css('transform', 'translateX(-420px) translateY(240px)');
+                    anime.remove('.tree61');
+                    anime.remove('.tree62');
+                    anime.remove('.tree63');
+                    anime.remove('.tree64');
+                    break;
+                case 'screen7':
+                    sevenScreen.pause();
+                    $('.cascocar7').css('visibility', 'visible');
+                    $('.cascocarufo7').css('visibility', 'hidden');
+                    anime.remove('.car17');
+                    anime.remove('.car27');
+                    anime.remove('.car37');
+                    anime.remove('.car47');
+                    anime.remove('.pin7');
+                    $('.car17').css('transform', 'translateX(0) translateY(0)');
+                    $('.car27').css('transform', 'translateX(0) translateY(0)');
+                    $('.car37').css('transform', 'translateX(0) translateY(0)');
+                    $('.car47').css('transform', 'translateX(0) translateY(0)');
+                    break;
+            }
+            open = false;
+        } else {
+            switch (current) {
+                case 'screen1':
+                    if (showFirstScreen) {
+                        setTimeout(function () {
+                            firstScrrenAnimation();
+                            showFirstScreen = false;
+                        }, 200);
+                    } else {
+                        setTimeout(function () {
+                            firstScreen.restart()
+                        }, 200);
+                    }
+                    break;
+                case 'screen2':
+                    if (showSecondScreen) {
+                        setTimeout(function () {
+                            secondScreenAnimation();
+                            showSecondScreen = false;
+                        }, 200);
+                    } else {
+                        setTimeout(function () {
+                            secondScreen.restart()
+                        }, 200);
+                    }
+                    break;
+                case 'screen3':
+                    if (showThirdScreen) {
+                        setTimeout(function () {
+                            thirdScreenAnimation();
+                            showThirdScreen = false;
+                        }, 300);
+                    } else {
+                        setTimeout(function () {
+                            thirdScreen.restart();
+                        }, 200);
+                    }
+                    break;
+                case 'screen4':
+                    if (showFourthScreen) {
+                        setTimeout(function () {
+                            fourthScrrenAnimation();
+                            showFourthScreen = false;
+                        }, 400);
+                    } else {
+                        setTimeout(function () {
+                            fourthScreen.restart();
+                        }, 200);
+                    }
+                    break;
+                case 'screen5':
+                    if (showFifthScreen) {
+                        setTimeout(function () {
+                            fifthScrrenAnimation();
+                            showFifthScreen = false;
+                        }, 400);
+                    } else {
+                        setTimeout(function () {
+                            fifthScreen.restart();
+                        }, 200);
+                    }
+                    break;
+                case 'screen6':
+                    setTimeout(function () {
+                        sixthScrrenAnimation();
+                    }, 400);
+                    break;
+                case 'screen7':
+                    if (showSevenScreen) {
+                        setTimeout(function () {
+                            sevenScrrenAnimation();
+                            showSevenScreen = false;
+                        }, 400);
+                    } else {
+                        setTimeout(function () {
+                            sevenScreen.restart();
+                        }, 200);
+                    }
+                    break;
+            }
+            open = true;
+        }
+        e.preventDefault();
+        $('body').toggleClass('open-form').removeClass('open-nav');
+    });
+
+    $('#want-trigger').click(function (e) {
+        var current = $('.fp-section.fp-table.active').attr('data-anchor');
+
+        if (open) {
+            switch (current) {
+                case 'screen1':
+                    firstScreen.pause();
+                    anime.remove('.pin');
+                    anime.remove('.gelik_lights');
+                    anime.remove('.bus_lights');
+                    $('.gelik').css('visibility', 'visible');
+                    $('.bus').css('visibility', 'visible');
+                    $('.crash').css('visibility', 'hidden');
+                    $('.casco_car').css('visibility', 'visible');
+                    $('.casco_car_right').css('visibility', 'hidden');
+                    break;
+                case 'screen2':
+                    secondScreen.pause();
+                    $('.casco_car2').css('visibility', 'visible');
+                    $('.gelik2_crash').css('visibility', 'visible');
+                    $('.crash2').css('visibility', 'hidden');
+                    $('.smart2').css('transform', 'translateX(0) translateY(0)');
+                    anime.remove('.smart2');
+                    anime.remove('.firststagelight');
+                    anime.remove('.secondstagelight');
+                    anime.remove('.pin2');
+                    anime.remove('.blinks2');
+                    break;
+                case 'screen3':
+                    thirdScreen.pause();
+                    $('.car83').css('transform', 'translateX(0) translateY(0)');
+                    $('.car73').css('transform', 'translateX(0) translateY(0)');
+                    $('.car63').css('transform', 'translateX(0) translateY(0)');
+                    anime.remove('.car73');
+                    anime.remove('.car83');
+                    anime.remove('.car63');
+                    anime.remove('.pin3');
+                    break;
+                case 'screen4':
+                    fourthScreen.pause();
+                    $('.prius-start4').css('visibility', 'hidden');
+                    $('.prius-end4').css('visibility', 'hidden');
+                    $('.car-cross4').css('visibility', 'hidden');
+                    $('.smart4').css('transform', 'translateX(0) translateY(0)');
+                    $('.gelik4').css('transform', 'translateX(0) translateY(0)');
+                    $('.car-cross4').css('transform', 'translateX(0) translateY(0)');
+                    anime.remove('.blick-blue-start');
+                    anime.remove('.pin4');
+                    anime.remove('.car4');
+                    anime.remove('.gelik4');
+                    anime.remove('.smart4');
+                    anime.remove('.car-cross4');
+                    anime.remove('.blick-red-start');
+                    anime.remove('.blick-blue-end');
+                    anime.remove('.blick-red-end');
+                    break;
+                case 'screen5':
+                    fifthScreen.pause();
+                    anime.remove('.wave');
+                    anime.remove('.car_left1');
+                    anime.remove('.car_left2');
+                    anime.remove('.car_left3');
+                    anime.remove('.car_left4');
+                    anime.remove('.boat');
+                    anime.remove('.blinks5');
+                    anime.remove('.pin5');
+                    $('.crash5').css('visibility', 'hidden');
+                    $('.cascocar5-before').css('visibility', 'visible');
+                    $('.cascocar5-crash').css('visibility', 'hidden');
+                    $('.smart5-before').css('visibility', 'visible');
+                    $('.smart5-crash').css('visibility', 'hidden');
+                    $('.bus5-before').css('visibility', 'visible');
+                    $('.bus5-crash').css('visibility', 'hidden');
+                    $('.wave').css('transform', 'translateX(0) translateY(0)');
+                    $('.car_left1').css('transform', 'translateX(0) translateY(0)');
+                    $('.boat').css('transform', 'rotate(0)');
+                    $('.car_left2').css('transform', 'translateX(0) translateY(0)');
+                    $('.car_left3').css('transform', 'translateX(0) translateY(0)');
+                    $('.car_left4').css('transform', 'translateX(0) translateY(0)');
+                    break;
+                case 'screen6':
+                    anime.remove('.strips6');
+                    $('.strips6').css('transform', 'translateX(0) translateY(0)');
+                    anime.remove('.cascocar6');
+                    $('.cascocar6').css('transform', 'translateY(0)');
+                    anime.remove('.trees6');
+                    $('.trees6').css('transform', 'translateX(-420px) translateY(240px)');
+                    anime.remove('.tree61');
+                    anime.remove('.tree62');
+                    anime.remove('.tree63');
+                    anime.remove('.tree64');
+                    break;
+                case 'screen7':
+                    sevenScreen.pause();
+                    $('.cascocar7').css('visibility', 'visible');
+                    $('.cascocarufo7').css('visibility', 'hidden');
+                    anime.remove('.car17');
+                    anime.remove('.car27');
+                    anime.remove('.car37');
+                    anime.remove('.car47');
+                    anime.remove('.pin7');
+                    $('.car17').css('transform', 'translateX(0) translateY(0)');
+                    $('.car27').css('transform', 'translateX(0) translateY(0)');
+                    $('.car37').css('transform', 'translateX(0) translateY(0)');
+                    $('.car47').css('transform', 'translateX(0) translateY(0)');
+                    break;
+            }
+            open = false;
+        } else {
+            switch (current) {
+                case 'screen1':
+                    if (showFirstScreen) {
+                        setTimeout(function () {
+                            firstScrrenAnimation();
+                            showFirstScreen = false;
+                        }, 200);
+                    } else {
+                        setTimeout(function () {
+                            firstScreen.restart()
+                        }, 200);
+                    }
+                    break;
+                case 'screen2':
+                    if (showSecondScreen) {
+                        setTimeout(function () {
+                            secondScreenAnimation();
+                            showSecondScreen = false;
+                        }, 200);
+                    } else {
+                        setTimeout(function () {
+                            secondScreen.restart()
+                        }, 200);
+                    }
+                    break;
+                case 'screen3':
+                    if (showThirdScreen) {
+                        setTimeout(function () {
+                            thirdScreenAnimation();
+                            showThirdScreen = false;
+                        }, 300);
+                    } else {
+                        setTimeout(function () {
+                            thirdScreen.restart();
+                        }, 200);
+                    }
+                    break;
+                case 'screen4':
+                    if (showFourthScreen) {
+                        setTimeout(function () {
+                            fourthScrrenAnimation();
+                            showFourthScreen = false;
+                        }, 400);
+                    } else {
+                        setTimeout(function () {
+                            fourthScreen.restart();
+                        }, 200);
+                    }
+                    break;
+                case 'screen5':
+                    if (showFifthScreen) {
+                        setTimeout(function () {
+                            fifthScrrenAnimation();
+                            showFifthScreen = false;
+                        }, 400);
+                    } else {
+                        setTimeout(function () {
+                            fifthScreen.restart();
+                        }, 200);
+                    }
+                    break;
+                case 'screen6':
+                    setTimeout(function () {
+                        sixthScrrenAnimation();
+                    }, 400);
+                    break;
+                case 'screen7':
+                    if (showSevenScreen) {
+                        setTimeout(function () {
+                            sevenScrrenAnimation();
+                            showSevenScreen = false;
+                        }, 400);
+                    } else {
+                        setTimeout(function () {
+                            sevenScreen.restart();
+                        }, 200);
+                    }
+                    break;
+            }
+            open = true;
+        }
+        e.preventDefault();
+        $('body').toggleClass('open-form').removeClass('open-nav');
+    });
 
     if (window.matchMedia("(min-width: 768px)").matches) {
         createFullpage();
@@ -1751,25 +2409,6 @@
 
         $(".chosen-select").chosen({
             no_results_text: "Нажаль, нічого не знайдено"
-        });
-
-        $('#menu-trigger').click(function (e) {
-            e.preventDefault();
-            // var currentHeight = $(window).scrollTop();
-            // console.log(currentHeight);
-            $('body').toggleClass('open-nav').removeClass('open-form');
-            // $('body, html').scrollTop(currentHeight);
-        });
-
-
-        $('#form-trigger').click(function (e) {
-            e.preventDefault();
-            $('body').toggleClass('open-form').removeClass('open-nav');
-        });
-
-        $('#want-trigger').click(function (e) {
-            e.preventDefault();
-            $('body').toggleClass('open-form').removeClass('open-nav');
         });
 
         $('.link-next-text1, .link-next-text2').click(function (e) {
