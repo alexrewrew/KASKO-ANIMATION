@@ -289,27 +289,28 @@ $(function(){
                             translateX: path('x'),
                             translateY: path('y'),
                             scale: [
-                                {value: 1, duration: 2200},
-                                {value: 0, duration: 100}
+                                {value: 1, duration: 0},
+                                {value: 1, duration: 700},
+                                {value: 0, duration: 100},
+                                {value: 0, duration: 1200}
                             ],
                             cy: [
-                                {value: -25, duration: 2000},
-                                {value: -50, duration: 500}
+                                {value: -25, duration: 900},
+                                {value: -50, duration: 100}
                             ],
-                            duration: 6000,
+                            duration: 2000,
                             easing: 'linear',
                             begin: function () {
                                 anime({
                                     targets: '.circle10',
                                     cx: [
                                         {value: 0, duration: 0},
-                                        {value: 20, duration: 500},
-                                        {value: 30, duration: 300},
-                                        {value: 0, duration: 200},
-                                        {value: 0, duration: 500},
-                                        {value: 0, duration: 4500},
+                                        {value: 50, duration: 150},
+                                        {value: 0, duration: 150},
+                                        {value: -10, duration: 100},
+                                        {value: 0, duration: 600},
                                     ],
-                                    duration: 6000,
+                                    duration: 1000,
                                     loop: true,
                                     easing: 'linear',
                                 });
@@ -320,37 +321,34 @@ $(function(){
                             targets: '.cascocar10',
                             scale: [
                                 {value: 0, duration: 0},
-                                {value: 0, duration: 2000},
-                                {value: 1, duration: 500},
-                                {value: 1, duration: 3500}
+                                {value: 0, duration: 700},
+                                {value: 1, duration: 100},
                             ],
                             translateX: [
                                 {value: -100, duration: 0},
-                                {value: -100, duration: 2000},
-                                {value: 0, duration: 500},
-                                {value: 0, duration: 3500}
+                                {value: -100, duration: 700},
+                                {value: 0, duration: 100},
                             ],
                             translateY: [
                                 {value: 62, duration: 0},
-                                {value: 62, duration: 2000},
-                                {value: 0, duration: 500},
-                                {value: 0, duration: 3500}
+                                {value: 62, duration: 700},
+                                {value: 0, duration: 100},
                             ],
-                            duration: 6000,
+                            duration: 1000,
                             easing: 'easeInOutSine',
                             begin: function () {
                                 anime({
                                     targets: '.pin10',
                                     opacity: [
                                         {value: 0, duration: 0},
-                                        {value: 1, duration: 1000},
+                                        {value: 1, duration: 500},
                                     ],
                                     translateY: [
                                         {value: -200, duration: 0},
-                                        {value: 0, duration: 1000}
+                                        {value: 0, duration: 500}
                                     ],
-                                    duration: 1000,
-                                    delay: 2000,
+                                    duration: 500,
+                                    delay: 500,
                                     easing: 'easeInOutSine',
                                     complete: function () {
                                         anime({
@@ -366,17 +364,6 @@ $(function(){
                                 });
                             }
                         });
-
-                        setTimeout(function () {
-                            $(".form-order--header").slideDown();
-                            $(".form-order--flex").slideDown();
-                            $(".form-order--success").slideUp();
-                            $(".illustration.illustration10").css("opacity", "0");
-
-                            anime.remove('.pin10');
-                            anime.remove('.cascocar10');
-                            anime.remove('.circle10');
-                        }, 10000);
                     } else {
                         form.find('button').removeAttr('disabled');
                     }
@@ -991,7 +978,7 @@ $(function(){
             targets: '.most-crash',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 1, duration: 400},
+                {value: 1, duration: 100},
             ],
             easing: 'easeInOutSine',
             offset: 5200,
@@ -1036,22 +1023,22 @@ $(function(){
             ],
             easing: 'linear',
             offset: 3000,
-            complete: function () {
-                anime({
-                    targets: '.car83',
-                    translateX: [
-                        {value: 0, duration: 0},
-                        {value: 1100, duration: 4000},
-                    ],
-                    translateY: [
-                        {value: -30, duration: 0},
-                        {value: 610, duration: 4000},
-                    ],
-                    easing: 'linear',
-                    loop: true,
-                    delay: 5000
-                });
-            }
+            // complete: function () {
+            //     anime({
+            //         targets: '.car83',
+            //         translateX: [
+            //             {value: 0, duration: 0},
+            //             {value: 1100, duration: 4000},
+            //         ],
+            //         translateY: [
+            //             {value: -30, duration: 0},
+            //             {value: 610, duration: 4000},
+            //         ],
+            //         easing: 'linear',
+            //         loop: true,
+            //         delay: 5000
+            //     });
+            // }
         }).add({
             targets: '.car23',
             translateX: [
@@ -1866,11 +1853,11 @@ $(function(){
             targets: '.strips6',
             translateX: [
                 {value: 0, duration: 0},
-                {value: 140, duration: 1500},
+                {value: 140, duration: 700},
             ],
             translateY: [
                 {value: 0, duration: 0},
-                {value: -80, duration: 1500},
+                {value: -80, duration: 700},
             ],
             easing: 'linear',
             loop: true,
@@ -1880,8 +1867,8 @@ $(function(){
             targets: '.cascocar6',
             translateY: [
                 {value: 0, duration: 0},
-                {value: -3, duration: 400},
-                {value: 0, duration: 400},
+                {value: -3, duration: 300},
+                {value: 0, duration: 300},
             ],
             easing: 'easeInOutSine',
             loop: true,
@@ -1891,11 +1878,11 @@ $(function(){
             targets: '.trees6',
             translateX: [
                 {value: -420, duration: 0},
-                {value: 1680, duration: 15000},
+                {value: 1680, duration: 11000},
             ],
             translateY: [
                 {value: 240, duration: 0},
-                {value: -960, duration: 15000},
+                {value: -960, duration: 11000},
             ],
             easing: 'linear',
             loop: true
@@ -1905,11 +1892,11 @@ $(function(){
             targets: '.tree61',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 0, duration: 1500},
-                {value: 1, duration: 1000},
-                {value: 1, duration: 2000},
                 {value: 0, duration: 1000},
-                {value: 0, duration: 9500}
+                {value: 1, duration: 1000},
+                {value: 1, duration: 1000},
+                {value: 0, duration: 1000},
+                {value: 0, duration: 7000}
             ],
             easing: 'easeInOutSine',
             delay: 0,
@@ -1920,11 +1907,11 @@ $(function(){
             targets: '.tree64',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 0, duration: 4000},
+                {value: 0, duration: 3000},
                 {value: 1, duration: 1000},
-                {value: 1, duration: 1500},
+                {value: 1, duration: 1000},
                 {value: 0, duration: 1000},
-                {value: 0, duration: 7500}
+                {value: 0, duration: 5000}
             ],
             easing: 'easeInOutSine',
             delay: 0,
@@ -1935,11 +1922,11 @@ $(function(){
             targets: '.tree63',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 0, duration: 6000},
+                {value: 0, duration: 5000},
                 {value: 1, duration: 1000},
-                {value: 1, duration: 2500},
+                {value: 1, duration: 1000},
                 {value: 0, duration: 1000},
-                {value: 0, duration: 4500}
+                {value: 0, duration: 3000}
             ],
             easing: 'easeInOutSine',
             delay: 0,
@@ -1950,11 +1937,11 @@ $(function(){
             targets: '.tree62',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 0, duration: 9000},
+                {value: 0, duration: 7000},
                 {value: 1, duration: 1000},
-                {value: 1, duration: 1500},
+                {value: 1, duration: 500},
                 {value: 0, duration: 1000},
-                {value: 0, duration: 2500}
+                {value: 0, duration: 1500}
             ],
             easing: 'easeInOutSine',
             delay: 0,
@@ -2787,6 +2774,27 @@ $(function(){
         $('body').toggleClass('open-form').removeClass('open-nav');
     });
 
+//MAX
+    var tempScrollTop, currentScrollTop = 0;
+
+    $('body').scroll(function () {
+
+        if ($('body').scrollTop() < 0) {
+            currentScrollTop = 0;
+        } else {
+            currentScrollTop = $('body').scrollTop();
+        }
+
+        if (tempScrollTop < currentScrollTop) {
+            $('nav').addClass('nav-hidden');
+        } else if (tempScrollTop > currentScrollTop) {
+            $('nav').removeClass('nav-hidden');
+        }
+        tempScrollTop = currentScrollTop;
+    });
+//MAX
+
+
     if (window.matchMedia("(min-width: 768px)").matches) {
         createFullpage();
     }
@@ -2802,7 +2810,6 @@ $(function(){
                 createFullpage();
                 destroy = false;
             }
-            // $.fn.fullpage.reBuild();
             $(function () {
                 $('.overflow-first').slimScroll({
                     height: 'auto'
@@ -2817,7 +2824,6 @@ $(function(){
     });
 
     $(document).ready(function () {
-
 
         $(".chosen-select").chosen({
             no_results_text: "Нажаль, нічого не знайдено"
@@ -2870,9 +2876,16 @@ $(function(){
             }, 1500);
         });
 
+
+
     });
 
 // !!! RESPONSIVE SCRIPTS !!!
 
 
+
+
+
+
 })();
+

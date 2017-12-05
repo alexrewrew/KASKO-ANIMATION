@@ -19,6 +19,8 @@ nav
     .button.scroll-button
       bottom 78px
 
+
+
 .logo
   display: block
   max-width 210px
@@ -249,3 +251,8 @@ body.open-nav
             transform rotate(45deg)
           &:nth-child(4)
             transform rotate(-45deg)
+
+
+.nav-hidden
+  +mobile()
+    top -70px !important

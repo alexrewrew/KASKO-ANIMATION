@@ -13,6 +13,10 @@ input
     color $gray
   &:focus
     outline none
+  &:-webkit-autofill
+    -webkit-box-shadow: inset 0 0 0 50px #fff !important
+    -webkit-text-fill-color: #999 !important
+
 
 
 textarea
@@ -116,6 +120,8 @@ textarea
   letter-spacing: .8px;
   font-size .75em
   text-align center
+  +displays()
+    margin: 10px 0;
   +mobile()
     margin-bottom: 0;
 

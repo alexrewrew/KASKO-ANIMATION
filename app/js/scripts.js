@@ -2774,6 +2774,27 @@ $(function(){
         $('body').toggleClass('open-form').removeClass('open-nav');
     });
 
+//MAX
+    var tempScrollTop, currentScrollTop = 0;
+
+    $('body').scroll(function () {
+
+        if ($('body').scrollTop() < 0) {
+            currentScrollTop = 0;
+        } else {
+            currentScrollTop = $('body').scrollTop();
+        }
+
+        if (tempScrollTop < currentScrollTop) {
+            $('nav').addClass('nav-hidden');
+        } else if (tempScrollTop > currentScrollTop) {
+            $('nav').removeClass('nav-hidden');
+        }
+        tempScrollTop = currentScrollTop;
+    });
+//MAX
+
+
     if (window.matchMedia("(min-width: 768px)").matches) {
         createFullpage();
     }
@@ -2789,7 +2810,6 @@ $(function(){
                 createFullpage();
                 destroy = false;
             }
-            // $.fn.fullpage.reBuild();
             $(function () {
                 $('.overflow-first').slimScroll({
                     height: 'auto'
@@ -2804,7 +2824,6 @@ $(function(){
     });
 
     $(document).ready(function () {
-
 
         $(".chosen-select").chosen({
             no_results_text: "Нажаль, нічого не знайдено"
@@ -2857,9 +2876,16 @@ $(function(){
             }, 1500);
         });
 
+
+
     });
 
 // !!! RESPONSIVE SCRIPTS !!!
 
 
+
+
+
+
 })();
+
