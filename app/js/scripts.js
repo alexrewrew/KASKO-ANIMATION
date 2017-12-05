@@ -2777,13 +2777,14 @@ $(function(){
 //MAX
     var tempScrollTop, currentScrollTop = 0;
 
-    $('body').scroll(function () {
-
+    $('body').on('scroll', function () {
         if ($('body').scrollTop() < 0) {
             currentScrollTop = 0;
         } else {
-            currentScrollTop = $('body').scrollTop();
+            currentScrollTop = $('body').offset().top //ПРОБЛЕМА ТУТ!
         }
+
+        alert(currentScrollTop);
 
         if (tempScrollTop < currentScrollTop) {
             $('nav').addClass('nav-hidden');
