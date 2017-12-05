@@ -579,7 +579,7 @@
             targets: '.most-crash',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 1, duration: 400},
+                {value: 1, duration: 100},
             ],
             easing: 'easeInOutSine',
             offset: 5200,
@@ -624,22 +624,22 @@
             ],
             easing: 'linear',
             offset: 3000,
-            complete: function () {
-                anime({
-                    targets: '.car83',
-                    translateX: [
-                        {value: 0, duration: 0},
-                        {value: 1100, duration: 4000},
-                    ],
-                    translateY: [
-                        {value: -30, duration: 0},
-                        {value: 610, duration: 4000},
-                    ],
-                    easing: 'linear',
-                    loop: true,
-                    delay: 5000
-                });
-            }
+            // complete: function () {
+            //     anime({
+            //         targets: '.car83',
+            //         translateX: [
+            //             {value: 0, duration: 0},
+            //             {value: 1100, duration: 4000},
+            //         ],
+            //         translateY: [
+            //             {value: -30, duration: 0},
+            //             {value: 610, duration: 4000},
+            //         ],
+            //         easing: 'linear',
+            //         loop: true,
+            //         delay: 5000
+            //     });
+            // }
         }).add({
             targets: '.car23',
             translateX: [
@@ -1454,11 +1454,11 @@
             targets: '.strips6',
             translateX: [
                 {value: 0, duration: 0},
-                {value: 140, duration: 1500},
+                {value: 140, duration: 700},
             ],
             translateY: [
                 {value: 0, duration: 0},
-                {value: -80, duration: 1500},
+                {value: -80, duration: 700},
             ],
             easing: 'linear',
             loop: true,
@@ -1468,8 +1468,8 @@
             targets: '.cascocar6',
             translateY: [
                 {value: 0, duration: 0},
-                {value: -3, duration: 400},
-                {value: 0, duration: 400},
+                {value: -3, duration: 300},
+                {value: 0, duration: 300},
             ],
             easing: 'easeInOutSine',
             loop: true,
@@ -1479,11 +1479,11 @@
             targets: '.trees6',
             translateX: [
                 {value: -420, duration: 0},
-                {value: 1680, duration: 15000},
+                {value: 1680, duration: 11000},
             ],
             translateY: [
                 {value: 240, duration: 0},
-                {value: -960, duration: 15000},
+                {value: -960, duration: 11000},
             ],
             easing: 'linear',
             loop: true
@@ -1493,11 +1493,11 @@
             targets: '.tree61',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 0, duration: 1500},
-                {value: 1, duration: 1000},
-                {value: 1, duration: 2000},
                 {value: 0, duration: 1000},
-                {value: 0, duration: 9500}
+                {value: 1, duration: 1000},
+                {value: 1, duration: 1000},
+                {value: 0, duration: 1000},
+                {value: 0, duration: 7000}
             ],
             easing: 'easeInOutSine',
             delay: 0,
@@ -1508,11 +1508,11 @@
             targets: '.tree64',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 0, duration: 4000},
+                {value: 0, duration: 3000},
                 {value: 1, duration: 1000},
-                {value: 1, duration: 1500},
+                {value: 1, duration: 1000},
                 {value: 0, duration: 1000},
-                {value: 0, duration: 7500}
+                {value: 0, duration: 5000}
             ],
             easing: 'easeInOutSine',
             delay: 0,
@@ -1523,11 +1523,11 @@
             targets: '.tree63',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 0, duration: 6000},
+                {value: 0, duration: 5000},
                 {value: 1, duration: 1000},
-                {value: 1, duration: 2500},
+                {value: 1, duration: 1000},
                 {value: 0, duration: 1000},
-                {value: 0, duration: 4500}
+                {value: 0, duration: 3000}
             ],
             easing: 'easeInOutSine',
             delay: 0,
@@ -1538,11 +1538,11 @@
             targets: '.tree62',
             opacity: [
                 {value: 0, duration: 0},
-                {value: 0, duration: 9000},
+                {value: 0, duration: 7000},
                 {value: 1, duration: 1000},
-                {value: 1, duration: 1500},
+                {value: 1, duration: 500},
                 {value: 0, duration: 1000},
-                {value: 0, duration: 2500}
+                {value: 0, duration: 1500}
             ],
             easing: 'easeInOutSine',
             delay: 0,
