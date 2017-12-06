@@ -1888,11 +1888,6 @@ body.open-nav #menu-trigger:hover .nav-icon span:nth-child(4) {
 	    -ms-transform: rotate(-45deg);
 	        transform: rotate(-45deg);
 }
-@media (max-width: 767px) {
-	.nav-hidden {
-		opacity: 0;
-	}
-}
 footer {
 	padding-top: 60px;
 	background: #f7f7f7;

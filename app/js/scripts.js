@@ -2794,22 +2794,22 @@ $(function(){
 //         tempScrollTop = currentScrollTop;
 //     });
 
-    var ts;
-    $(document).on('touchstart', function (e) {
-        ts = e.originalEvent.touches[0].clientY;
-    });
-
-    $(document).on('touchend', function (e) {
-        var te = e.originalEvent.changedTouches[0].clientY;
-        if (ts > te + 4) {
-            if ((!($('body').hasClass('open-nav'))) && (!($('body').hasClass('open-form')))) {
-                $('nav').addClass('nav-hidden');
-            }
-
-        } else if (ts < te - 4) {
-            $('nav').removeClass('nav-hidden');
-        }
-    });
+    // var ts;
+    // $(document).on('touchstart', function (e) {
+    //     ts = e.originalEvent.touches[0].clientY;
+    // });
+    //
+    // $(document).on('touchend', function (e) {
+    //     var te = e.originalEvent.changedTouches[0].clientY;
+    //     if (ts > te + 4) {
+    //         if ((!($('body').hasClass('open-nav'))) && (!($('body').hasClass('open-form')))) {
+    //             $('nav').addClass('nav-hidden');
+    //         }
+    //
+    //     } else if (ts < te - 4) {
+    //         $('nav').removeClass('nav-hidden');
+    //     }
+    // });
 //MAX
 
 

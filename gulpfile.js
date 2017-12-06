@@ -79,7 +79,8 @@ gulp.task("scripts2", function () {
         'app/libs/jquery-slimscroll/jquery.slimscroll.js',
         'app/libs/fullpage.js/vendors/jquery.easings.min.js',
         'app/libs/fullpage.js/vendors/scrolloverflow.js',
-        'app/libs/fullpage.js/dist/jquery.fullpage.js'
+        'app/libs/fullpage.js/dist/jquery.fullpage.js',
+        // 'app/libs/jquery-touch-events/src/jquery.mobile-events.js'
     ])
         .pipe(concat("vendor.js"))
         .pipe(gulp.dest("app/js"));
