@@ -1890,7 +1890,7 @@ body.open-nav #menu-trigger:hover .nav-icon span:nth-child(4) {
 }
 @media (max-width: 767px) {
 	.nav-hidden {
-		top: -70px !important;
+		opacity: 0;
 	}
 }
 footer {
