@@ -545,22 +545,22 @@
                 {value: 1, duration: 1000}
             ],
             offset: 1600,
-            complete: function () {
-                anime({
-                    targets: '.car73',
-                    translateX: [
-                        {value: 0, duration: 0},
-                        {value: 1000, duration: 4000},
-                    ],
-                    translateY: [
-                        {value: 0, duration: 0},
-                        {value: 575, duration: 4000},
-                    ],
-                    easing: 'linear',
-                    loop: true,
-                    delay: 5000
-                });
-            }
+            // complete: function () {
+            //     anime({
+            //         targets: '.car73',
+            //         translateX: [
+            //             {value: 0, duration: 0},
+            //             {value: 1000, duration: 4000},
+            //         ],
+            //         translateY: [
+            //             {value: 0, duration: 0},
+            //             {value: 575, duration: 4000},
+            //         ],
+            //         easing: 'linear',
+            //         loop: true,
+            //         delay: 5000
+            //     });
+            // }
         }).add({
             targets: '.car_before_most_crash',
             translateX: [
@@ -624,22 +624,22 @@
             ],
             easing: 'linear',
             offset: 3000,
-            // complete: function () {
-            //     anime({
-            //         targets: '.car83',
-            //         translateX: [
-            //             {value: 0, duration: 0},
-            //             {value: 1100, duration: 4000},
-            //         ],
-            //         translateY: [
-            //             {value: -30, duration: 0},
-            //             {value: 610, duration: 4000},
-            //         ],
-            //         easing: 'linear',
-            //         loop: true,
-            //         delay: 5000
-            //     });
-            // }
+            complete: function () {
+                anime({
+                    targets: '.car83',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 1100, duration: 4000},
+                    ],
+                    translateY: [
+                        {value: -64, duration: 0},
+                        {value: 575, duration: 4000},
+                    ],
+                    easing: 'linear',
+                    loop: true,
+                    delay: 5000
+                });
+            }
         }).add({
             targets: '.car23',
             translateX: [

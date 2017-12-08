@@ -8011,6 +8011,14 @@ footer {
 .pin3 {
 	opacity: 0;
 }
+.car-most-crash {
+	-webkit-transform: scale(.85);
+	    -ms-transform: scale(.85);
+	        transform: scale(.85);
+	-webkit-transform-origin: 2973px 2075px;
+	    -ms-transform-origin: 2973px 2075px;
+	        transform-origin: 2973px 2075px;
+}
 .line14 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
