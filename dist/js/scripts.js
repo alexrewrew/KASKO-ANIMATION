@@ -944,22 +944,22 @@ $(function(){
                 {value: 1, duration: 1000}
             ],
             offset: 1600,
-            complete: function () {
-                anime({
-                    targets: '.car73',
-                    translateX: [
-                        {value: 0, duration: 0},
-                        {value: 1000, duration: 4000},
-                    ],
-                    translateY: [
-                        {value: 0, duration: 0},
-                        {value: 575, duration: 4000},
-                    ],
-                    easing: 'linear',
-                    loop: true,
-                    delay: 5000
-                });
-            }
+            // complete: function () {
+            //     anime({
+            //         targets: '.car73',
+            //         translateX: [
+            //             {value: 0, duration: 0},
+            //             {value: 1000, duration: 4000},
+            //         ],
+            //         translateY: [
+            //             {value: 0, duration: 0},
+            //             {value: 575, duration: 4000},
+            //         ],
+            //         easing: 'linear',
+            //         loop: true,
+            //         delay: 5000
+            //     });
+            // }
         }).add({
             targets: '.car_before_most_crash',
             translateX: [
@@ -1023,22 +1023,22 @@ $(function(){
             ],
             easing: 'linear',
             offset: 3000,
-            // complete: function () {
-            //     anime({
-            //         targets: '.car83',
-            //         translateX: [
-            //             {value: 0, duration: 0},
-            //             {value: 1100, duration: 4000},
-            //         ],
-            //         translateY: [
-            //             {value: -30, duration: 0},
-            //             {value: 610, duration: 4000},
-            //         ],
-            //         easing: 'linear',
-            //         loop: true,
-            //         delay: 5000
-            //     });
-            // }
+            complete: function () {
+                anime({
+                    targets: '.car83',
+                    translateX: [
+                        {value: 0, duration: 0},
+                        {value: 1100, duration: 4000},
+                    ],
+                    translateY: [
+                        {value: -64, duration: 0},
+                        {value: 575, duration: 4000},
+                    ],
+                    easing: 'linear',
+                    loop: true,
+                    delay: 5000
+                });
+            }
         }).add({
             targets: '.car23',
             translateX: [
@@ -2773,45 +2773,6 @@ $(function(){
         e.preventDefault();
         $('body').toggleClass('open-form').removeClass('open-nav');
     });
-
-//MAX
-//     var tempScrollTop, currentScrollTop = 0;
-//
-//     $('body').on('scroll', function () {
-//         if ($('body').scrollTop() < 0) {
-//             currentScrollTop = 0;
-//         } else {
-//             currentScrollTop = $('body').scrollTop(); //ПРОБЛЕМА ТУТ!
-//         }
-//
-//         // alert(currentScrollTop);
-//
-//         if (tempScrollTop < currentScrollTop) {
-//             $('nav').addClass('nav-hidden');
-//         } else if (tempScrollTop > currentScrollTop) {
-//             $('nav').removeClass('nav-hidden');
-//         }
-//         tempScrollTop = currentScrollTop;
-//     });
-
-    // var ts;
-    // $(document).on('touchstart', function (e) {
-    //     ts = e.originalEvent.touches[0].clientY;
-    // });
-    //
-    // $(document).on('touchend', function (e) {
-    //     var te = e.originalEvent.changedTouches[0].clientY;
-    //     if (ts > te + 4) {
-    //         if ((!($('body').hasClass('open-nav'))) && (!($('body').hasClass('open-form')))) {
-    //             $('nav').addClass('nav-hidden');
-    //         }
-    //
-    //     } else if (ts < te - 4) {
-    //         $('nav').removeClass('nav-hidden');
-    //     }
-    // });
-//MAX
-
 
     if (window.matchMedia("(min-width: 768px)").matches) {
         createFullpage();
