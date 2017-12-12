@@ -7746,7 +7746,7 @@ footer {
 	top: 22%;
 	right: 0;
 	left: 0;
-	width: calc(100% + 30px);
+	width: 100%;
 	z-index: -1;
 	opacity: 0;
 }
