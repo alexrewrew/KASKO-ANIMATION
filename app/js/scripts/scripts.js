@@ -2462,7 +2462,7 @@
 
     var version = detectIE();
 
-    if (version === true) {
+    if (version !== false) {
         $('.illustration').remove();
         $('#section0').append("<img src='img/illus/screen1.svg' title='' alt='' class='illustration-edge illustration-edge1'>");
         $('#section1').append("<img src='img/illus/screen2.svg' title='' alt='' class='illustration-edge illustration-edge2'>");
