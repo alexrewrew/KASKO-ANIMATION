@@ -275,68 +275,43 @@ $(function(){
                 data: data,
                 success: function (data) {
                     if (data) {
+                        gtag('event', 'eventname', { 'event_category': 'category', 'event_action': 'lead'});
+
                         form.trigger('reset');
                         form.find('button').removeAttr('disabled');
+
                         $(".form-order--header").slideUp();
                         $(".form-order--flex").slideUp();
                         $(".form-order--success").slideDown();
                         $(".illustration.illustration10").css("opacity", "1");
+                        $(".illustration.illustration10").css("height", "auto");
 
                         var path = anime.path('.path10');
 
                         anime({
-                            targets: '.circle10',
+                            targets: '.rect10',
                             translateX: path('x'),
                             translateY: path('y'),
-                            scale: [
+                            rotate: path('angle'),
+                            opacity: [
                                 {value: 1, duration: 0},
-                                {value: 1, duration: 700},
+                                {value: 1, duration: 1150},
                                 {value: 0, duration: 100},
-                                {value: 0, duration: 1200}
+                                {value: 0, duration: 250},
                             ],
-                            cy: [
-                                {value: -25, duration: 900},
-                                {value: -50, duration: 100}
-                            ],
-                            duration: 2000,
+                            duration: 1500,
                             easing: 'linear',
-                            begin: function () {
-                                anime({
-                                    targets: '.circle10',
-                                    cx: [
-                                        {value: 0, duration: 0},
-                                        {value: 50, duration: 150},
-                                        {value: 0, duration: 150},
-                                        {value: -10, duration: 100},
-                                        {value: 0, duration: 600},
-                                    ],
-                                    duration: 1000,
-                                    loop: true,
-                                    easing: 'linear',
-                                });
-                            }
                         });
 
                         anime({
-                            targets: '.cascocar10',
+                            targets: '.car10',
                             scale: [
                                 {value: 0, duration: 0},
-                                {value: 0, duration: 700},
-                                {value: 1, duration: 100},
+                                {value: 0, duration: 1100},
+                                {value: 1, duration: 400},
                             ],
-                            translateX: [
-                                {value: -100, duration: 0},
-                                {value: -100, duration: 700},
-                                {value: 0, duration: 100},
-                            ],
-                            translateY: [
-                                {value: 62, duration: 0},
-                                {value: 62, duration: 700},
-                                {value: 0, duration: 100},
-                            ],
-                            duration: 1000,
-                            easing: 'easeInOutSine',
-                            begin: function () {
+                            duration: 1500,
+                            complete: function () {
                                 anime({
                                     targets: '.pin10',
                                     opacity: [
@@ -347,23 +322,17 @@ $(function(){
                                         {value: -200, duration: 0},
                                         {value: 0, duration: 500}
                                     ],
+                                    translateX: [
+                                        {value: 24, duration: 0},
+                                        {value: 24, duration: 500}
+                                    ],
                                     duration: 500,
                                     delay: 500,
                                     easing: 'easeInOutSine',
-                                    complete: function () {
-                                        anime({
-                                            targets: '.pin10',
-                                            translateY: [
-                                                {value: -10, duration: 1000},
-                                                {value: 0, duration: 1000}
-                                            ],
-                                            easing: 'easeInOutQuad',
-                                            loop: true
-                                        });
-                                    }
                                 });
                             }
                         });
+
                     } else {
                         form.find('button').removeAttr('disabled');
                     }
@@ -393,8 +362,9 @@ $(function(){
         $(".illustration.illustration10").css("opacity", "0");
 
         anime.remove('.pin10');
-        anime.remove('.cascocar10');
-        anime.remove('.circle10');
+        $('.pin10').css('opacity', '0');
+        anime.remove('.car10');
+        anime.remove('.rect10');
     });
 });
 (function () {

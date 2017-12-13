@@ -8158,10 +8158,13 @@ footer {
 	    -ms-transform-origin: 235px 380px;
 	        transform-origin: 235px 380px;
 }
-.cascocar10 {
-	-webkit-transform-origin: 900px 115px;
-	    -ms-transform-origin: 900px 115px;
-	        transform-origin: 900px 115px;
+.car10 {
+	-webkit-transform-origin: 50px 135px;
+	    -ms-transform-origin: 50px 135px;
+	        transform-origin: 50px 135px;
+}
+.pin10 {
+	opacity: 0;
 }
 .comments {
 	padding-top: 27px;
