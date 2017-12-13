@@ -1,0 +1,109 @@
+.illustration-edge
+  position absolute
+  z-index -1
+
+.illustration-edge1
+  bottom 0
+  left 0
+  height 100vh
+  +tablet()
+    left: -4%;
+  +portrait()
+    height auto
+    width 120%
+  +mobile()
+    display none
+
+.illustration-edge2
+  width 100%
+  bottom 0
+  left 0
+  +portrait()
+    width 165%
+  +mobile()
+    display none
+
+.illustration-edge3
+  right: 0
+  height 100vh
+  bottom: 0
+  +tablet()
+    width auto
+    height 100vh
+    bottom 0
+  +portrait()
+    height 68vh
+    width auto
+  +mobile()
+    display none
+
+.illustration-edge4
+  bottom 0
+  left 0
+  height 72%
+  +tablet()
+    height 68%
+  +portrait()
+    height auto
+    width 100%
+  +mobile()
+    display none
+
+.illustration-edge5
+  bottom 0
+  right 0
+  width 100%
+  @media (min-width: 1200px) and (max-height: 700px)
+    bottom -70px
+  +portrait()
+    width 150%
+  +mobile()
+    display: none
+
+.illustration-edge6
+  top: 30%
+  right: 15%;
+  width: 100%;
+  z-index: 1;
+  max-width: 500px;
+  +tablet()
+    right 0
+  +mobile()
+    position relative
+    top auto
+    left auto
+    margin-top 150px
+    margin-bottom 56px
+
+.illustration-edge7
+  bottom 0
+  left 0
+  width 100%
+  +portrait()
+    width 140%
+  +mobile()
+    display none
+
+.illustration-edge9
+  top: 16%;
+  left: 17%;
+  z-index 1
+  +tablet()
+    width 900px
+    left 8%
+  +mobile()
+    display none
+
+.illustration-edge10
+  top 22%
+  right 0
+  left 0
+  width 100%
+  z-index -1
+  opacity 0
+  +tablet()
+    top 30%
+  +portrait()
+    top 30%
+  +mobile()
+    top 30%

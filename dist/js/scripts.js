@@ -275,6 +275,8 @@ $(function(){
                 data: data,
                 success: function (data) {
                     if (data) {
+                        gtag('event', 'eventname', { 'event_category': 'category', 'event_action': 'lead'});
+
                         form.trigger('reset');
                         form.find('button').removeAttr('disabled');
 
@@ -360,6 +362,7 @@ $(function(){
         $(".illustration.illustration10").css("opacity", "0");
 
         anime.remove('.pin10');
+        $('.pin10').css('opacity', '0');
         anime.remove('.car10');
         anime.remove('.rect10');
     });
@@ -367,6 +370,7 @@ $(function(){
 (function () {
     "use strict";
     // window.scrollBy(0, 1);
+
 
 
     var firstScreen = anime.timeline(),
@@ -2346,10 +2350,7 @@ $(function(){
 
     $('#menu-trigger').click(function (e) {
         e.preventDefault();
-        // var currentHeight = $(window).scrollTop();
-        // console.log(currentHeight);
         $('body').toggleClass('open-nav').removeClass('open-form');
-        // $('body, html').scrollTop(currentHeight);
     });
 
     var open = true;
@@ -2826,7 +2827,54 @@ $(function(){
     });
 
 // !!! RESPONSIVE SCRIPTS !!!
+//EDGE
 
+    var version = detectIE();
+
+    if (version === true) {
+        $('.illustration').remove();
+        $('#section0').append("<img src='img/illus/screen1.svg' title='' alt='' class='illustration-edge illustration-edge1'>");
+        $('#section1').append("<img src='img/illus/screen2.svg' title='' alt='' class='illustration-edge illustration-edge2'>");
+        $('#section2').append("<img src='img/illus/screen3.svg' title='' alt='' class='illustration-edge illustration-edge3'>");
+        $('#section3').append("<img src='img/illus/screen4.svg' title='' alt='' class='illustration-edge illustration-edge4'>");
+        $('#section4').append("<img src='img/illus/screen5.svg' title='' alt='' class='illustration-edge illustration-edge5'>");
+        $('#section5').append("<img src='img/illus/screen6.svg' title='' alt='' class='illustration-edge illustration-edge6'>");
+        $('#section6').append("<img src='img/illus/screen7.svg' title='' alt='' class='illustration-edge illustration-edge7'>");
+        $('#section8 section.container').append("<img src='img/illus/screen9.svg' title='' alt='' class='illustration-edge illustration-edge9'>");
+        $('.nav-thirdy').append("<img src='img/illus/screen10.svg' title='' alt='' class='illustration-edge illustration-edge10'>");
+
+    }
+
+    // document.getElementById('details').innerHTML = window.navigator.userAgent;
+
+
+    function detectIE() {
+        var ua = window.navigator.userAgent;
+
+        var msie = ua.indexOf('MSIE ');
+        if (msie > 0) {
+            // IE 10 or older => return version number
+            return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+        }
+
+        var trident = ua.indexOf('Trident/');
+        if (trident > 0) {
+            // IE 11 => return version number
+            var rv = ua.indexOf('rv:');
+            return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+        }
+
+        var edge = ua.indexOf('Edge/');
+        if (edge > 0) {
+            // Edge (IE 12+) => return version number
+            return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+        }
+
+        // other browser
+        return false;
+    }
+
+    //EDGE
 
 })();
 
