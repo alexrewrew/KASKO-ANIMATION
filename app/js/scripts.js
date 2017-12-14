@@ -2842,7 +2842,6 @@ $(function(){
         $('#section6').append("<img src='img/illus/screen7.svg' title='' alt='' class='illustration-edge illustration-edge7'>");
         $('#section8 section.container').append("<img src='img/illus/screen9.svg' title='' alt='' class='illustration-edge illustration-edge9'>");
         $('.nav-thirdy').append("<img src='img/illus/screen10.svg' title='' alt='' class='illustration-edge illustration-edge10'>");
-
     }
 
     // document.getElementById('details').innerHTML = window.navigator.userAgent;
