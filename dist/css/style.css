@@ -117,7 +117,7 @@ html {
 }
 body {
 	overflow-x: hidden;
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'LucidaGrande', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #000;
@@ -155,7 +155,7 @@ body {
 	text-align: center !important;
 }
 h1 {
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	color: #ced1d2;
 	margin-bottom: 58px;
 	font-weight: 900;
@@ -170,7 +170,7 @@ h1 {
 	}
 }
 h2 {
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'LucidaGrande', sans-serif;
 	font-size: 1.75em;
 	font-weight: 700;
 	color: #1a110d;
@@ -187,7 +187,7 @@ h2 {
 	}
 }
 h3 {
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'LucidaGrande', sans-serif;
 	font-size: 1.5em;
 	font-weight: 700;
 	color: #1a110d;
@@ -201,7 +201,7 @@ h3 {
 	}
 }
 h4 {
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	color: #1a110d;
 	font-weight: 700;
 	line-height: 1.27;
@@ -213,12 +213,12 @@ h5 {
 	color: #1a110d;
 	font-weight: 700;
 	line-height: 1.33;
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	margin-bottom: 11px;
 	letter-spacing: .9px;
 }
 p {
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'LucidaGrande', sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	color: #000;
@@ -243,7 +243,7 @@ p {
 	}
 }
 .header-gray {
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	color: #ced1d2;
 	line-height: 1.28;
 	letter-spacing: 1px;
@@ -272,7 +272,7 @@ p {
 .header-footer {
 	color: #fff;
 	text-align: center;
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	font-size: 2.25em;
 	line-height: 1.28;
 	letter-spacing: 1px;
@@ -548,7 +548,7 @@ button.button-secondary {
 	background: #f78913;
 	color: #fff;
 	font-size: 1.5em;
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	line-height: 1.75;
 	letter-spacing: 1.2px;
 	cursor: pointer;
@@ -757,7 +757,7 @@ ol {
 	font-weight: 700;
 	letter-spacing: 1px;
 	color: #ced1d2;
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 }
 @media (max-width: 767px) {
 	.list-regular {
@@ -1093,7 +1093,7 @@ textarea::-webkit-input-placeholder {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 47%;
 	    flex: 1 1 47%;
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	margin-bottom: 40px;
 }
 @media (max-width: 767px) {
@@ -1289,7 +1289,7 @@ input[type='checkbox']:checked + label:after {
 	background: #f78913;
 	color: #fff;
 	font-size: 1.5em;
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	line-height: 1.75;
 	letter-spacing: 1.2px;
 	cursor: pointer;
@@ -1448,7 +1448,7 @@ select:focus {
 	cursor: pointer;
 	border-bottom: 1px solid #ededed;
 	margin-bottom: 0;
-	font-family: 'FrizQuadrataC', sans-serif;
+	font-family: 'Circe', sans-serif;
 	position: relative;
 	padding: 17px 60px 18px 30px;
 	-webkit-transition: all .4s ease-in-out;
@@ -8417,29 +8417,4 @@ footer {
 	right: 0;
 	font-size: 26px;
 	top: 8px;
-}
-nav .button {
-	padding: 17px 0 15px;
-}
-.list-conditions li span {
-	top: -15px;
-}
-@media (min-width: 1200px) {
-	.list-conditions li p {
-		max-width: 90%;
-	}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-	.list-conditions li p {
-		max-width: 80%;
-	}
-}
-.link-next {
-	padding-top: 18px;
-}
-.link-next-text .fa {
-	top: -4px;
-}
-.list-footer li a:before {
-	top: 5px;
 }
