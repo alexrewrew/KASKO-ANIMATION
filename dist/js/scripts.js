@@ -2844,7 +2844,6 @@ $(function(){
         $('.nav-thirdy').append("<img src='img/illus/screen10.svg' title='' alt='' class='illustration-edge illustration-edge10'>");
     }
 
-    // document.getElementById('details').innerHTML = window.navigator.userAgent;
 
 
     function detectIE() {
