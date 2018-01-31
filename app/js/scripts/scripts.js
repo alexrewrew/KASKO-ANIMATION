@@ -2458,6 +2458,18 @@
     });
 
 // !!! RESPONSIVE SCRIPTS !!!
+
+//SAFARI
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.indexOf('safari') != -1) {
+        if (ua.indexOf('chrome') > -1) {
+        } else {
+            $('a.smooth').removeClass('smooth');
+        }
+    }
+
+
+
 //EDGE
 
     var version = detectIE();

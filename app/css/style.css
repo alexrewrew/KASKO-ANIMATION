@@ -1879,6 +1879,7 @@ body.open-form #menu-trigger {
 	body.open-nav nav {
 		overflow-y: scroll;
 		min-height: 100vh;
+		height: 100%;
 		overflow-x: hidden;
 	}
 }
