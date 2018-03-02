@@ -7949,16 +7949,19 @@ footer {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line2 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line3 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .house1 {
 	-webkit-transform-origin: 500px 1200px;
@@ -8019,16 +8022,19 @@ footer {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line22 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line32 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .house12 {
 	-webkit-transform-origin: 150px 350px;
@@ -8094,16 +8100,19 @@ footer {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line23 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line33 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .house13 {
 	-webkit-transform-origin: 3250px 1750px;
@@ -8173,26 +8182,31 @@ footer {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line24 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line34 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line44 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line54 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .sand4 {
 	-webkit-transform-origin: 200px;
@@ -8244,21 +8258,25 @@ footer {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line25 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line35 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line45 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line45.boat {
 	-webkit-transform-origin: 475px;
@@ -8288,16 +8306,19 @@ footer {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line27 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .line37 {
 	-webkit-transform-origin: 50% 50%;
 	    -ms-transform-origin: 50% 50%;
 	        transform-origin: 50% 50%;
+	transform-box: fill-box;
 }
 .sand7 {
 	-webkit-transform-origin: 200px;
