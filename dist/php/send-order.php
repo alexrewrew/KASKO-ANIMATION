@@ -23,7 +23,7 @@ if(!empty($_POST)){
     $arUsers = array(
         array(
             "NAME"=>"Арсенал Страхування",
-            "EMAIL"=>"maxim@volta.one"//change email here
+            "EMAIL"=>"a.ivashko@arsenal-strahovanie.com"//change email here maxim@volta.one
         )
     );
 
@@ -57,6 +57,8 @@ if(!empty($_POST)){
         $send = true;
         foreach ($arUsers as $Item){
             $send = send_mime_mail($_POST['name'], "", $Item['NAME'], $Item['EMAIL'], 'utf-8', 'utf-8', 'Форма замовлення', $message);
+
+	    $send2 = send_mime_mail($_POST['name'], "", $Item['NAME'], "m.nazarchuk@arsenal-strahovanie.com", 'utf-8', 'utf-8', 'Форма замовлення', $message);
         }
         echo $send;
         return;

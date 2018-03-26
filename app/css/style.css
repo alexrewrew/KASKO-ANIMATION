@@ -8279,9 +8279,10 @@ footer {
 	transform-box: fill-box;
 }
 .line45.boat {
-	-webkit-transform-origin: 475px;
-	    -ms-transform-origin: 475px;
-	        transform-origin: 475px;
+	-webkit-transform-origin: 100px 100px;
+	    -ms-transform-origin: 100px 100px;
+	        transform-origin: 100px 100px;
+	transform-box: fill-box;
 }
 .sand5 {
 	-webkit-transform-origin: 1200px;
