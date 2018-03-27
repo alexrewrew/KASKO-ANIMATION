@@ -295,11 +295,11 @@ $(function(){
                             rotate: path('angle'),
                             opacity: [
                                 {value: 1, duration: 0},
-                                {value: 1, duration: 1150},
-                                {value: 0, duration: 100},
-                                {value: 0, duration: 250},
+                                {value: 1, duration: 350},
+                                {value: 0, duration: 200},
+                                {value: 0, duration: 150},
                             ],
-                            duration: 1500,
+                            duration: 700,
                             easing: 'linear',
                         });
 
@@ -307,10 +307,10 @@ $(function(){
                             targets: '.car10',
                             scale: [
                                 {value: 0, duration: 0},
-                                {value: 0, duration: 1100},
-                                {value: 1, duration: 400},
+                                {value: 0, duration: 500},
+                                {value: 1, duration: 200},
                             ],
-                            duration: 1500,
+                            duration: 700,
                             complete: function () {
                                 anime({
                                     targets: '.pin10',
@@ -327,7 +327,7 @@ $(function(){
                                         {value: 24, duration: 500}
                                     ],
                                     duration: 500,
-                                    delay: 500,
+                                    delay: 300,
                                     easing: 'easeInOutSine',
                                 });
                             }

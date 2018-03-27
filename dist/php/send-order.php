@@ -48,7 +48,8 @@ if(!empty($_POST)){
     $message = '';
     $message .= '<b>Ім\'я: </b>'.$_POST['name'].'<br/>';
     $message .= '<b>Телефон: </b>380'. $_POST['tel'].'<br/>';
-    $message .= '<b>Реєстрація: </b>'.$_POST['registration'].'<br/>';
+    $message .= '<b>Регіон: </b>'.$_POST['registration'].'<br/>';
+    $message .= '<b>Рік випуску авто: </b>'.$_POST['year_output'].'<br/>';
     $message .= '<b>У заставі: </b>'.$_POST['zastava'].'<br/>';
     $message .= '<b>Новий автомобіль: </b>'.$_POST['newauto'].'<br/>';
     $message .= '<b>Пролонгація договору: </b>'.$_POST['dog'].'<br/>';
